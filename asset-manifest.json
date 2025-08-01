@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jacobs-apps-landing-page/static/css/main.bdcbf454.css",
-    "main.js": "/jacobs-apps-landing-page/static/js/main.397e1e83.js",
-    "static/js/453.35315a82.chunk.js": "/jacobs-apps-landing-page/static/js/453.35315a82.chunk.js",
-    "index.html": "/jacobs-apps-landing-page/index.html",
-    "main.bdcbf454.css.map": "/jacobs-apps-landing-page/static/css/main.bdcbf454.css.map",
-    "main.397e1e83.js.map": "/jacobs-apps-landing-page/static/js/main.397e1e83.js.map",
-    "453.35315a82.chunk.js.map": "/jacobs-apps-landing-page/static/js/453.35315a82.chunk.js.map"
+    "main.css": "/jacobs-apps/static/css/main.bdcbf454.css",
+    "main.js": "/jacobs-apps/static/js/main.8bcdf2dc.js",
+    "static/js/453.35315a82.chunk.js": "/jacobs-apps/static/js/453.35315a82.chunk.js",
+    "index.html": "/jacobs-apps/index.html",
+    "main.bdcbf454.css.map": "/jacobs-apps/static/css/main.bdcbf454.css.map",
+    "main.8bcdf2dc.js.map": "/jacobs-apps/static/js/main.8bcdf2dc.js.map",
+    "453.35315a82.chunk.js.map": "/jacobs-apps/static/js/453.35315a82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdcbf454.css",
-    "static/js/main.397e1e83.js"
+    "static/js/main.8bcdf2dc.js"
   ]
 }
