@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*", "src/*"]
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+    // no "module": "commonjs" if you're using ES modules
+  }
+}
