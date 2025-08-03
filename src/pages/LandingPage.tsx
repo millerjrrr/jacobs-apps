@@ -6,7 +6,7 @@ const LandingPage = () => {
     <div className="landing-container">
       <h1 className="landing-title">Hi, I'm Jacob</h1>
       <img
-        src="images/jacob-profile.jpg"
+        src={`${process.env.PUBLIC_URL}/images/jacob-profile.jpg`}
         alt="Your Name"
         className="profile-image"
       />

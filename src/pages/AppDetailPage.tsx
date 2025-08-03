@@ -10,7 +10,11 @@ const AppDetailPage = ({ app }: { app: AppInfo }) => {
       <div style={{ width: "50%" }}>
         <AppIcon app={app} />
       </div>
-      {app.site ? <WebsiteLink url={app.site} /> : <StoreLinks app={app} />}
+      {app.site ? (
+        <WebsiteLink url={app.site} />
+      ) : (
+        <StoreLinks app={app} hidePlayStore={app.name === "Griddier"} />
+      )}
       {!app.site && (
         <Link to={`/${app.id}/privacy`} className="app-link">
           Privacy Policy

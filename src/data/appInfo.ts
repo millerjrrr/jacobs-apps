@@ -13,7 +13,7 @@ export const appInfo: AppInfo[] = [
   {
     id: "banana-cards",
     name: "Banana Cards",
-    image: "images/banana-lingo-app-icon.png",
+    image: `${process.env.PUBLIC_URL}/images/banana-lingo-app-icon.png`,
     description:
       "Banana Cards is a playful yet powerful language learning app built on the science of spaced repetition. Rather than translating from one language to another, the app helps users form direct associations between images and sounds. By presenting carefully curated pictures alongside their corresponding spoken words, learners naturally absorb vocabulary without relying on their native language. \n\n This intuitive method makes Banana Cards ideal for early learners, including young children—and maybe even pets. Through smart repetition and visual bonding, the app helps users internalize new words the same way we learn our first language: by connecting what we see with what we hear.",
     technologies:
@@ -24,7 +24,7 @@ export const appInfo: AppInfo[] = [
   {
     id: "link-king",
     name: "Link-King",
-    image: "images/link-king-app-icon.png",
+    image: `${process.env.PUBLIC_URL}/images/link-king-app-icon.png`,
     description:
       "Link-King is a language learning app, designed to help advanced learners rapidly improve their vocabulary in a new language. By building lasting connections between words in your native language and their equivalents in your target language, this approach offers a smarter and more efficient way to expand your vocabulary. Check out our website using the link above!",
     technologies:
@@ -39,7 +39,7 @@ export const appInfo: AppInfo[] = [
   {
     id: "griddier",
     name: "Griddier",
-    image: "images/griddier-app-icon.png",
+    image: `${process.env.PUBLIC_URL}/images/griddier-app-icon.png`,
     description:
       "Griddier is an app built for poker players aiming to master their preflop strategy with precision. It offers a systematic, highly efficient way to memorize poker grids, requiring only a small but consistent time investment. Designed to help serious players elevate their game, Griddier makes learning complex preflop ranges manageable and effective.\n\nCurrently, I’m looking for a partner to rebrand and market Griddier under their own brand. If you’re interested in this opportunity, please get in touch at jacob@link-king.com.",
     technologies:
