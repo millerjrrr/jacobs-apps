@@ -4,32 +4,45 @@ import LandingPage from "./pages/LandingPage";
 import { appInfo } from "./data/appInfo";
 import AppDetailPage from "./pages/AppDetailPage";
 import PrivacyPolicyPage from "./pages/AppPrivacyPolicyPage";
-import Footer from "./components/Footer";
+import GriddierRangeBuilder from "griddier-range-builder";
+import { Provider } from "react-redux";
+import { persistor, store } from "griddier-range-builder/store";
+import { PersistGate } from "redux-persist/integration/react";
+import React from "react";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          {appInfo.map((app) => (
-            <Route
-              key={app.id}
-              path={`/${app.id}`}
-              element={<AppDetailPage app={app} />}
-            />
-          ))}
-          {appInfo.map((app) => (
-            <Route
-              key={`${app.id}-privacy`}
-              path={`/${app.id}/privacy`}
-              element={<PrivacyPolicyPage name={app.name} />}
-            />
-          ))}
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <React.StrictMode>
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <Router>
+            <div>
+              <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route
+                  path="/griddier-range-builder"
+                  element={<GriddierRangeBuilder />}
+                />
+                {appInfo.map((app) => (
+                  <Route
+                    key={app.id}
+                    path={`/${app.id}`}
+                    element={<AppDetailPage app={app} />}
+                  />
+                ))}
+                {appInfo.map((app) => (
+                  <Route
+                    key={`${app.id}-privacy`}
+                    path={`/${app.id}/privacy`}
+                    element={<PrivacyPolicyPage name={app.name} />}
+                  />
+                ))}
+              </Routes>
+            </div>
+          </Router>
+        </PersistGate>
+      </Provider>
+    </React.StrictMode>
   );
 }
 

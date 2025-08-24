@@ -1,3 +1,4 @@
+import Footer from "components/Footer";
 import AppCard from "../components/AppCard";
 import { appInfo } from "../data/appInfo";
 
@@ -18,6 +19,7 @@ const LandingPage = () => {
           <AppCard key={app.id} app={app} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 };

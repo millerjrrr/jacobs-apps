@@ -15,11 +15,18 @@ const AppDetailPage = ({ app }: { app: AppInfo }) => {
       ) : (
         <StoreLinks app={app} hidePlayStore={app.name === "Griddier"} />
       )}
-      {!app.site && (
-        <Link to={`/${app.id}/privacy`} className="app-link">
-          Privacy Policy
-        </Link>
-      )}
+      <div style={{ flexDirection: "row", display: "flex", gap: 15 }}>
+        {!app.site && (
+          <Link to={`/${app.id}/privacy`} className="app-link">
+            Privacy Policy
+          </Link>
+        )}
+        {app.extraLink && (
+          <Link to={app.extraLink.url} className="app-link">
+            {app.extraLink.name}
+          </Link>
+        )}
+      </div>
       <div className="description-container">
         <h3 className="description-title">Description</h3>
         <p className="app-detail-description">{app.description}</p>
