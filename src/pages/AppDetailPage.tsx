@@ -26,6 +26,11 @@ const AppDetailPage = ({ app }: { app: AppInfo }) => {
             {app.extraLink.name}
           </Link>
         )}
+        {app.extraLink2 && (
+          <a href={app.extraLink2.url} className="app-link" target="blank">
+            {app.extraLink2.name}
+          </a>
+        )}
       </div>
       <div className="description-container">
         <h3 className="description-title">Description</h3>
