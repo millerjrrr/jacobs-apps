@@ -225,7 +225,7 @@ __d(
     (0, t.registerRootComponent)(n.default);
   },
   0,
-  [1, 2, 563]
+  [1, 2, 564]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -340,14 +340,14 @@ __d(
       b = r(d[6]);
   },
   2,
-  [1, 1083, 1086, 561, 1158, 56, 562]
+  [1, 1091, 1094, 562, 1166, 56, 563]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     r(d[0]);
   },
   4,
-  [1084]
+  [1092]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -361,7 +361,7 @@ __d(
     };
   },
   37,
-  [1085]
+  [1093]
 );
 __d(
   function (g, r, i, _a, m, _e, _d) {
@@ -418,7 +418,7 @@ __d(
     });
   },
   51,
-  [52, 53, 556]
+  [52, 53, 557]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -470,7 +470,7 @@ __d(
     }
   },
   52,
-  [53, 1321, 1324]
+  [53, 1329, 1332]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -641,7 +641,7 @@ __d(
     _e.Asset = f;
   },
   53,
-  [1, 55, 56, 545, 551, 1322, 553, 1323, 1321, 1324]
+  [1, 55, 56, 546, 552, 1330, 554, 1331, 1329, 1332]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -857,8 +857,8 @@ __d(
   },
   56,
   [
-    1, 1159, 1160, 525, 527, 528, 521, 529, 533, 1173, 1174, 536, 537, 538, 539,
-    540, 541, 542, 523, 543, 544, 1179,
+    1, 1167, 1168, 526, 528, 529, 522, 530, 534, 1181, 1182, 537, 538, 539, 540,
+    541, 542, 543, 524, 544, 545, 1187,
   ]
 );
 __d(
@@ -1353,7 +1353,7 @@ __d(
       (m.exports.__esModule = !0),
       (m.exports.default = m.exports);
   },
-  238,
+  239,
   []
 );
 __d(
@@ -1361,8 +1361,8 @@ __d(
     "use strict";
     m.exports = r(d[0]);
   },
-  286,
-  [287]
+  288,
+  [289]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1394,7 +1394,7 @@ __d(
     }
     (e.Fragment = t), (e.jsx = o), (e.jsxs = o);
   },
-  287,
+  289,
   []
 );
 __d(
@@ -1422,8 +1422,8 @@ __d(
     };
     e.default = l;
   },
-  521,
-  [1, 1157, 1172]
+  522,
+  [1, 1165, 1180]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1436,7 +1436,7 @@ __d(
     }
     e.CodedError = o;
   },
-  523,
+  524,
   []
 );
 __d(
@@ -1446,8 +1446,8 @@ __d(
       (0, r(d[0]).ensureNativeModulesAreInstalled)();
     e.default = globalThis.expo.NativeModule;
   },
-  525,
-  [526]
+  526,
+  [527]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1464,8 +1464,8 @@ __d(
     l(r(d[1])), l(r(d[2]));
     var o = r(d[3]);
   },
-  526,
-  [1, 1166, 1157, 1160]
+  527,
+  [1, 1174, 1165, 1168]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1475,8 +1475,8 @@ __d(
     const l = globalThis.expo.SharedObject;
     e.default = l;
   },
-  527,
-  [526]
+  528,
+  [527]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1486,8 +1486,8 @@ __d(
     const l = globalThis.expo.SharedRef;
     e.default = l;
   },
-  528,
-  [526]
+  529,
+  [527]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1501,8 +1501,8 @@ __d(
       });
     var n = t(r(d[1]));
   },
-  529,
-  [1, 1162]
+  530,
+  [1, 1170]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -1536,7 +1536,7 @@ __d(
       ].join("");
     };
   },
-  531,
+  532,
   []
 );
 __d(
@@ -1553,7 +1553,7 @@ __d(
       );
     })({});
   },
-  532,
+  533,
   []
 );
 __d(
@@ -1563,8 +1563,8 @@ __d(
       (0, r(d[0]).ensureNativeModulesAreInstalled)();
     e.default = globalThis.expo.EventEmitter;
   },
-  533,
-  [526]
+  534,
+  [527]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1582,10 +1582,10 @@ __d(
       });
     var o = r(d[0]);
   },
-  536,
-  [526]
+  537,
+  [527]
 );
-__d(function (g, r, i, a, m, e, d) {}, 537, []);
+__d(function (g, r, i, a, m, e, d) {}, 538, []);
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 }),
@@ -1599,7 +1599,7 @@ __d(
       );
     })({});
   },
-  538,
+  539,
   []
 );
 __d(
@@ -1647,8 +1647,8 @@ __d(
       );
     }
   },
-  539,
-  [1, 238, 140]
+  540,
+  [1, 239, 140]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1658,7 +1658,7 @@ __d(
       });
     var n = r(d[0]);
   },
-  540,
+  541,
   [140]
 );
 __d(
@@ -1699,7 +1699,7 @@ __d(
       });
     var n = r(d[0]);
   },
-  541,
+  542,
   [140]
 );
 __d(
@@ -1709,7 +1709,7 @@ __d(
         await globalThis.expo?.reloadAppAsync(o);
       });
   },
-  542,
+  543,
   []
 );
 __d(
@@ -1729,8 +1729,8 @@ __d(
     }
     e.UnavailabilityError = n;
   },
-  543,
-  [1, 523, 521]
+  544,
+  [1, 524, 522]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1792,8 +1792,8 @@ __d(
       }
     };
   },
-  544,
-  [1, 42, 1175, 1157]
+  545,
+  [1, 42, 1183, 1165]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1843,8 +1843,8 @@ __d(
       return h.manifestBaseUrl ? new URL(t, h.manifestBaseUrl).href : t;
     }
   },
-  545,
-  [1, 56, 1286, 1166, 1320, 1321]
+  546,
+  [1, 56, 1294, 1174, 1328, 1329]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1876,7 +1876,7 @@ __d(
         );
       });
   },
-  551,
+  552,
   []
 );
 __d(
@@ -1907,8 +1907,8 @@ __d(
       });
     var n = r(d[0]);
   },
-  553,
-  [551]
+  554,
+  [552]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1926,10 +1926,10 @@ __d(
     var t = r(d[0]),
       s = r(d[1]);
   },
-  556,
+  557,
   [140, 53]
 );
-__d(function (g, r, i, a, m, e, d) {}, 557, []);
+__d(function (g, r, i, a, m, e, d) {}, 558, []);
 __d(
   function (g, r, i, a, m, e, d) {
     var t = r(d[0]);
@@ -1951,8 +1951,8 @@ __d(
     var n = t(r(d[2]));
     t(r(d[3]));
   },
-  561,
-  [1, 1083, 1087, 1157]
+  562,
+  [1, 1091, 1095, 1165]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -1972,7 +1972,7 @@ __d(
         }, [t, u, c]);
     }
   },
-  562,
+  563,
   [140]
 );
 __d(
@@ -2057,16 +2057,16 @@ __d(
       i = _r(d[12]),
       p = _r(d[13]);
   },
-  563,
-  [1, 1180, 1181, 574, 620, 1410, 631, 1363, 1157, 1199, 934, 1047, 140, 286]
+  564,
+  [1, 1188, 1189, 571, 618, 1418, 629, 1371, 1165, 1207, 932, 1052, 140, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     "use strict";
     m.exports = r(d[0]);
   },
-  572,
-  [573]
+  569,
+  [570]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -2144,7 +2144,7 @@ __d(
       );
     };
   },
-  573,
+  570,
   [140]
 );
 __d(
@@ -2156,7 +2156,8 @@ __d(
       r = _r(d[2]),
       o = _r(d[3]),
       n = e(_r(d[4])),
-      i = (function (e, t) {
+      i = e(_r(d[5])),
+      u = (function (e, t) {
         if ("function" == typeof WeakMap)
           var r = new WeakMap(),
             o = new WeakMap();
@@ -2164,12 +2165,12 @@ __d(
           if (!t && e && e.__esModule) return e;
           var n,
             i,
-            s = { __proto__: null, default: e };
+            u = { __proto__: null, default: e };
           if (null === e || ("object" != typeof e && "function" != typeof e))
-            return s;
+            return u;
           if ((n = t ? o : r)) {
             if (n.has(e)) return n.get(e);
-            n.set(e, s);
+            n.set(e, u);
           }
           for (const t in e)
             "default" !== t &&
@@ -2178,33 +2179,37 @@ __d(
                 (n = Object.defineProperty) &&
                 Object.getOwnPropertyDescriptor(e, t)) &&
               (i.get || i.set)
-                ? n(s, t, i)
-                : (s[t] = e[t]));
-          return s;
+                ? n(u, t, i)
+                : (u[t] = e[t]));
+          return u;
         })(e, t);
-      })(_r(d[5])),
-      s = e(_r(d[6])),
-      u = (_r(d[7]), _r(d[8]));
-    e(_r(d[9]));
-    let f;
-    f = _r(d[10]).default;
-    const l = (_e.resetStore = (0, t.createAction)("RESET_STORE")),
-      c = (0, o.combineReducers)({ trainer: n.default, userData: i.default }),
-      p = { key: "root", storage: f, whitelist: ["userData"] },
-      _ = (0, s.default)(p, (e, t) => (l.match(t) && (e = void 0), c(e, t))),
-      y = (0, t.configureStore)({
-        reducer: _,
+      })(_r(d[6])),
+      s = e(_r(d[7])),
+      f = (_r(d[8]), _r(d[9]));
+    e(_r(d[10]));
+    let l;
+    l = _r(d[11]).default;
+    const c = (_e.resetStore = (0, t.createAction)("RESET_STORE")),
+      p = (0, o.combineReducers)({
+        trainer: n.default,
+        userData: u.default,
+        timer: i.default,
+      }),
+      _ = { key: "root", storage: l, whitelist: ["userData", "timer"] },
+      y = (0, s.default)(_, (e, t) => (c.match(t) && (e = void 0), p(e, t))),
+      v = (0, t.configureStore)({
+        reducer: y,
         middleware: (e) => e({ serializableCheck: !1 }),
       });
-    _e.default = y;
-    _e.persistor = (0, r.persistStore)(y, null, () => {
-      const e = y.getState().userData.dataEntries,
-        t = (0, u.addUserData)(e);
-      y.dispatch((0, i.setUserData)(t));
+    _e.default = v;
+    _e.persistor = (0, r.persistStore)(v, null, () => {
+      const e = v.getState().userData.dataEntries,
+        t = (0, f.addUserData)(e);
+      v.dispatch((0, u.setUserData)(t));
     });
   },
-  574,
-  [1, 1182, 1183, 576, 593, 595, 602, 608, 597, 1157, 1196]
+  571,
+  [1, 1190, 1191, 573, 590, 592, 593, 600, 606, 595, 1165, 1204]
 );
 __d(
   function (g, r, _i, _a, m, _e, d) {
@@ -2411,7 +2416,7 @@ __d(
           );
     }
   },
-  576,
+  573,
   []
 );
 __d(
@@ -3254,7 +3259,7 @@ __d(
       (e.createDraft = Y.createDraft.bind(Y)),
       (e.finishDraft = Y.finishDraft.bind(Y));
   },
-  577,
+  574,
   []
 );
 __d(
@@ -3703,7 +3708,7 @@ __d(
         { withTypes: () => B }
       ));
   },
-  578,
+  575,
   []
 );
 __d(
@@ -3718,7 +3723,7 @@ __d(
       (e.withExtraArgument = e.thunk = void 0);
     (e.thunk = t()), (e.withExtraArgument = t);
   },
-  579,
+  576,
   []
 );
 __d(
@@ -3731,6 +3736,7 @@ __d(
         e.setShowRangeModal =
         e.setRepeatsArray =
         e.setRaise =
+        e.setHandsPlayed =
         e.setGridName =
         e.setFold =
         e.setFilteredHandsData =
@@ -3745,6 +3751,7 @@ __d(
         e.incTimePlaying =
         e.incRaise =
         e.incIndex =
+        e.incHandsPlayed =
         e.incCall =
         e.incAllIn =
         e.default =
@@ -3762,6 +3769,7 @@ __d(
         filteredHandsData: {},
         startedPlaying: new Date().toISOString(),
         timePlaying: 0,
+        handsPlayed: 0,
         showRangeModal: !1,
         showSuccessModal: !1,
         feedback: !1,
@@ -3839,6 +3847,12 @@ __d(
           incTimePlaying(t, s) {
             t.timePlaying += s.payload;
           },
+          setHandsPlayed(t, s) {
+            t.handsPlayed = s.payload;
+          },
+          incHandsPlayed(t) {
+            t.handsPlayed += 1;
+          },
           toggleShowCombos(t) {
             t.showCombos = !t.showCombos;
           },
@@ -3851,39 +3865,43 @@ __d(
         incAllIn: p,
         incRaise: A,
         incCall: S,
-        setAllIn: F,
-        setRaise: I,
-        setCall: R,
-        setFold: b,
-        resetActions: u,
-        resetStartTime: w,
-        setShowRangeModal: H,
-        setSuccessModal: f,
-        setFilteredHandsArray: h,
-        setFilteredHandsData: C,
-        updateFilteredHand: P,
+        setAllIn: H,
+        setRaise: P,
+        setCall: F,
+        setFold: h,
+        resetActions: I,
+        resetStartTime: R,
+        setShowRangeModal: b,
+        setSuccessModal: u,
+        setFilteredHandsArray: w,
+        setFilteredHandsData: f,
+        updateFilteredHand: C,
         setRepeatsArray: T,
         setFeedback: M,
         setTimePlaying: x,
         incTimePlaying: D,
-        toggleShowCombos: k,
+        setHandsPlayed: k,
+        incHandsPlayed: G,
+        toggleShowCombos: N,
       } = n.actions;
-    (e.toggleShowCombos = k),
+    (e.toggleShowCombos = N),
+      (e.incHandsPlayed = G),
+      (e.setHandsPlayed = k),
       (e.incTimePlaying = D),
       (e.setTimePlaying = x),
       (e.setFeedback = M),
       (e.setRepeatsArray = T),
-      (e.updateFilteredHand = P),
-      (e.setFilteredHandsData = C),
-      (e.setFilteredHandsArray = h),
-      (e.setSuccessModal = f),
-      (e.setShowRangeModal = H),
-      (e.resetStartTime = w),
-      (e.resetActions = u),
-      (e.setFold = b),
-      (e.setCall = R),
-      (e.setRaise = I),
-      (e.setAllIn = F),
+      (e.updateFilteredHand = C),
+      (e.setFilteredHandsData = f),
+      (e.setFilteredHandsArray = w),
+      (e.setSuccessModal = u),
+      (e.setShowRangeModal = b),
+      (e.resetStartTime = R),
+      (e.resetActions = I),
+      (e.setFold = h),
+      (e.setCall = F),
+      (e.setRaise = P),
+      (e.setAllIn = H),
       (e.incCall = S),
       (e.incRaise = A),
       (e.incAllIn = p),
@@ -3893,8 +3911,8 @@ __d(
     e.selectTrainerState = (t) => t.trainer;
     e.default = n.reducer;
   },
-  593,
-  [594, 1182]
+  590,
+  [591, 1190]
 );
 __d(
   function (l, r, a, i, s, o, e) {
@@ -10866,6 +10884,8 @@ __d(
           "AQo",
           "AJo",
           "ATo",
+          "KQo",
+          "KJo",
         ],
       },
       "BU RFI vs BB3 (13->27)": {
@@ -11066,6 +11086,7 @@ __d(
           "A5s",
           "A4s",
           "A3s",
+          "A2s",
           "KQs",
           "KJs",
           "KTs",
@@ -11073,6 +11094,7 @@ __d(
           "K8s",
           "K7s",
           "K6s",
+          "K5s",
           "QJs",
           "QTs",
           "Q9s",
@@ -11091,6 +11113,8 @@ __d(
           "AQo",
           "AJo",
           "ATo",
+          "KQo",
+          "KJo",
         ],
       },
       "SB RFI vs BB3 (9->25)": {
@@ -13654,10 +13678,7 @@ __d(
           "AKo",
           "AQo",
           "AJo",
-          "ATo",
           "KQo",
-          "KJo",
-          "KTo",
         ],
       },
       "BB vs LJ4 (22->40)": {
@@ -16587,8 +16608,42 @@ __d(
       },
     };
   },
-  594,
+  591,
   []
+);
+__d(
+  function (g, r, i, a, m, e, d) {
+    Object.defineProperty(e, "__esModule", { value: !0 }),
+      (e.updateLastPlayed =
+        e.selectTimerState =
+        e.resetTimer =
+        e.incTimer =
+        e.default =
+          void 0);
+    var t = r(d[0]);
+    const l = { time: 0, lastPlayed: new Date().toISOString().slice(0, 10) },
+      s = (0, t.createSlice)({
+        name: "timer",
+        initialState: l,
+        reducers: {
+          incTimer(t) {
+            t.time += 1e3;
+          },
+          resetTimer(t) {
+            t.time = 0;
+          },
+          updateLastPlayed(t) {
+            t.lastPlayed = new Date().toISOString().slice(0, 10);
+          },
+        },
+      }),
+      { incTimer: c, resetTimer: n, updateLastPlayed: u } = s.actions;
+    (e.updateLastPlayed = u), (e.resetTimer = n), (e.incTimer = c);
+    e.selectTimerState = (t) => t.timer;
+    e.default = s.reducer;
+  },
+  592,
+  [1190]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -16597,19 +16652,20 @@ __d(
       (e.updateDataEntry =
         e.setUserData =
         e.selectUserDataState =
+        e.reSortDataEntries =
         e.default =
           void 0);
     var s = r(d[1]),
       n = t(r(d[2])),
-      u = t(r(d[3]));
-    const l = { dataEntries: (0, n.default)() },
-      E = (0, s.createSlice)({
+      E = t(r(d[3]));
+    const u = { dataEntries: (0, n.default)() },
+      D = (0, s.createSlice)({
         name: "userData",
-        initialState: l,
+        initialState: u,
         reducers: {
           setUserData: (t, s) => {
             (t.dataEntries = s.payload),
-              (t.dataEntries = (0, u.default)(t.dataEntries));
+              (t.dataEntries = (0, E.default)(t.dataEntries));
           },
           updateDataEntry: (t, s) => {
             const n = t.dataEntries.findIndex(
@@ -16621,17 +16677,20 @@ __d(
                 t.dataEntries[n],
                 s.payload
               )),
-              (t.dataEntries = (0, u.default)(t.dataEntries));
+              (t.dataEntries = (0, E.default)(t.dataEntries));
+          },
+          reSortDataEntries: (t) => {
+            t.dataEntries = (0, E.default)(t.dataEntries);
           },
         },
       }),
-      { setUserData: c, updateDataEntry: D } = E.actions;
-    (e.updateDataEntry = D), (e.setUserData = c);
+      { setUserData: l, updateDataEntry: o, reSortDataEntries: c } = D.actions;
+    (e.reSortDataEntries = c), (e.updateDataEntry = o), (e.setUserData = l);
     e.selectUserDataState = (t) => t.userData;
-    e.default = E.reducer;
+    e.default = D.reducer;
   },
-  595,
-  [1, 1182, 596, 599]
+  593,
+  [1, 1190, 594, 597]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -16639,8 +16698,8 @@ __d(
     var t = r(d[0]);
     e.default = () => (0, t.addUserData)([]);
   },
-  596,
-  [597]
+  594,
+  [595]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -16650,32 +16709,32 @@ __d(
     var l = r(d[1]),
       n = t(r(d[2]));
     e.addUserData = (t) => {
-      const o = [...t],
+      const s = [...t],
         u = Object.keys(l.GridData),
-        s = t.map((t) => t.gridName);
+        o = t.map((t) => t.gridName);
       return (
         u.forEach((t) => {
           const u = l.GridData[t].priority,
             D = (0, n.default)(new Date());
-          s.includes(t) ||
-            o.push({
+          o.includes(t) ||
+            s.push({
               gridName: t,
-              dueDate: D,
+              dueDate: 1 === u ? D : "",
               level: 0,
               drilled: 0,
               timeDrilling: 0,
+              handsPlayed: 0,
               lastStudied: "",
               priority: u,
-              locked: 1 !== u,
               individualHandDrillingData: {},
             });
         }),
-        o
+        s
       );
     };
   },
-  597,
-  [1, 594, 598]
+  595,
+  [1, 591, 596]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -16686,7 +16745,7 @@ __d(
         .toString()
         .padStart(2, "0")}`;
   },
-  598,
+  596,
   []
 );
 __d(
@@ -16732,15 +16791,15 @@ __d(
       });
     };
   },
-  599,
-  [1, 600, 601]
+  597,
+  [1, 598, 599]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
     e.default = (t) => (t.setHours(0, 0, 0, 0), t);
   },
-  600,
+  598,
   []
 );
 __d(
@@ -16752,7 +16811,7 @@ __d(
       return new Date(n, u - 1, f);
     };
   },
-  601,
+  599,
   []
 );
 __d(
@@ -16933,8 +16992,8 @@ __d(
     }
     var v = 5e3;
   },
-  602,
-  [1, 603, 604, 605, 606, 607]
+  600,
+  [1, 601, 602, 603, 604, 605]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -16957,7 +17016,7 @@ __d(
       (e.REGISTER = "persist/REGISTER"),
       (e.DEFAULT_VERSION = -1);
   },
-  603,
+  601,
   []
 );
 __d(
@@ -17036,7 +17095,7 @@ __d(
         return i;
       });
   },
-  604,
+  602,
   []
 );
 __d(
@@ -17125,8 +17184,8 @@ __d(
       return JSON.stringify(n);
     }
   },
-  605,
-  [603]
+  603,
+  [601]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -17170,8 +17229,8 @@ __d(
       return JSON.parse(t);
     }
   },
-  606,
-  [603]
+  604,
+  [601]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -17188,8 +17247,8 @@ __d(
       0;
     }
   },
-  607,
-  [603]
+  605,
+  [601]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -17252,8 +17311,8 @@ __d(
       },
     };
   },
-  608,
-  [1, 1189, 615]
+  606,
+  [1, 1197, 613]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -17283,8 +17342,8 @@ __d(
           }));
     });
   },
-  615,
-  [616, 619]
+  613,
+  [614, 617]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -17630,8 +17689,8 @@ __d(
         (t.copyAsync = v);
     })(U || (e.StorageAccessFramework = U = {}));
   },
-  616,
-  [1, 56, 1157, 1195, 619]
+  614,
+  [1, 56, 1165, 1203, 617]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -17644,7 +17703,7 @@ __d(
     }
     e.default = t;
   },
-  618,
+  616,
   [56]
 );
 __d(
@@ -17672,7 +17731,7 @@ __d(
         return (n.UTF8 = "utf8"), (n.Base64 = "base64"), n;
       })({}));
   },
-  619,
+  617,
   []
 );
 __d(
@@ -17759,8 +17818,8 @@ __d(
       })
     );
   },
-  620,
-  [1, 140, 621, 942, 683, 951, 1026, 1027, 623, 1340, 625, 286]
+  618,
+  [1, 140, 619, 941, 681, 950, 1025, 1026, 621, 1348, 623, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -17809,12 +17868,13 @@ __d(
       y = e(_r(d[15])),
       w = e(_r(d[16])),
       b = e(_r(d[17])),
-      k = e(_r(d[18])),
-      x = e(_r(d[19])),
+      x = e(_r(d[18])),
+      k = e(_r(d[19])),
       v = _r(d[20]),
-      O = _r(d[21]);
-    const { height: _, width: M, base: E } = (0, b.default)(),
-      A = s.default.create({
+      O = e(_r(d[21])),
+      _ = _r(d[22]);
+    const { height: M, width: E, base: A } = (0, b.default)(),
+      C = s.default.create({
         container: {
           flex: 1,
           alignItems: "center",
@@ -17826,84 +17886,85 @@ __d(
           index: e,
           gridName: s,
           actions: b,
-          filteredHandsArray: C,
-          showRangeModal: D,
-          showSuccessModal: S,
+          filteredHandsArray: D,
+          showRangeModal: S,
+          showSuccessModal: P,
         } = (0, r.useSelector)(o.selectTrainerState),
-        P = (0, w.default)(),
-        R = (0, y.default)();
+        R = (0, w.default)(),
+        L = (0, y.default)();
       (0, t.useEffect)(() => {
-        P(s, !1);
+        R(s, !1);
       }, [s]);
-      const { prior: L } = j.GridData[s].hands[C[e]],
-        N = (0, r.useDispatch)();
+      const { prior: N } = j.GridData[s].hands[D[e]],
+        T = (0, r.useDispatch)();
       (0, u.useFocusEffect)(
         (0, t.useCallback)(
           () => () => {
-            N((0, o.resetIndex)()),
-              N((0, o.resetActions)()),
-              N((0, o.setFeedback)(!1));
+            T((0, o.resetIndex)()),
+              T((0, o.resetActions)()),
+              T((0, o.setFeedback)(!1));
           },
           []
         )
       );
-      const T = (0, k.default)();
+      const W = (0, x.default)();
       (0, t.useEffect)(() => {
         const e = (e) => {
           "backspace" === e.key.toLowerCase() &&
             "Backspace" === e.key &&
-            (e.preventDefault(), T(), N((0, o.resetActions)()));
+            (e.preventDefault(), W(), T((0, o.resetActions)()));
         };
         return (
           window.addEventListener("keydown", e),
           () => window.removeEventListener("keydown", e)
         );
       }, []);
-      const W = Object.keys(v.SpotDescriptionMap).find((e) => e === s);
-      return (0, O.jsx)(h.default, {
-        children: (0, O.jsxs)(n.default, {
-          style: A.container,
+      const z = Object.keys(v.SpotDescriptionMap).find((e) => e === s);
+      return (0, _.jsx)(h.default, {
+        children: (0, _.jsxs)(n.default, {
+          style: C.container,
           children: [
-            (0, O.jsx)(f.default, {
-              visible: D,
-              dataEntry: R(s),
-              onClose: () => N((0, o.setShowRangeModal)(!1)),
+            (0, _.jsx)(f.default, {
+              visible: S,
+              dataEntry: L(s),
+              onClose: () => T((0, o.setShowRangeModal)(!1)),
             }),
-            (0, O.jsx)(p.default, { visible: S, dataEntry: R(s) }),
-            (0, O.jsx)(l.default, { name: s }),
-            W
-              ? (0, O.jsx)(x.default, {
+            (0, _.jsx)(p.default, { visible: P, dataEntry: L(s) }),
+            (0, _.jsx)(l.default, { name: s }),
+            (0, _.jsx)(O.default, {}),
+            z
+              ? (0, _.jsx)(k.default, {
                   gridName: s,
-                  children: (0, O.jsx)(i.default, {
-                    actions: Object.assign({}, b, { prior: L }),
-                    hand: C[e],
-                    size: 0.4 * M,
+                  children: (0, _.jsx)(i.default, {
+                    actions: Object.assign({}, b, { prior: N }),
+                    hand: D[e],
+                    size: 0.4 * E,
                     shadow: !0,
-                    borderRadius: 40 * E,
+                    borderRadius: 40 * A,
                     clearActionsOnTouch: !0,
                   }),
                 })
-              : (0, O.jsx)(n.default, {
-                  style: { height: 0.5 * _, justifyContent: "center" },
-                  children: (0, O.jsx)(i.default, {
-                    actions: Object.assign({}, b, { prior: L }),
-                    hand: C[e],
-                    size: 0.85 * M,
+              : (0, _.jsx)(n.default, {
+                  style: { height: 0.5 * M, justifyContent: "center" },
+                  children: (0, _.jsx)(i.default, {
+                    actions: Object.assign({}, b, { prior: N }),
+                    hand: D[e],
+                    size: 0.85 * E,
                     shadow: !0,
-                    borderRadius: 10 * E,
+                    borderRadius: 10 * A,
                     clearActionsOnTouch: !0,
                   }),
                 }),
-            (0, O.jsx)(c.default, { gridName: s }),
+            (0, _.jsx)(c.default, { gridName: s }),
           ],
         }),
       });
     };
   },
-  621,
+  619,
   [
-    1, 140, 1199, 1109, 1157, 1181, 593, 622, 626, 682, 683, 799, 933, 934, 594,
-    630, 876, 625, 660, 937, 681, 286,
+    1, 140, 1207, 1117, 1165, 1189, 590, 620, 624, 680, 681, 797, 931, 932, 591,
+    628, 874, 623, 658, 935, 679, 940, 288,
   ]
 );
 __d(
@@ -18041,8 +18102,8 @@ __d(
       );
     };
   },
-  622,
-  [1, 140, 1199, 1224, 1225, 1157, 623, 624, 1181, 593, 625, 286]
+  620,
+  [1, 140, 1207, 1232, 1233, 1165, 621, 622, 1189, 590, 623, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18066,7 +18127,7 @@ __d(
       WHITE: "#ffffff",
     };
   },
-  623,
+  621,
   []
 );
 __d(
@@ -18082,8 +18143,8 @@ __d(
     e.default = (o, p = 5 * t) =>
       ({ boxShadow: `0px 0px ${p}px ${o}80` } || {});
   },
-  624,
-  [1, 1157, 625]
+  622,
+  [1, 1165, 623]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18105,8 +18166,8 @@ __d(
       return { width: u, height: o, base: w };
     };
   },
-  625,
-  [1, 1232, 1157]
+  623,
+  [1, 1240, 1165]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18147,8 +18208,8 @@ __d(
       });
     };
   },
-  626,
-  [1, 140, 1199, 1109, 1157, 627, 594, 625, 286]
+  624,
+  [1, 140, 1207, 1117, 1165, 625, 591, 623, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18258,140 +18319,129 @@ __d(
       });
     };
   },
-  627,
+  625,
   [
-    1, 140, 1157, 1109, 1224, 1181, 623, 624, 593, 628, 660, 679, 680, 625, 681,
-    286, 676,
+    1, 140, 1165, 1117, 1232, 1189, 621, 622, 590, 626, 658, 677, 678, 623, 679,
+    288, 674,
   ]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     var t = r(d[0]);
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
-    var l = r(d[1]),
-      n = r(d[2]),
+    var n = r(d[1]),
+      l = r(d[2]),
       s = t(r(d[3])),
-      u = r(d[4]),
-      c = t(r(d[5])),
-      o = t(r(d[6])),
-      f = r(d[7]),
-      D = r(d[8]),
-      v = t(r(d[9])),
-      y = t(r(d[10])),
-      h = t(r(d[11])),
-      S = t(r(d[12])),
-      p = r(d[13]),
-      x = t(r(d[14])),
-      w = t(r(d[15])),
-      H = t(r(d[16]));
-    const b = r(d[17]),
-      A = r(d[18]),
-      { base: F } = (r(d[19]), (0, H.default)());
+      u = t(r(d[4])),
+      c = r(d[5]),
+      o = r(d[6]),
+      f = t(r(d[7])),
+      v = t(r(d[8])),
+      D = t(r(d[9])),
+      h = t(r(d[10])),
+      y = r(d[11]),
+      x = t(r(d[12])),
+      S = t(r(d[13])),
+      p = t(r(d[14]));
+    const w = r(d[15]),
+      H = r(d[16]),
+      { base: b } = (0, p.default)();
     e.default = () => {
-      const t = (0, n.useDispatch)(),
-        { dataEntries: H } = (0, n.useSelector)(u.selectUserDataState),
-        M = (0, S.default)(),
-        N = (0, o.default)();
+      const t = (0, l.useDispatch)(),
+        p = (0, h.default)(),
+        A = (0, u.default)();
       return {
         submitAnswer: () => {
-          const n = s.default.getState(),
+          const l = s.default.getState(),
             {
-              actions: o,
-              gridName: S,
-              index: T,
-              filteredHandsArray: k,
+              actions: u,
+              gridName: h,
+              index: F,
+              filteredHandsArray: M,
               repeatsArray: P,
-              startedPlaying: _,
-            } = n.trainer,
-            E = Math.min(1e4, (0, p.timePassedSince)(_)),
-            I = (0, w.default)(),
-            z = k[T];
-          if (!z)
+              startedPlaying: T,
+            } = l.trainer,
+            _ = Math.min(1e4, (0, y.timePassedSince)(T)),
+            I = (0, S.default)(),
+            k = M[F];
+          if (!k)
             return void x.default.show({
               type: "fail",
               text1: "Warning!",
               text2: "\u2757 currentHand is undefined at index",
               visibilityTime: 2e3,
-              text1Style: { fontSize: 20 * F },
-              text2Style: { fontSize: 17 * F },
+              text1Style: { fontSize: 20 * b },
+              text2Style: { fontSize: 17 * b },
             });
-          const O = M(S),
-            R = O.individualHandDrillingData?.[z] || {
-              due: (0, h.default)(new Date()),
+          const z = p(h),
+            O = z.individualHandDrillingData?.[k] || {
+              due: (0, D.default)(new Date()),
               level: 0,
             },
-            j = D.GridData[S].hands[z],
-            G = (0, v.default)(new Date()),
-            U = (0, y.default)(R.due) <= G,
-            W = new Date();
-          W.setDate(W.getDate() + Math.pow(2, R.level));
-          const q = new Date();
+            R = o.GridData[h].hands[k],
+            j = (0, f.default)(new Date()),
+            G = (0, v.default)(O.due) <= j,
+            N = new Date();
+          N.setDate(N.getDate() + Math.pow(2, O.level));
+          const W = new Date();
           if (
-            (q.setDate(q.getDate() + 1),
-            t((0, l.incTimePlaying)(E)),
-            t((0, l.resetStartTime)()),
-            0 === T && t((0, l.resetStartTime)()),
-            (C = j),
-            (B = o).allin === C.allin &&
-              B.raise === C.raise &&
-              B.call === C.call)
+            (W.setDate(W.getDate() + 1),
+            t((0, n.incTimePlaying)(_)),
+            t((0, n.incHandsPlayed)()),
+            t((0, n.resetStartTime)()),
+            0 === F && t((0, n.resetStartTime)()),
+            (B = R),
+            (q = u).allin === B.allin &&
+              q.raise === B.raise &&
+              q.call === B.call)
           ) {
-            if (O.individualHandDrillingData?.[z]) {
-              const n = U ? (0, h.default)(W) : R.due;
-              T >= P.length &&
+            if (z.individualHandDrillingData?.[k]) {
+              const l = G ? (0, D.default)(N) : O.due;
+              F >= P.length &&
                 t(
-                  (0, l.updateFilteredHand)({
-                    [z]: { level: R.level + 1, due: n },
+                  (0, n.updateFilteredHand)({
+                    [k]: { level: O.level + 1, due: l },
                   })
                 );
             }
-            if (T + 1 < k.length) t((0, l.incIndex)());
-            else {
-              const n = (0, c.default)(H)[1].gridName;
-              t((0, l.resetIndex)()),
-                t((0, l.setFeedback)(!1)),
-                N(S, !0),
-                t((0, u.updateDataEntry)({ gridName: n, locked: !1 })),
-                t(
-                  (0, u.updateDataEntry)({
-                    gridName: (0, c.default)(H)[0].gridName,
-                    locked: !1,
-                  })
-                ),
-                t((0, l.setSuccessModal)(!0)),
-                I(A);
-            }
+            F + 1 < M.length
+              ? t((0, n.incIndex)())
+              : (t((0, n.resetIndex)()),
+                t((0, n.setFeedback)(!1)),
+                A(h, !0),
+                t((0, n.setSuccessModal)(!0)),
+                I(H));
           } else {
-            const n = (0, h.default)(q);
-            T >= P.length &&
-              t((0, l.updateFilteredHand)({ [z]: { level: 1, due: n } }));
-            const s = P.includes(z)
-                ? (0, f.moveToFront)(P, P.indexOf(z))
-                : [z, ...P],
+            const l = (0, D.default)(W);
+            F >= P.length &&
+              t((0, n.updateFilteredHand)({ [k]: { level: 1, due: l } }));
+            const s = P.includes(k)
+                ? (0, c.moveToFront)(P, P.indexOf(k))
+                : [k, ...P],
               u =
-                T < P.length
-                  ? [...s, ...k.slice(P.length)]
-                  : T + 1 < k.length
-                  ? [...s, ...k.slice(T + 1)]
+                F < P.length
+                  ? [...s, ...M.slice(P.length)]
+                  : F + 1 < M.length
+                  ? [...s, ...M.slice(F + 1)]
                   : [...s];
-            t((0, l.setRepeatsArray)(s)),
-              t((0, l.setFilteredHandsArray)(u)),
-              t((0, l.resetIndex)()),
-              N(S, !1),
-              t((0, l.setFeedback)(!0)),
-              t((0, l.setShowRangeModal)(!0)),
-              I(b);
+            t((0, n.setRepeatsArray)(s)),
+              t((0, n.setFilteredHandsArray)(u)),
+              t((0, n.resetIndex)()),
+              A(h, !1),
+              t((0, n.setFeedback)(!0)),
+              t((0, n.setShowRangeModal)(!0)),
+              I(w);
           }
-          var B, C;
-          t((0, l.resetActions)());
+          var q, B;
+          t((0, n.resetActions)());
         },
       };
     };
   },
-  628,
+  626,
   [
-    1, 593, 1181, 574, 595, 599, 629, 658, 594, 600, 601, 598, 630, 659, 631,
-    660, 625, 677, 678, 676,
+    1, 590, 1189, 571, 627, 656, 591, 598, 599, 596, 628, 657, 629, 658, 623,
+    675, 676,
   ]
 );
 __d(
@@ -18401,48 +18451,51 @@ __d(
     var l = r(d[1]),
       n = r(d[2]),
       u = t(r(d[3])),
-      D = t(r(d[4])),
-      s = t(r(d[5])),
+      s = t(r(d[4])),
+      D = t(r(d[5])),
       f = r(d[6]),
       o = t(r(d[7])),
-      v = t(r(d[8])),
-      c = t(r(d[9]));
-    const { base: y } = (0, c.default)();
+      y = t(r(d[8])),
+      v = t(r(d[9]));
+    const { base: c } = (0, v.default)();
     e.default = () => {
       const t = (0, f.useDispatch)(),
-        c = (0, o.default)(),
-        { filteredHandsData: S, timePlaying: p } = (0, f.useSelector)(
-          l.selectTrainerState
-        );
+        v = (0, o.default)(),
+        {
+          filteredHandsData: P,
+          timePlaying: h,
+          handsPlayed: S,
+        } = (0, f.useSelector)(l.selectTrainerState);
       return (f, o) => {
-        const w = new Date(),
-          b = c(f);
-        if (!b)
-          return void v.default.show({
+        const p = new Date(),
+          w = v(f);
+        if (!w)
+          return void y.default.show({
             type: "fail",
             text1: "Warning!",
             text2: `No entry found for grid: ${f}`,
             visibilityTime: 2e3,
-            text1Style: { fontSize: 20 * y },
-            text2Style: { fontSize: 17 * y },
+            text1Style: { fontSize: 20 * c },
+            text2Style: { fontSize: 17 * c },
           });
-        const x = (0, u.default)(w),
-          H = (0, s.default)(new Date()),
-          _ = !!b.dueDate ? (0, D.default)(b.dueDate) : null,
-          h = _ && _ <= H,
-          N = Object.assign({}, b.individualHandDrillingData || {}, S || {});
+        const H = (0, u.default)(p),
+          b = (0, D.default)(new Date()),
+          x = !!w.dueDate ? (0, s.default)(w.dueDate) : null,
+          _ = x && x <= b,
+          N = Object.assign({}, w.individualHandDrillingData || {}, P || {});
         if (o) {
           const l = new Date();
-          l.setDate(l.getDate() + Math.pow(2, b.level));
-          const D = h ? (0, u.default)(l) : b.dueDate;
+          l.setDate(l.getDate() + Math.pow(2, w.level));
+          const s = _ ? (0, u.default)(l) : w.dueDate;
           t(
             (0, n.updateDataEntry)({
               gridName: f,
-              level: h ? b.level + 1 : b.level,
-              drilled: b.drilled + 1,
-              dueDate: D,
-              timeDrilling: b.timeDrilling + p,
-              lastStudied: x,
+              level: _ ? w.level + 1 : w.level,
+              drilled: w.drilled + 1,
+              dueDate: s,
+              timeDrilling: w.timeDrilling + h,
+              handsPlayed: w.handsPlayed + S + 1,
+              lastStudied: H,
               individualHandDrillingData: N,
             })
           );
@@ -18451,18 +18504,19 @@ __d(
             (0, n.updateDataEntry)({
               gridName: f,
               level: 0,
-              timeDrilling: b.timeDrilling + p,
-              dueDate: x,
-              lastStudied: x,
+              timeDrilling: w.timeDrilling + h,
+              handsPlayed: w.handsPlayed + S + 1,
+              dueDate: H,
+              lastStudied: H,
               individualHandDrillingData: N,
             })
           );
-        t((0, l.setTimePlaying)(0));
+        t((0, l.setTimePlaying)(0)), t((0, l.setHandsPlayed)(0));
       };
     };
   },
-  629,
-  [1, 593, 595, 598, 601, 600, 1181, 630, 631, 625]
+  627,
+  [1, 590, 593, 596, 599, 598, 1189, 628, 629, 623]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18478,8 +18532,8 @@ __d(
       };
     };
   },
-  630,
-  [595, 1181]
+  628,
+  [593, 1189]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18534,8 +18588,8 @@ __d(
           }));
     });
   },
-  631,
-  [632, 651, 654, 650, 653, 657]
+  629,
+  [630, 649, 652, 648, 651, 655]
 );
 __d(
   function (g, _r, i, a, m, e, d) {
@@ -18600,8 +18654,8 @@ __d(
         b()?.hide(r);
       });
   },
-  632,
-  [1, 238, 140, 633, 637, 655, 286]
+  630,
+  [1, 239, 140, 631, 635, 653, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18631,8 +18685,8 @@ __d(
           }));
     });
   },
-  633,
-  [634, 636]
+  631,
+  [632, 634]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18657,15 +18711,15 @@ __d(
       l = r(d[3]);
     const u = n.default.createContext({ log: t.noop });
   },
-  634,
-  [1, 140, 635, 286]
+  632,
+  [1, 140, 633, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.noop = void 0);
     e.noop = () => {};
   },
-  635,
+  633,
   []
 );
 __d(
@@ -18683,8 +18737,8 @@ __d(
       u = r(d[2]);
     const o = t.default.createContext({ panning: { current: !1 } });
   },
-  636,
-  [1, 140, 286]
+  634,
+  [1, 140, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18760,8 +18814,8 @@ __d(
       });
     }
   },
-  637,
-  [1, 140, 638, 650, 653, 654, 286]
+  635,
+  [1, 140, 636, 648, 651, 652, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18880,8 +18934,8 @@ __d(
       }
     }
   },
-  638,
-  [1, 140, 1233, 1232, 633, 639, 635, 647, 648, 649, 286]
+  636,
+  [1, 140, 1241, 1240, 631, 637, 633, 645, 646, 647, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18947,8 +19001,8 @@ __d(
           }));
     });
   },
-  639,
-  [640, 641, 645, 646, 643]
+  637,
+  [638, 639, 643, 644, 641]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -18976,7 +19030,7 @@ __d(
     var n = t(r(d[1]));
     const s = (t) => (n) => n?.nativeEvent?.layout?.[t] ?? 0;
   },
-  640,
+  638,
   [1, 140]
 );
 __d(
@@ -19049,8 +19103,8 @@ __d(
     }
     const b = !1;
   },
-  641,
-  [1, 140, 1233, 1157, 642, 643]
+  639,
+  [1, 140, 1241, 1165, 640, 641]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -19059,7 +19113,7 @@ __d(
         return n.map((n) => -n);
       });
   },
-  642,
+  640,
   []
 );
 __d(
@@ -19092,8 +19146,8 @@ __d(
       o = t(r(d[2])),
       s = r(d[3]);
   },
-  643,
-  [1, 140, 1313, 644]
+  641,
+  [1, 140, 1321, 642]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19104,8 +19158,8 @@ __d(
       });
     n(r(d[1]));
   },
-  644,
-  [1, 1157]
+  642,
+  [1, 1165]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19135,8 +19189,8 @@ __d(
     var u = t(r(d[1])),
       n = r(d[2]);
   },
-  645,
-  [1, 140, 633]
+  643,
+  [1, 140, 631]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19205,8 +19259,8 @@ __d(
       return n <= 0.65 || (Math.abs(t) >= 0.65 && s < 0);
     }
   },
-  646,
-  [1, 140, 1314]
+  644,
+  [1, 140, 1322]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19223,7 +19277,7 @@ __d(
       (e.lowerBound = u),
       (e.upperBound = n);
   },
-  647,
+  645,
   []
 );
 __d(
@@ -19233,7 +19287,7 @@ __d(
         return `toast${t}`;
       });
   },
-  648,
+  646,
   []
 );
 __d(
@@ -19253,8 +19307,8 @@ __d(
       bottom: { bottom: 0 },
     });
   },
-  649,
-  [1, 1109]
+  647,
+  [1, 1117]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19270,8 +19324,8 @@ __d(
     var t = r(d[2]),
       s = r(d[3]);
   },
-  650,
-  [1, 140, 651, 286]
+  648,
+  [1, 140, 649, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19364,8 +19418,8 @@ __d(
       c = r(d[6]),
       x = r(d[7]);
   },
-  651,
-  [1, 140, 1224, 1199, 1317, 648, 652, 286]
+  649,
+  [1, 140, 1232, 1207, 1325, 646, 650, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19405,8 +19459,8 @@ __d(
       text2: { fontSize: 10, color: "#979797", width: "100%" },
     });
   },
-  652,
-  [1, 1109]
+  650,
+  [1, 1117]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19422,8 +19476,8 @@ __d(
     var t = r(d[2]),
       n = r(d[3]);
   },
-  653,
-  [1, 140, 651, 286]
+  651,
+  [1, 140, 649, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19439,8 +19493,8 @@ __d(
     var t = r(d[2]),
       o = r(d[3]);
   },
-  654,
-  [1, 140, 651, 286]
+  652,
+  [1, 140, 649, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19545,8 +19599,8 @@ __d(
         props: {},
       });
   },
-  655,
-  [1, 140, 633, 639, 635, 656]
+  653,
+  [1, 140, 631, 637, 633, 654]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19561,14 +19615,14 @@ __d(
         );
       });
   },
-  656,
+  654,
   []
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 });
   },
-  657,
+  655,
   []
 );
 __d(
@@ -19580,7 +19634,7 @@ __d(
       return [o[n], ...o.slice(0, n), ...o.slice(n + 1)];
     };
   },
-  658,
+  656,
   []
 );
 __d(
@@ -19593,7 +19647,7 @@ __d(
       return isNaN(n.getTime()) ? 0 : s.getTime() - n.getTime();
     };
   },
-  659,
+  657,
   []
 );
 __d(
@@ -19623,8 +19677,8 @@ __d(
         }
       };
   },
-  660,
-  [661, 676]
+  658,
+  [659, 674]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -19713,8 +19767,8 @@ __d(
       ),
       (c = !0));
   },
-  661,
-  [1, 662, 672, 670, 663, 675]
+  659,
+  [1, 660, 670, 668, 661, 673]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19809,8 +19863,8 @@ __d(
       return O || f;
     }
   },
-  662,
-  [1, 663, 1318, 665, 668, 666, 669]
+  660,
+  [1, 661, 1326, 663, 666, 664, 667]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -19827,7 +19881,7 @@ __d(
           (t[(t.DuckOthers = 2)] = "DuckOthers");
       })(o || (e.InterruptionModeAndroid = o = {}));
   },
-  663,
+  661,
   []
 );
 __d(
@@ -20097,8 +20151,8 @@ __d(
     }
     e.Recording = R;
   },
-  665,
-  [1, 56, 666, 667, 668, 669, 1318, 671]
+  663,
+  [1, 56, 664, 665, 666, 667, 1326, 669]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -20119,8 +20173,8 @@ __d(
     var o = n(r(d[1]));
     let t = !0;
   },
-  666,
-  [1, 1318]
+  664,
+  [1, 1326]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -20250,7 +20304,7 @@ __d(
       };
     e.RecordingOptionsPresets = { HIGH_QUALITY: o, LOW_QUALITY: C };
   },
-  667,
+  665,
   []
 );
 __d(
@@ -20445,8 +20499,8 @@ __d(
     }
     (_e.Sound = o), Object.assign(o.prototype, n.PlaybackMixin);
   },
-  668,
-  [1, 56, 666, 669, 1318]
+  666,
+  [1, 56, 664, 667, 1326]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -20610,8 +20664,8 @@ __d(
       },
     };
   },
-  669,
-  [51, 56, 670]
+  667,
+  [51, 56, 668]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -20634,14 +20688,14 @@ __d(
         ] = "High");
     })(u || (e.PitchCorrectionQuality = u = {}));
   },
-  670,
-  [1, 1318]
+  668,
+  [1, 1326]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 });
   },
-  671,
+  669,
   []
 );
 __d(
@@ -20879,8 +20933,8 @@ __d(
     Object.assign(S.prototype, r.PlaybackMixin);
     _e.default = S;
   },
-  672,
-  [1, 140, 1325, 1284, 1109, 1199, 1157, 669, 1326, 1318, 1328, 675, 286]
+  670,
+  [1, 140, 1333, 1292, 1117, 1207, 1165, 667, 1334, 1326, 1336, 673, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -20897,7 +20951,7 @@ __d(
           (_[(_.PLAYER_DID_DISMISS = 3)] = "PLAYER_DID_DISMISS");
       })(E || (e.VideoFullscreenUpdate = E = {}));
   },
-  675,
+  673,
   []
 );
 __d(
@@ -20905,7 +20959,7 @@ __d(
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/assets/sounds/pop.e59fcdb682539e1fa13e6a063e94b8de.wav";
   },
-  676,
+  674,
   []
 );
 __d(
@@ -20913,7 +20967,7 @@ __d(
     c.exports =
       "/jacobs-apps/griddier-web-app/assets/assets/sounds/cymbal.10611396061901d10486670f68ce5428.wav";
   },
-  677,
+  675,
   []
 );
 __d(
@@ -20921,7 +20975,7 @@ __d(
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/assets/sounds/success.c03325cbee6aa9ecce96471370454d17.wav";
   },
-  678,
+  676,
   []
 );
 __d(
@@ -20971,8 +21025,8 @@ __d(
       );
     };
   },
-  679,
-  [1, 238, 140, 1225, 1317, 660, 286]
+  677,
+  [1, 239, 140, 1233, 1325, 658, 288]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -20997,8 +21051,8 @@ __d(
       }, [e]);
     };
   },
-  680,
-  [1, 140, 660]
+  678,
+  [1, 140, 658]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -21591,7 +21645,7 @@ __d(
       },
     };
   },
-  681,
+  679,
   []
 );
 __d(
@@ -21609,7 +21663,6 @@ __d(
         container: {
           padding: 10 * h,
           backgroundColor: n.default.PRIMARY,
-          marginBottom: 40 * h,
           width: s,
         },
         text: {
@@ -21629,8 +21682,8 @@ __d(
       });
     };
   },
-  682,
-  [1, 623, 625, 1224, 1109, 1199, 286]
+  680,
+  [1, 621, 623, 1232, 1117, 1207, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -21777,10 +21830,10 @@ __d(
           }));
     });
   },
-  683,
+  681,
   [
-    684, 789, 777, 778, 776, 791, 793, 779, 794, 781, 795, 790, 796, 797, 798,
-    685,
+    682, 787, 775, 776, 774, 789, 791, 777, 792, 779, 793, 788, 794, 795, 796,
+    683,
   ]
 );
 __d(
@@ -21860,8 +21913,8 @@ __d(
       r = _r(d[5]);
     const c = ["linking"];
   },
-  684,
-  [1, 238, 685, 140, 776, 286]
+  682,
+  [1, 239, 683, 140, 774, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -22159,11 +22212,11 @@ __d(
           }));
     });
   },
-  685,
+  683,
   [
-    686, 699, 717, 720, 702, 721, 722, 725, 733, 704, 737, 738, 739, 740, 741,
-    742, 743, 708, 707, 747, 748, 749, 751, 750, 752, 772, 713, 765, 773, 774,
-    746, 775, 732, 687,
+    684, 697, 715, 718, 700, 719, 720, 723, 731, 702, 735, 736, 737, 738, 739,
+    740, 741, 706, 705, 745, 746, 747, 749, 748, 750, 770, 711, 763, 771, 772,
+    744, 773, 730, 685,
   ]
 );
 __d(
@@ -22408,10 +22461,10 @@ __d(
       });
     });
   },
-  686,
+  684,
   [
-    1, 238, 687, 140, 695, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706,
-    707, 709, 710, 711, 712, 713, 714, 715, 286,
+    1, 239, 685, 140, 693, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704,
+    705, 707, 708, 709, 710, 711, 712, 713, 288,
   ]
 );
 __d(
@@ -22517,8 +22570,8 @@ __d(
           }));
     });
   },
-  687,
-  [688, 689, 691, 693, 692, 694]
+  685,
+  [686, 687, 689, 691, 690, 692]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -22583,7 +22636,7 @@ __d(
         return { type: "SET_PARAMS", payload: { params: t } };
       });
   },
-  688,
+  686,
   []
 );
 __d(
@@ -22643,8 +22696,8 @@ __d(
         "NAVIGATE" === s.type || "NAVIGATE_DEPRECATED" === s.type,
     };
   },
-  689,
-  [690]
+  687,
+  [688]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -22668,7 +22721,7 @@ __d(
       return n;
     };
   },
-  690,
+  688,
   []
 );
 __d(
@@ -22777,8 +22830,8 @@ __d(
         toggleDrawer: () => ({ type: "TOGGLE_DRAWER" }),
       }));
   },
-  691,
-  [1, 238, 690, 692]
+  689,
+  [1, 239, 688, 690]
 );
 __d(
   function (g, _r, _i, a, m, e, d) {
@@ -23023,8 +23076,8 @@ __d(
         return Object.assign({}, t, { index: s, history: y });
       };
   },
-  692,
-  [690, 689]
+  690,
+  [688, 687]
 );
 __d(
   function (g, _r, _i, a, m, e, d) {
@@ -23479,15 +23532,15 @@ __d(
       ),
     });
   },
-  693,
-  [690, 689]
+  691,
+  [688, 687]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     "use strict";
     Object.defineProperty(e, "__esModule", { value: !0 });
   },
-  694,
+  692,
   []
 );
 __d(
@@ -23497,8 +23550,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  695,
-  [1, 696]
+  693,
+  [1, 694]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -23524,7 +23577,7 @@ __d(
       );
     };
   },
-  696,
+  694,
   [140]
 );
 __d(
@@ -23545,7 +23598,7 @@ __d(
         return s("", t), n;
       });
   },
-  697,
+  695,
   []
 );
 __d(
@@ -23587,7 +23640,7 @@ __d(
       return { serializable: !0 };
     };
   },
-  698,
+  696,
   []
 );
 __d(
@@ -23659,8 +23712,8 @@ __d(
     const n = (e.NOT_INITIALIZED_ERROR =
       "The 'navigation' object hasn't been initialized yet. This might happen if you don't have a navigator mounted, or if the navigator hasn't finished mounting. See https://reactnavigation.org/docs/navigating-without-navigation-prop#handling-initialization for more details.");
   },
-  699,
-  [687]
+  697,
+  [685]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -23696,7 +23749,7 @@ __d(
     })(_r(d[0]));
     _e.DeprecatedNavigationInChildContext = e.createContext(!1);
   },
-  700,
+  698,
   [140]
 );
 __d(
@@ -23753,8 +23806,8 @@ __d(
         'Another navigator is already registered for this container. You likely have multiple navigators under a single "NavigationContainer" or "Screen". Make sure each navigator is under a separate "Screen" container. See https://reactnavigation.org/docs/nesting-navigators for a guide on nesting.',
       n = (_e.SingleNavigatorContext = e.createContext(void 0));
   },
-  701,
-  [140, 286]
+  699,
+  [140, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -23768,7 +23821,7 @@ __d(
         return u;
       });
   },
-  702,
+  700,
   []
 );
 __d(
@@ -23814,7 +23867,7 @@ __d(
       },
     });
   },
-  703,
+  701,
   [140]
 );
 __d(
@@ -23851,7 +23904,7 @@ __d(
     })(_r(d[0]));
     _e.NavigationContainerRefContext = e.createContext(void 0);
   },
-  704,
+  702,
   [140]
 );
 __d(
@@ -23888,7 +23941,7 @@ __d(
     })(_r(d[0]));
     _e.NavigationIndependentTreeContext = e.createContext(!1);
   },
-  705,
+  703,
   [140]
 );
 __d(
@@ -23944,7 +23997,7 @@ __d(
       },
     });
   },
-  706,
+  704,
   [140]
 );
 __d(
@@ -23983,8 +24036,8 @@ __d(
     var e = _r(d[1]),
       t = _r(d[2]);
   },
-  707,
-  [140, 708, 286]
+  705,
+  [140, 706, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -24020,7 +24073,7 @@ __d(
     })(_r(d[0]));
     (_e.ThemeContext = e.createContext(void 0)).displayName = "ThemeContext";
   },
-  708,
+  706,
   [140]
 );
 __d(
@@ -24057,7 +24110,7 @@ __d(
     })(_r(d[0]));
     _e.UnhandledActionContext = e.createContext(void 0);
   },
-  709,
+  707,
   [140]
 );
 __d(
@@ -24107,7 +24160,7 @@ __d(
       })(e, t);
     })(_r(d[0]));
   },
-  710,
+  708,
   [140]
 );
 __d(
@@ -24212,7 +24265,7 @@ __d(
       })(e, t);
     })(_r(d[0]));
   },
-  711,
+  709,
   [140]
 );
 __d(
@@ -24265,7 +24318,7 @@ __d(
       })(e, t);
     })(_r(d[0]));
   },
-  712,
+  710,
   [140]
 );
 __d(
@@ -24304,8 +24357,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  713,
-  [140, 705]
+  711,
+  [140, 703]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -24383,8 +24436,8 @@ __d(
       t = _r(d[1]),
       n = _r(d[2]);
   },
-  714,
-  [140, 703, 706]
+  712,
+  [140, 701, 704]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -24468,8 +24521,8 @@ __d(
       };
     };
   },
-  715,
-  [1, 140, 695, 716]
+  713,
+  [1, 140, 693, 714]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -24484,7 +24537,7 @@ __d(
     const o = (t) => t;
     e.deepFreeze = o;
   },
-  716,
+  714,
   []
 );
 __d(
@@ -24501,8 +24554,8 @@ __d(
     var n = r(d[0]),
       o = r(d[1]);
   },
-  717,
-  [718, 719]
+  715,
+  [716, 717]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -24512,7 +24565,7 @@ __d(
         return null;
       });
   },
-  718,
+  716,
   []
 );
 __d(
@@ -24523,7 +24576,7 @@ __d(
         return null;
       });
   },
-  719,
+  717,
   []
 );
 __d(
@@ -24560,7 +24613,7 @@ __d(
     })(_r(d[0]));
     _e.CurrentRenderContext = e.createContext(void 0);
   },
-  720,
+  718,
   [140]
 );
 __d(
@@ -24636,7 +24689,7 @@ __d(
       n = (n) =>
         Object.entries(n).reduce((n, [s, o]) => ((n[s] = t(o)), n), {});
   },
-  721,
+  719,
   []
 );
 __d(
@@ -24659,8 +24712,8 @@ __d(
       });
     var t = r(d[0]);
   },
-  722,
-  [723]
+  720,
+  [721]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -24703,8 +24756,8 @@ __d(
     _r(d[3]);
     _e.CHILD_STATE = Symbol("CHILD_STATE");
   },
-  723,
-  [1, 238, 140, 724]
+  721,
+  [1, 239, 140, 722]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -24718,7 +24771,7 @@ __d(
         return u.every((u) => t[u] === n[u]);
       });
   },
-  724,
+  722,
   []
 );
 __d(
@@ -24889,8 +24942,8 @@ __d(
       c = (e, t) =>
         Object.fromEntries(Object.entries(e).map(([e, n]) => [e, i(n, t)]));
   },
-  725,
-  [726, 731, 732]
+  723,
+  [724, 729, 730]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -25202,8 +25255,8 @@ __d(
         return e.pick(t, o, a);
       });
   },
-  726,
-  [727, 728, 729, 730]
+  724,
+  [725, 726, 727, 728]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -25214,7 +25267,7 @@ __d(
         (t) => `%${t.charCodeAt(0).toString(16).toUpperCase()}`
       );
   },
-  727,
+  725,
   []
 );
 __d(
@@ -25275,7 +25328,7 @@ __d(
       }
     };
   },
-  728,
+  726,
   []
 );
 __d(
@@ -25289,7 +25342,7 @@ __d(
       return -1 === s ? [t] : [t.slice(0, s), t.slice(s + n.length)];
     };
   },
-  729,
+  727,
   []
 );
 __d(
@@ -25308,7 +25361,7 @@ __d(
       return i;
     };
   },
-  730,
+  728,
   []
 );
 __d(
@@ -25375,7 +25428,7 @@ __d(
         return t;
       });
   },
-  731,
+  729,
   []
 );
 __d(
@@ -25446,7 +25499,7 @@ __d(
         .map(([t, n]) => `- ${t} (${n})`)
         .join("\n");
   },
-  732,
+  730,
   []
 );
 __d(
@@ -25806,8 +25859,8 @@ __d(
         );
       };
   },
-  733,
-  [1, 734, 726, 735, 702, 731, 736, 732]
+  731,
+  [1, 732, 724, 733, 700, 729, 734, 730]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -25817,7 +25870,7 @@ __d(
       return t.replace(/[|\\{}()[\]^$+*?.]/g, "\\$&").replace(/-/g, "\\x2d");
     };
   },
-  734,
+  732,
   []
 );
 __d(
@@ -25829,7 +25882,7 @@ __d(
         return n.every((n, u) => n === t[u]);
       });
   },
-  735,
+  733,
   []
 );
 __d(
@@ -25842,7 +25895,7 @@ __d(
         return t.every((t, u) => t === n[u]);
       });
   },
-  736,
+  734,
   []
 );
 __d(
@@ -25879,7 +25932,7 @@ __d(
     })(_r(d[0]));
     _e.NavigationContext = e.createContext(void 0);
   },
-  737,
+  735,
   [140]
 );
 __d(
@@ -25916,7 +25969,7 @@ __d(
     })(_r(d[0]));
     _e.NavigationHelpersContext = e.createContext(void 0);
   },
-  738,
+  736,
   [140]
 );
 __d(
@@ -25966,8 +26019,8 @@ __d(
       n = _r(d[3]),
       r = _r(d[4]);
   },
-  739,
-  [140, 737, 705, 740, 286]
+  737,
+  [140, 735, 703, 738, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -26003,7 +26056,7 @@ __d(
     })(_r(d[0]));
     _e.NavigationRouteContext = e.createContext(void 0);
   },
-  740,
+  738,
   [140]
 );
 __d(
@@ -26040,7 +26093,7 @@ __d(
     })(_r(d[0]));
     _e.PreventRemoveContext = e.createContext(void 0);
   },
-  741,
+  739,
   [140]
 );
 __d(
@@ -26132,8 +26185,8 @@ __d(
         {}
       );
   },
-  742,
-  [1, 690, 140, 695, 738, 740, 741, 286]
+  740,
+  [1, 688, 140, 693, 736, 738, 739, 288]
 );
 __d(
   function (g, _r, _i, _a, m, _e, d) {
@@ -26320,16 +26373,16 @@ __d(
       return (j.displayName = t), j;
     }
   },
-  743,
-  [1, 238, 140, 744, 746, 286]
+  741,
+  [1, 239, 140, 742, 744, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     "use strict";
     m.exports = r(d[0]);
   },
-  744,
-  [745]
+  742,
+  [743]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -26458,7 +26511,7 @@ __d(
       }),
       (e.typeOf = w);
   },
-  745,
+  743,
   []
 );
 __d(
@@ -26502,8 +26555,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  746,
-  [140, 740]
+  744,
+  [140, 738]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -26546,8 +26599,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  747,
-  [140, 708]
+  745,
+  [140, 706]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -26556,7 +26609,7 @@ __d(
       (e.PrivateValueStore = void 0);
     e.PrivateValueStore = class {};
   },
-  748,
+  746,
   []
 );
 __d(
@@ -26618,8 +26671,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  749,
-  [140, 750]
+  747,
+  [140, 748]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -26664,8 +26717,8 @@ __d(
       e = _r(d[1]),
       n = _r(d[2]);
   },
-  750,
-  [140, 704, 737]
+  748,
+  [140, 702, 735]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -26714,8 +26767,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  751,
-  [140, 750]
+  749,
+  [140, 748]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -27199,11 +27252,11 @@ __d(
           );
         }, []);
   },
-  752,
+  750,
   [
-    1, 238, 687, 140, 744, 695, 716, 718, 736, 724, 738, 740, 706, 742, 719,
-    748, 710, 753, 754, 755, 756, 711, 761, 762, 712, 763, 764, 765, 766, 768,
-    769, 770, 771, 286,
+    1, 239, 685, 140, 742, 693, 714, 716, 734, 722, 736, 738, 704, 740, 717,
+    746, 708, 751, 752, 753, 754, 709, 759, 760, 710, 761, 762, 763, 764, 766,
+    767, 768, 769, 288,
   ]
 );
 __d(
@@ -27244,7 +27297,7 @@ __d(
         ? e.useLayoutEffect
         : e.useEffect;
   },
-  753,
+  751,
   [140]
 );
 __d(
@@ -27298,8 +27351,8 @@ __d(
       r = _r(d[1]);
     const n = ({ render: e, children: r }) => e(r);
   },
-  754,
-  [140, 286]
+  752,
+  [140, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -27342,8 +27395,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  755,
-  [140, 720]
+  753,
+  [140, 718]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -27543,8 +27596,8 @@ __d(
       return ("string" === t ? String : Number)(e);
     }
   },
-  756,
-  [1, 238, 140, 703, 737, 740, 757, 708, 760, 723, 286]
+  754,
+  [1, 239, 140, 701, 735, 738, 755, 706, 758, 721, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -27693,8 +27746,8 @@ __d(
       c = _r(d[8]);
     const l = ["state", "screen", "params", "initial"];
   },
-  757,
-  [1, 238, 140, 701, 758, 706, 759, 714, 286]
+  755,
+  [1, 239, 140, 699, 756, 704, 757, 712, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -27730,7 +27783,7 @@ __d(
     })(_r(d[0]));
     _e.NavigationFocusedRouteStateContext = e.createContext(void 0);
   },
-  758,
+  756,
   [140]
 );
 __d(
@@ -27778,7 +27831,7 @@ __d(
       }
     );
   },
-  759,
+  757,
   [140]
 );
 __d(
@@ -27895,8 +27948,8 @@ __d(
       o = _r(d[4]);
     const s = ["emit"];
   },
-  760,
-  [1, 238, 687, 140, 703]
+  758,
+  [1, 239, 685, 140, 701]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -27951,8 +28004,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  761,
-  [140, 703]
+  759,
+  [140, 701]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28016,8 +28069,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  762,
-  [140, 737]
+  760,
+  [140, 735]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28056,7 +28109,7 @@ __d(
       })(e, t);
     })(_r(d[0]));
   },
-  763,
+  761,
   [140]
 );
 __d(
@@ -28147,8 +28200,8 @@ __d(
       r = _r(d[4]);
     o.PrivateValueStore;
   },
-  764,
-  [687, 140, 737, 748, 709]
+  762,
+  [685, 140, 735, 746, 707]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28221,8 +28274,8 @@ __d(
       u = _r(d[5]);
     const i = t.createContext(void 0);
   },
-  765,
-  [1, 140, 695, 572, 753, 286]
+  763,
+  [1, 140, 693, 569, 751, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28325,8 +28378,8 @@ __d(
       n = _r(d[2]),
       r = _r(d[3]);
   },
-  766,
-  [140, 700, 703, 767]
+  764,
+  [140, 698, 701, 765]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28405,8 +28458,8 @@ __d(
       };
     _e.shouldPreventRemove = o;
   },
-  767,
-  [140, 703, 740]
+  765,
+  [140, 701, 738]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28461,8 +28514,8 @@ __d(
       n = _r(d[2]),
       r = _r(d[3]);
   },
-  768,
-  [140, 736, 703, 740]
+  766,
+  [140, 734, 701, 738]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28513,8 +28566,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  769,
-  [140, 703]
+  767,
+  [140, 701]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28565,8 +28618,8 @@ __d(
       })(_r(d[1])),
       n = _r(d[2]);
   },
-  770,
-  [690, 140, 701]
+  768,
+  [688, 140, 699]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28608,8 +28661,8 @@ __d(
       t = _r(d[1]),
       n = _r(d[2]);
   },
-  771,
-  [140, 703, 753]
+  769,
+  [140, 701, 751]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28650,8 +28703,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  772,
-  [140, 699]
+  770,
+  [140, 697]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28710,8 +28763,8 @@ __d(
       u = _r(d[5]),
       f = _r(d[6]);
   },
-  773,
-  [1, 690, 140, 695, 750, 774, 746]
+  771,
+  [1, 688, 140, 693, 748, 772, 744]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28754,8 +28807,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  774,
-  [140, 741]
+  772,
+  [140, 739]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28793,8 +28846,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  775,
-  [140, 758]
+  773,
+  [140, 756]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28936,8 +28989,8 @@ __d(
     globalThis.REACT_NAVIGATION_DEVTOOLS = new WeakMap();
     _e.NavigationContainer = i.forwardRef(P);
   },
-  776,
-  [1, 238, 685, 140, 1329, 695, 777, 778, 779, 781, 1330, 1331, 1332, 788, 286]
+  774,
+  [1, 239, 683, 140, 1337, 693, 775, 776, 777, 779, 1338, 1339, 1340, 786, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -28977,7 +29030,7 @@ __d(
       },
     })).displayName = "LinkingContext";
   },
-  777,
+  775,
   [140]
 );
 __d(
@@ -29015,7 +29068,7 @@ __d(
     (_e.LocaleDirContext = e.createContext("ltr")).displayName =
       "LocaleDirContext";
   },
-  778,
+  776,
   [140]
 );
 __d(
@@ -29037,8 +29090,8 @@ __d(
       fonts: t.fonts,
     };
   },
-  779,
-  [780]
+  777,
+  [778]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -29055,8 +29108,8 @@ __d(
       heavy: { fontFamily: t, fontWeight: "700" },
     };
   },
-  780,
-  [1, 1157]
+  778,
+  [1, 1165]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29100,7 +29153,7 @@ __d(
       },
     })).displayName = "UnhandledLinkingContext";
   },
-  781,
+  779,
   [140]
 );
 __d(
@@ -29164,7 +29217,7 @@ __d(
       })(e, t);
     })(_r(d[0]));
   },
-  788,
+  786,
   [140]
 );
 __d(
@@ -29226,8 +29279,8 @@ __d(
       s = _r(d[6]);
     const c = ["screen", "params", "action", "href", "style"];
   },
-  789,
-  [1, 238, 685, 140, 1157, 1224, 790]
+  787,
+  [1, 239, 683, 140, 1165, 1232, 788]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29324,8 +29377,8 @@ __d(
           }
         : void 0;
   },
-  790,
-  [1, 685, 140, 1157, 777]
+  788,
+  [1, 683, 140, 1165, 775]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29385,8 +29438,8 @@ __d(
       });
     });
   },
-  791,
-  [685, 140, 792, 286]
+  789,
+  [683, 140, 790, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29422,7 +29475,7 @@ __d(
     })(_r(d[0]));
     _e.ServerContext = e.createContext(void 0);
   },
-  792,
+  790,
   [140]
 );
 __d(
@@ -29444,15 +29497,15 @@ __d(
       fonts: o.fonts,
     };
   },
-  793,
-  [780]
+  791,
+  [778]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     "use strict";
     Object.defineProperty(e, "__esModule", { value: !0 });
   },
-  794,
+  792,
   []
 );
 __d(
@@ -29537,8 +29590,8 @@ __d(
       })(_r(d[1])),
       n = _r(d[2]);
   },
-  795,
-  [685, 140, 777]
+  793,
+  [683, 140, 775]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29589,8 +29642,8 @@ __d(
       })(_r(d[1])),
       n = _r(d[2]);
   },
-  796,
-  [685, 140, 795]
+  794,
+  [683, 140, 793]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29633,8 +29686,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  797,
-  [140, 778]
+  795,
+  [140, 776]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29722,8 +29775,8 @@ __d(
         : e.current;
     }
   },
-  798,
-  [685, 140]
+  796,
+  [683, 140]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -29736,231 +29789,238 @@ __d(
             s = new WeakMap();
         return (function (e, t) {
           if (!t && e && e.__esModule) return e;
-          var n,
-            o,
-            i = { __proto__: null, default: e };
+          var i,
+            n,
+            o = { __proto__: null, default: e };
           if (null === e || ("object" != typeof e && "function" != typeof e))
-            return i;
-          if ((n = t ? s : r)) {
-            if (n.has(e)) return n.get(e);
-            n.set(e, i);
+            return o;
+          if ((i = t ? s : r)) {
+            if (i.has(e)) return i.get(e);
+            i.set(e, o);
           }
           for (const t in e)
             "default" !== t &&
               {}.hasOwnProperty.call(e, t) &&
-              ((o =
-                (n = Object.defineProperty) &&
+              ((n =
+                (i = Object.defineProperty) &&
                 Object.getOwnPropertyDescriptor(e, t)) &&
-              (o.get || o.set)
-                ? n(i, t, o)
-                : (i[t] = e[t]));
-          return i;
+              (n.get || n.set)
+                ? i(o, t, n)
+                : (o[t] = e[t]));
+          return o;
         })(e, t);
       })(_r(d[1])),
       r = e(_r(d[2])),
       s = e(_r(d[3])),
-      n = e(_r(d[4])),
-      o = _r(d[5]),
-      i = _r(d[6]),
+      i = e(_r(d[4])),
+      n = _r(d[5]),
+      o = _r(d[6]),
       l = _r(d[7]),
       u = e(_r(d[8])),
       c = e(_r(d[9])),
       f = e(_r(d[10])),
       x = e(_r(d[11])),
-      h = _r(d[12]),
-      y = e(_r(d[13])),
+      N = _r(d[12]),
+      h = e(_r(d[13])),
       j = e(_r(d[14])),
-      v = e(_r(d[15])),
-      p = _r(d[16]),
-      N = e(_r(d[17])),
-      k = e(_r(d[18])),
-      D = _r(d[19]),
-      T = _r(d[20]),
+      y = e(_r(d[15])),
+      v = _r(d[16]),
+      p = e(_r(d[17])),
+      D = e(_r(d[18])),
+      T = _r(d[19]),
+      w = _r(d[20]),
       R = e(_r(d[21])),
-      w = _r(d[22]),
-      M = _r(d[23]);
-    const { GREEN: b, TURQ: E, RED: S, CONTRAST: _, DARKRED: P } = c.default,
-      { width: O, base: A } = (0, v.default)();
-    _e.default = ({ visible: e, dataEntry: c, onClose: v }) => {
-      const { dataEntries: B } = (0, i.useSelector)(p.selectUserDataState),
-        G = (0, o.useNavigation)(),
-        I = (0, i.useDispatch)(),
-        K = (0, f.default)(),
+      k = _r(d[22]),
+      M = e(_r(d[23])),
+      S = _r(d[24]);
+    const { GREEN: b, TURQ: E, RED: _, CONTRAST: P, DARKRED: O } = c.default,
+      { width: A, base: B } = (0, y.default)();
+    _e.default = ({ visible: e, dataEntry: c, onClose: y }) => {
+      const G = (0, M.default)(),
+        { dataEntries: I } = (0, o.useSelector)(v.selectUserDataState),
+        K = !!c && "" === G(c.gridName).dueDate,
+        C = (0, n.useNavigation)(),
+        F = (0, o.useDispatch)(),
+        z = (0, f.default)(),
         {
-          gridName: C,
-          feedback: F,
-          filteredHandsArray: z,
-        } = (0, i.useSelector)(l.selectTrainerState),
-        V = h.GridData[C].hands,
-        [W, Q] = (0, t.useState)(!1),
-        U = (0, t.useRef)(new n.default.Value(1)).current;
+          gridName: V,
+          feedback: W,
+          filteredHandsArray: Q,
+        } = (0, o.useSelector)(l.selectTrainerState),
+        U = N.GridData[V].hands,
+        [H, L] = (0, t.useState)(!1),
+        Y = (0, t.useRef)(new i.default.Value(1)).current;
       if (
         ((0, t.useEffect)(() => {
-          if (e && F) {
-            Q(!0), U.setValue(1);
+          if (e && W) {
+            L(!0), Y.setValue(1);
             const e = setTimeout(() => {
-              n.default
-                .timing(U, { toValue: 0, duration: 300, useNativeDriver: !0 })
+              i.default
+                .timing(Y, { toValue: 0, duration: 300, useNativeDriver: !0 })
                 .start(() => {
-                  Q(!1);
+                  L(!1);
                 });
             }, 1e3);
             return () => clearTimeout(e);
           }
-        }, [e, F]),
+        }, [e, W]),
         !c)
       )
         return null;
-      const H = C !== c.gridName,
-        L = () => {
-          I((0, l.resetStartTime)()),
-            I((0, l.resetActions)()),
-            I((0, l.resetIndex)()),
-            I((0, l.setGridName)(c.gridName)),
-            H && K(c.gridName),
-            v(),
-            G.navigate("Trainer");
+      const q = V !== c.gridName,
+        J = () => {
+          F((0, l.resetStartTime)()),
+            F((0, l.resetActions)()),
+            F((0, l.resetIndex)()),
+            F((0, l.setGridName)(c.gridName)),
+            q && z(c.gridName),
+            y(),
+            C.navigate("Trainer");
         },
-        Y = () => {
-          I((0, l.resetStartTime)()),
-            I((0, l.resetActions)()),
-            I((0, l.resetIndex)()),
-            I((0, l.setGridName)(c.gridName)),
-            K(c.gridName, !1, !0),
-            v(),
-            G.navigate("Trainer");
+        X = () => {
+          F((0, l.resetStartTime)()),
+            F((0, l.resetActions)()),
+            F((0, l.resetIndex)()),
+            F((0, l.setGridName)(c.gridName)),
+            z(c.gridName, !1, !0),
+            y(),
+            C.navigate("Trainer");
         },
-        q = 0.8 * O;
-      return (0, M.jsx)(r.default, {
+        Z = 0.8 * A;
+      return (0, S.jsx)(r.default, {
         visible: e,
         transparent: !0,
         animationType: "slide",
-        children: (0, M.jsx)(w.Overlay, {
-          children: (0, M.jsxs)(w.Container, {
-            color: F ? S : _,
+        children: (0, S.jsx)(k.Overlay, {
+          children: (0, S.jsxs)(k.Container, {
+            color: W ? _ : P,
             children: [
-              (0, M.jsx)(s.default, {
+              (0, S.jsx)(s.default, {
                 style: { zIndex: 1e3 },
-                children: (0, M.jsx)(y.default, {}),
+                children: (0, S.jsx)(h.default, {}),
               }),
-              (0, M.jsx)(w.RangeModalTitle, { dataEntry: c }),
-              (0, M.jsxs)(s.default, {
+              (0, S.jsx)(k.RangeModalTitle, { dataEntry: c }),
+              (0, S.jsxs)(s.default, {
                 style: { position: "relative" },
                 children: [
-                  F &&
-                    W &&
-                    (0, M.jsx)(n.default.View, {
+                  W &&
+                    H &&
+                    (0, S.jsx)(i.default.View, {
                       style: {
                         position: "absolute",
                         top: "50%",
                         left: 0,
-                        transform: [{ translateY: "-50%" }, { scale: U }],
+                        transform: [{ translateY: "-50%" }, { scale: Y }],
                         zIndex: 500,
-                        padding: 15 * A,
+                        padding: 15 * B,
                       },
                       children:
-                        z.length > 0 &&
-                        (0, M.jsx)(x.default, {
-                          hand: z[0],
-                          actions: V[z[0]],
-                          size: q,
+                        Q.length > 0 &&
+                        (0, S.jsx)(x.default, {
+                          hand: Q[0],
+                          actions: U[Q[0]],
+                          size: Z,
                         }),
                     }),
-                  (0, M.jsx)(u.default, {
+                  (0, S.jsx)(u.default, {
                     name: c.gridName,
-                    hidden: !F && "" !== c.lastStudied,
+                    hidden: !W && "" !== c.lastStudied,
                   }),
                 ],
               }),
-              (0, M.jsx)(j.default, {
-                handsObject: h.GridData[c.gridName].hands,
+              (0, S.jsx)(j.default, {
+                handsObject: N.GridData[c.gridName].hands,
               }),
-              (0, M.jsx)(R.default, { dataEntry: c }),
-              (0, M.jsx)(T.InstructionText, {
+              (0, S.jsx)(R.default, { dataEntry: c }),
+              (0, S.jsx)(w.InstructionText, {
                 children:
-                  F || "" === c.lastStudied
+                  W || "" === c.lastStudied
                     ? "Memorize this grid. When you are ready..."
                     : "Ready to revise this grid?",
               }),
-              F || c.level > 1
-                ? (0, M.jsxs)(M.Fragment, {
+              W || c.level > 1 || c.lastStudied === (0, D.default)(new Date())
+                ? (0, S.jsxs)(S.Fragment, {
                     children: [
-                      (0, M.jsx)(D.ModalButton, {
-                        text: F ? "Try again!" : "Quick Review",
-                        onPress: L,
+                      (0, S.jsx)(T.ModalButton, {
+                        text: W ? "Try again!" : "Quick Review",
+                        onPress: J,
                         scale: 1,
                         color: b,
-                        locked: c.locked,
+                        locked: K,
+                        gridName: c.gridName,
                         shortcutKey: " ",
                       }),
-                      (0, M.jsx)(D.ModalButton, {
+                      (0, S.jsx)(T.ModalButton, {
                         text: "Do a Full Review",
-                        onPress: Y,
+                        onPress: X,
                         scale: 0.9,
                         color: E,
-                        locked: c.locked,
+                        locked: K,
+                        gridName: c.gridName,
                         shortcutKey: "r",
                       }),
                     ],
                   })
-                : (0, M.jsxs)(M.Fragment, {
+                : (0, S.jsxs)(S.Fragment, {
                     children: [
-                      (0, M.jsx)(D.ModalButton, {
+                      (0, S.jsx)(T.ModalButton, {
                         text: "Do a Full Review",
-                        onPress: Y,
+                        onPress: X,
                         scale: 1,
                         color: b,
-                        locked: c.locked,
+                        locked: K,
+                        gridName: c.gridName,
                         shortcutKey: " ",
                       }),
-                      (0, M.jsx)(D.ModalButton, {
+                      (0, S.jsx)(T.ModalButton, {
                         text: "Quick Review",
-                        onPress: L,
+                        onPress: J,
                         scale: 0.9,
                         color: E,
-                        locked: c.locked,
+                        locked: K,
+                        gridName: c.gridName,
                         shortcutKey: "r",
                       }),
                     ],
                   }),
-              (0, M.jsx)(D.ModalButton, {
+              (0, S.jsx)(T.ModalButton, {
                 text: "Review Tomorrow",
                 onPress: () => {
-                  const e = (0, N.default)(B)[1].gridName;
-                  I((0, l.resetStartTime)()),
-                    I((0, l.resetActions)()),
-                    I((0, l.resetIndex)()),
-                    I((0, l.setFeedback)(!1)),
-                    I((0, p.updateDataEntry)({ gridName: e, locked: !1 }));
+                  const e = (0, p.default)(I)[1].gridName;
+                  F((0, l.resetStartTime)()),
+                    F((0, l.resetActions)()),
+                    F((0, l.resetIndex)()),
+                    F((0, l.setFeedback)(!1));
                   const t = new Date();
                   t.setDate(t.getDate() + 1),
-                    I(
-                      (0, p.updateDataEntry)({
+                    F(
+                      (0, v.updateDataEntry)({
                         gridName: c.gridName,
-                        dueDate: (0, k.default)(t),
+                        dueDate: (0, D.default)(t),
                       })
                     ),
-                    v(),
-                    I((0, l.setGridName)(e)),
-                    K(e),
-                    G.navigate("Ranges List");
+                    y(),
+                    F((0, l.setGridName)(e)),
+                    z(e),
+                    C.navigate("Ranges List");
                 },
                 scale: 0.8,
-                color: P,
-                locked: c.locked,
+                color: O,
+                locked: K,
+                gridName: c.gridName,
                 shortcutKey: "t",
               }),
-              (0, M.jsx)(D.CloseButton, { onClose: v }),
+              (0, S.jsx)(T.CloseButton, { onClose: y }),
             ],
           }),
         }),
       });
     };
   },
-  799,
+  797,
   [
-    1, 140, 1335, 1199, 1233, 683, 1181, 593, 800, 623, 876, 622, 594, 631, 878,
-    625, 595, 599, 598, 880, 881, 927, 930, 286,
+    1, 140, 1343, 1207, 1241, 681, 1189, 590, 798, 621, 874, 620, 591, 629, 876,
+    623, 593, 597, 596, 878, 879, 925, 928, 628, 288,
   ]
 );
 __d(
@@ -30062,8 +30122,8 @@ __d(
       });
     };
   },
-  800,
-  [1, 140, 1157, 1224, 1199, 622, 801, 624, 1340, 623, 594, 679, 625, 286]
+  798,
+  [1, 140, 1165, 1232, 1207, 620, 799, 622, 1348, 621, 591, 677, 623, 288]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -30413,7 +30473,7 @@ __d(
     ]).reduce((s, o, A) => ((s[o] = A), s), {});
     e.sortHands = (o) => o.sort((o, A) => s[o] - s[A]);
   },
-  801,
+  799,
   []
 );
 __d(
@@ -30425,8 +30485,8 @@ __d(
       l = t(r(d[3]));
     e.default = (0, u.default)(l.default, "anticon", f.default);
   },
-  803,
-  [1, 804, 820, 821]
+  801,
+  [1, 802, 818, 819]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -30520,8 +30580,8 @@ __d(
       })(t, e);
     }
   },
-  804,
-  [1, 805, 140, 1224, 815, 818, 286]
+  802,
+  [1, 803, 140, 1232, 813, 816, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30561,8 +30621,8 @@ __d(
     });
     var u = r(d[2]);
   },
-  805,
-  [806, 812, 814]
+  803,
+  [804, 810, 812]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30666,8 +30726,8 @@ __d(
       }
     }
   },
-  806,
-  [1, 56, 1341, 808, 1343, 810, 811]
+  804,
+  [1, 56, 1349, 806, 1351, 808, 809]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30682,7 +30742,7 @@ __d(
           (o.OPTIONAL = "optional");
       })(o || (e.FontDisplay = o = {}));
   },
-  808,
+  806,
   []
 );
 __d(
@@ -30720,8 +30780,8 @@ __d(
       return n in t;
     }
   },
-  810,
-  [1, 1341]
+  808,
+  [1, 1349]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30746,8 +30806,8 @@ __d(
       n = t(r(d[2])),
       u = r(d[3]);
   },
-  811,
-  [1, 56, 1341, 1343]
+  809,
+  [1, 56, 1349, 1351]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30770,8 +30830,8 @@ __d(
       t = o(r(d[2])),
       c = o(r(d[3]));
   },
-  812,
-  [1, 56, 1117, 1344]
+  810,
+  [1, 56, 1125, 1352]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30812,8 +30872,8 @@ __d(
             );
           };
   },
-  814,
-  [140, 806]
+  812,
+  [140, 804]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -30939,8 +30999,8 @@ __d(
       _ = (_e.DEFAULT_ICON_SIZE = 12),
       I = (_e.DEFAULT_ICON_COLOR = "black");
   },
-  815,
-  [1, 238, 140, 1157, 1286, 1117, 1224, 1166, 816, 817, 818, 286]
+  813,
+  [1, 239, 140, 1165, 1294, 1125, 1232, 1174, 814, 815, 816, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30955,8 +31015,8 @@ __d(
     var t = o(r(d[1]));
     const n = t.default.RNVectorIconsManager || t.default.RNVectorIconsModule;
   },
-  816,
-  [1, 1166]
+  814,
+  [1, 1174]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -30978,7 +31038,7 @@ __d(
     const t = "value",
       n = "error";
   },
-  817,
+  815,
   []
 );
 __d(
@@ -31120,8 +31180,8 @@ __d(
         "tvParallaxProperties",
       ];
   },
-  818,
-  [1, 238, 140, 1109, 1224, 1345, 1199, 819, 286]
+  816,
+  [1, 239, 140, 1117, 1232, 1353, 1207, 817, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -31139,7 +31199,7 @@ __d(
       },
     };
   },
-  819,
+  817,
   []
 );
 __d(
@@ -31147,7 +31207,7 @@ __d(
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/AntDesign.3a2ba31570920eeb9b1d217cabe58315.ttf";
   },
-  820,
+  818,
   []
 );
 __d(
@@ -31453,7 +31513,7 @@ __d(
       "slack-square": 59142,
     };
   },
-  821,
+  819,
   []
 );
 __d(
@@ -31465,15 +31525,15 @@ __d(
       l = t(r(d[3]));
     e.default = (0, u.default)(l.default, "entypo", f.default);
   },
-  822,
-  [1, 804, 823, 824]
+  820,
+  [1, 802, 821, 822]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Entypo.31b5ffea3daddc69dd01a1f3d6cf63c5.ttf";
   },
-  823,
+  821,
   []
 );
 __d(
@@ -31892,7 +31952,7 @@ __d(
       "youtube-with-circle": 62106,
     };
   },
-  824,
+  822,
   []
 );
 __d(
@@ -31904,15 +31964,15 @@ __d(
       f = l(r(d[3]));
     e.default = (0, t.default)(f.default, "evilicons", u.default);
   },
-  825,
-  [1, 804, 826, 827]
+  823,
+  [1, 802, 824, 825]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/EvilIcons.140c53a7643ea949007aa9a282153849.ttf";
   },
-  826,
+  824,
   []
 );
 __d(
@@ -31990,7 +32050,7 @@ __d(
       user: 61765,
     };
   },
-  827,
+  825,
   []
 );
 __d(
@@ -32002,15 +32062,15 @@ __d(
       l = t(r(d[3]));
     e.default = (0, f.default)(l.default, "feather", u.default);
   },
-  828,
-  [1, 804, 829, 830]
+  826,
+  [1, 802, 827, 828]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Feather.a76d309774d33d9856f650bed4292a23.ttf";
   },
-  829,
+  827,
   []
 );
 __d(
@@ -32304,7 +32364,7 @@ __d(
       "zoom-out": 61981,
     };
   },
-  830,
+  828,
   []
 );
 __d(
@@ -32317,15 +32377,15 @@ __d(
     const o = (0, u.default)(l.default, "Fontisto", f.default);
     e.default = o;
   },
-  831,
-  [1, 804, 832, 833]
+  829,
+  [1, 802, 830, 831]
 );
 __d(
   function (o, e, t, c, a, n, s) {
     a.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Fontisto.b49ae8ab2dbccb02c4d11caaacf09eab.ttf";
   },
-  832,
+  830,
   []
 );
 __d(
@@ -32950,7 +33010,7 @@ __d(
       shield: 59914,
     };
   },
-  833,
+  831,
   []
 );
 __d(
@@ -32962,15 +33022,15 @@ __d(
       l = t(r(d[3]));
     e.default = (0, u.default)(l.default, "FontAwesome", f.default);
   },
-  834,
-  [1, 804, 835, 836]
+  832,
+  [1, 802, 833, 834]
 );
 __d(
   function (e, o, t, n, s, c, d) {
     s.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.b06871f281fee6b241d60582ae9369b9.ttf";
   },
-  835,
+  833,
   []
 );
 __d(
@@ -33764,7 +33824,7 @@ __d(
       meetup: 62176,
     };
   },
-  836,
+  834,
   []
 );
 __d(
@@ -33791,8 +33851,8 @@ __d(
         (0, t.createFA5iconSet)(u.default, o.default, n, !1));
     e.default = f;
   },
-  837,
-  [1, 838, 840, 841, 842, 843, 844]
+  835,
+  [1, 836, 838, 839, 840, 841, 842]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -33841,8 +33901,8 @@ __d(
       brand: "brand",
     };
   },
-  838,
-  [1, 1157, 839]
+  836,
+  [1, 1165, 837]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -33960,8 +34020,8 @@ __d(
       })(_r(d[1])),
       n = t(_r(d[2]));
   },
-  839,
-  [1, 140, 804]
+  837,
+  [1, 140, 802]
 );
 __d(
   function (e, a, r, o, s, t, i) {
@@ -35427,7 +35487,7 @@ __d(
       zhihu: 63039,
     };
   },
-  840,
+  838,
   []
 );
 __d(
@@ -37053,7 +37113,7 @@ __d(
       ],
     };
   },
-  841,
+  839,
   []
 );
 __d(
@@ -37061,7 +37121,7 @@ __d(
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Regular.1f77739ca9ff2188b539c36f30ffa2be.ttf";
   },
-  842,
+  840,
   []
 );
 __d(
@@ -37069,7 +37129,7 @@ __d(
     n.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Solid.605ed7926cf39a2ad5ec2d1f9d391d3d.ttf";
   },
-  843,
+  841,
   []
 );
 __d(
@@ -37077,7 +37137,7 @@ __d(
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome5_Brands.3b89dd103490708d19a95adcae52210e.ttf";
   },
-  844,
+  842,
   []
 );
 __d(
@@ -37114,8 +37174,8 @@ __d(
         (0, l.createFA6iconSet)(h.default, o.default, n, !1));
     e.default = u;
   },
-  845,
-  [1, 846, 847, 848, 849, 850, 851]
+  843,
+  [1, 844, 845, 846, 847, 848, 849]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -37189,8 +37249,8 @@ __d(
       thin: "thin",
     };
   },
-  846,
-  [1, 1157, 839]
+  844,
+  [1, 1165, 837]
 );
 __d(
   function (e, a, r, o, t, s, l) {
@@ -39679,7 +39739,7 @@ __d(
       "steam-symbol": 62454,
     };
   },
-  847,
+  845,
   []
 );
 __d(
@@ -41743,7 +41803,7 @@ __d(
       ],
     };
   },
-  848,
+  846,
   []
 );
 __d(
@@ -41751,7 +41811,7 @@ __d(
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Regular.370dd5af19f8364907b6e2c41f45dbbf.ttf";
   },
-  849,
+  847,
   []
 );
 __d(
@@ -41759,7 +41819,7 @@ __d(
     d.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Solid.adec7d6f310bc577f05e8fe06a5daccf.ttf";
   },
-  850,
+  848,
   []
 );
 __d(
@@ -41767,7 +41827,7 @@ __d(
     s.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Brands.56c8d80832e37783f12c05db7c8849e2.ttf";
   },
-  851,
+  849,
   []
 );
 __d(
@@ -41779,15 +41839,15 @@ __d(
       l = t(r(d[3]));
     e.default = (0, u.default)(l.default, "foundation", f.default);
   },
-  852,
-  [1, 804, 853, 854]
+  850,
+  [1, 802, 851, 852]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Foundation.e20945d7c929279ef7a6f1db184a4470.ttf";
   },
-  853,
+  851,
   []
 );
 __d(
@@ -42078,7 +42138,7 @@ __d(
       "zoom-out": 61978,
     };
   },
-  854,
+  852,
   []
 );
 __d(
@@ -42090,15 +42150,15 @@ __d(
       l = t(r(d[3]));
     e.default = (0, u.default)(l.default, "ionicons", f.default);
   },
-  855,
-  [1, 804, 856, 857]
+  853,
+  [1, 802, 854, 855]
 );
 __d(
   function (o, e, n, t, c, s, d) {
     c.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.6148e7019854f3bde85b633cb88f3c25.ttf";
   },
-  856,
+  854,
   []
 );
 __d(
@@ -43444,7 +43504,7 @@ __d(
       "woman-sharp": 61242,
     };
   },
-  857,
+  855,
   []
 );
 __d(
@@ -43456,15 +43516,15 @@ __d(
       f = t(r(d[3]));
     e.default = (0, u.default)(f.default, "material-community", l.default);
   },
-  858,
-  [1, 804, 859, 860]
+  856,
+  [1, 802, 857, 858]
 );
 __d(
   function (e, o, t, n, c, s, a) {
     c.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.b62641afc9ab487008e996a5c5865e56.ttf";
   },
-  859,
+  857,
   []
 );
 __d(
@@ -50068,7 +50128,7 @@ __d(
       blank: 63116,
     };
   },
-  860,
+  858,
   []
 );
 __d(
@@ -50080,15 +50140,15 @@ __d(
       f = t(r(d[3]));
     e.default = (0, l.default)(f.default, "material", u.default);
   },
-  861,
-  [1, 804, 862, 863]
+  859,
+  [1, 802, 860, 861]
 );
 __d(
   function (e, c, o, t, n, s, i) {
     n.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialIcons.4e85bc9ebe07e0340c9c4fc2f6c38908.ttf";
   },
-  862,
+  860,
   []
 );
 __d(
@@ -52330,7 +52390,7 @@ __d(
       "zoom-out-map": 58731,
     };
   },
-  863,
+  861,
   []
 );
 __d(
@@ -52342,15 +52402,15 @@ __d(
       l = t(r(d[3]));
     e.default = (0, u.default)(l.default, "octicons", f.default);
   },
-  864,
-  [1, 804, 865, 866]
+  862,
+  [1, 802, 863, 864]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Octicons.f7c53c47a66934504fcbc7cc164895a7.ttf";
   },
-  865,
+  863,
   []
 );
 __d(
@@ -52608,7 +52668,7 @@ __d(
       zap: 61978,
     };
   },
-  866,
+  864,
   []
 );
 __d(
@@ -52620,15 +52680,15 @@ __d(
       f = l(r(d[3]));
     e.default = (0, t.default)(f.default, "simple-line-icons", u.default);
   },
-  867,
-  [1, 804, 868, 869]
+  865,
+  [1, 802, 866, 867]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/SimpleLineIcons.d2285965fe34b05465047401b8595dd0.ttf";
   },
-  868,
+  866,
   []
 );
 __d(
@@ -52825,7 +52885,7 @@ __d(
       "social-steam": 58912,
     };
   },
-  869,
+  867,
   []
 );
 __d(
@@ -52837,15 +52897,15 @@ __d(
       f = l(r(d[3]));
     e.default = (0, t.default)(f.default, "zocial", u.default);
   },
-  870,
-  [1, 804, 871, 872]
+  868,
+  [1, 802, 869, 870]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports =
       "/jacobs-apps/griddier-web-app/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Zocial.1681f34aaca71b8dfb70756bca331eb2.ttf";
   },
-  871,
+  869,
   []
 );
 __d(
@@ -52953,7 +53013,7 @@ __d(
       youtube: 61795,
     };
   },
-  872,
+  870,
   []
 );
 __d(
@@ -52965,8 +53025,8 @@ __d(
       });
     var u = t(r(d[1]));
   },
-  873,
-  [1, 874]
+  871,
+  [1, 872]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -52982,8 +53042,8 @@ __d(
       });
     var n = t(r(d[1]));
   },
-  874,
-  [1, 815]
+  872,
+  [1, 813]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -53001,8 +53061,8 @@ __d(
       });
     var o = t(r(d[1]));
   },
-  875,
-  [1, 804]
+  873,
+  [1, 802]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -53022,25 +53082,25 @@ __d(
         p = (0, D.default)();
       return (c, D = !0, v = !1) => {
         const y = p(c)?.individualHandDrillingData,
-          b = (0, f.default)(new Date()),
-          j = new Date();
-        j.setDate(j.getDate() + 1);
-        const H = l.GridData[c].featured,
-          O = p(c).dueDate === (0, h.default)(j);
+          H = (0, f.default)(new Date()),
+          b = new Date();
+        b.setDate(b.getDate() + 1);
+        const j = l.GridData[c].featured,
+          O = p(c).dueDate === (0, h.default)(b);
         let _ = v
-          ? [...H]
+          ? [...j]
           : y && Object.keys(y).length > 0
           ? O
             ? Object.entries(y)
-                .filter(([t, { due: l }]) => (0, u.default)(l) <= j)
-                .map(([t]) => t)
-            : Object.entries(y)
                 .filter(([t, { due: l }]) => (0, u.default)(l) <= b)
                 .map(([t]) => t)
-          : [...H];
+            : Object.entries(y)
+                .filter(([t, { due: l }]) => (0, u.default)(l) <= H)
+                .map(([t]) => t)
+          : [...j];
         if (_.length < 10) {
           const t = 10 - _.length,
-            l = (0, n.fisherYatesShuffle)(H.filter((t) => !_.includes(t)));
+            l = (0, n.fisherYatesShuffle)(j.filter((t) => !_.includes(t)));
           _.push(...l.slice(0, t));
         }
         return (
@@ -53050,6 +53110,7 @@ __d(
               : (0, o.sortHands)(_)),
           t((0, s.setRepeatsArray)([])),
           t((0, s.setTimePlaying)(0)),
+          t((0, s.setHandsPlayed)(0)),
           t((0, s.setFilteredHandsArray)(_)),
           t((0, s.setFilteredHandsData)({})),
           _
@@ -53057,8 +53118,8 @@ __d(
       };
     };
   },
-  876,
-  [1, 594, 593, 877, 601, 600, 1181, 630, 598, 801]
+  874,
+  [1, 591, 590, 875, 599, 598, 1189, 628, 596, 799]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -53073,7 +53134,7 @@ __d(
       return f;
     };
   },
-  877,
+  875,
   []
 );
 __d(
@@ -53149,8 +53210,8 @@ __d(
       });
     };
   },
-  878,
-  [1, 593, 879, 623, 625, 1224, 1199, 1181, 679, 286]
+  876,
+  [1, 590, 877, 621, 623, 1232, 1207, 1189, 677, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -53184,7 +53245,7 @@ __d(
       };
     };
   },
-  879,
+  877,
   []
 );
 __d(
@@ -53197,84 +53258,100 @@ __d(
       s = r(d[4]),
       n = e(r(d[5])),
       l = e(r(d[6])),
-      c = e(r(d[7])),
-      u = e(r(d[8])),
+      u = e(r(d[7])),
+      c = e(r(d[8])),
       f = r(d[9]),
-      p = e(r(d[10])),
-      w = r(d[11]);
-    const y = r(d[12]),
-      { base: h } = (0, l.default)(),
-      { BLUE: v, PRIMARY: x, SECONDARY: C } = c.default,
-      b = ({
+      h = e(r(d[10])),
+      p = r(d[11]),
+      w = r(d[12]),
+      y = e(r(d[13])),
+      v = r(d[14]);
+    const x = r(d[15]),
+      { base: C } = (0, l.default)(),
+      { BLUE: k, PRIMARY: b, SECONDARY: L } = u.default,
+      P = ({
         text: e,
         onPress: l,
-        scale: c = 0.9,
-        color: v = C,
-        locked: b,
-        shadow: k = x,
-        shortcutKey: j,
+        scale: u = 0.9,
+        color: k = L,
+        locked: P,
+        shadow: j = b,
+        shortcutKey: B,
+        gridName: D,
       }) => {
-        const B = !!j,
-          L = b
+        const E = !!B,
+          S = P
             ? () =>
-                u.default.show({
+                c.default.show({
                   type: "success",
-                  text1: "Locked",
-                  text2: "Complete previous levels!",
-                  visibilityTime: 2e3,
-                  text1Style: { fontSize: 20 * h },
-                  text2Style: { fontSize: 17 * h },
+                  text1: "Locked: Complete previous levels",
+                  text2: "Press & hold to unlock",
+                  visibilityTime: 2500,
+                  text1Style: { fontSize: 20 * C },
+                  text2Style: { fontSize: 17 * C },
                 })
             : l,
-          P = (0, p.default)();
+          M = (0, p.useDispatch)(),
+          R = (0, y.default)(new Date()),
+          T =
+            P && D
+              ? () => {
+                  M((0, w.updateDataEntry)({ gridName: D, dueDate: R }));
+                }
+              : l,
+          _ = (0, h.default)();
         return (
           (0, f.useEffect)(() => {
-            if (!B) return;
+            if (!E) return;
             const e = (e) => {
-              e.key.toLowerCase() === j.toLowerCase() &&
-                (e.preventDefault(), P(), L?.());
+              e.key.toLowerCase() === B.toLowerCase() &&
+                (e.preventDefault(), _(), S?.());
             };
             return (
               window.addEventListener("keydown", e),
               () => window.removeEventListener("keydown", e)
             );
-          }, [j, L]),
-          (0, w.jsx)(o.AppPressable, {
+          }, [B, S]),
+          (0, v.jsx)(o.AppTouchable, {
             style: Object.assign(
-              { alignItems: "center", borderRadius: 8 * h, marginTop: 10 * h },
-              (0, n.default)(k),
-              { paddingVertical: 12 * h * c, backgroundColor: v, width: "100%" }
+              { alignItems: "center", borderRadius: 8 * C, marginTop: 10 * C },
+              (0, n.default)(j),
+              { paddingVertical: 12 * C * u, backgroundColor: k, width: "100%" }
             ),
-            onPress: L,
-            children: b
-              ? (0, w.jsx)(t.default, {
-                  source: y,
+            onPress: S,
+            onLongPress: T,
+            children: P
+              ? (0, v.jsx)(t.default, {
+                  source: x,
                   resizeMode: "contain",
-                  style: { height: 21 * h * c, width: 21 * h * c },
+                  style: { height: 21 * C * u, width: 21 * C * u },
                 })
-              : (0, w.jsxs)(s.WhiteTextBold, {
-                  s: 20 * c,
+              : (0, v.jsxs)(s.WhiteTextBold, {
+                  s: 20 * u,
                   children: [
                     e,
-                    B && ` [${" " === j ? "Space" : j.toUpperCase()}]`,
+                    E && ` [${" " === B ? "Space" : B.toUpperCase()}]`,
                   ],
                 }),
           })
         );
       };
-    _e.ModalButton = b;
+    _e.ModalButton = P;
     _e.CloseButton = ({ onClose: e }) =>
-      (0, w.jsx)(b, {
+      (0, v.jsx)(P, {
         text: "Close",
         onPress: e,
         scale: 0.75,
-        color: v,
+        color: k,
         locked: !1,
         shortcutKey: "c",
       });
   },
-  880,
-  [1, 1284, 1157, 679, 881, 624, 625, 623, 631, 140, 660, 286, 926]
+  878,
+  [
+    1, 1292, 1165, 677, 879, 622, 623, 621, 629, 140, 658, 1189, 593, 596, 288,
+    924,
+  ]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -53341,8 +53418,8 @@ __d(
   padding-right: ${5 * f}px;
 `);
   },
-  881,
-  [1, 623, 625, 1224, 1346, 286]
+  879,
+  [1, 621, 623, 1232, 1354, 288]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -53860,8 +53937,8 @@ __d(
       (e.getStylesForProperty = ve),
       (e.transformRawValue = he);
   },
-  883,
-  [884, 889, 890]
+  881,
+  [882, 887, 888]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -53882,8 +53959,8 @@ __d(
       (s.stringify = o),
       (m.exports = s);
   },
-  884,
-  [885, 886, 887, 888]
+  882,
+  [883, 884, 885, 886]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -54121,7 +54198,7 @@ __d(
       return D[0].nodes;
     };
   },
-  885,
+  883,
   []
 );
 __d(
@@ -54138,7 +54215,7 @@ __d(
           f && t(c, i, o);
     };
   },
-  886,
+  884,
   []
 );
 __d(
@@ -54180,7 +54257,7 @@ __d(
     }
     m.exports = o;
   },
-  887,
+  885,
   []
 );
 __d(
@@ -54238,7 +54315,7 @@ __d(
       return { number: n.slice(0, l), unit: n.slice(l) };
     };
   },
-  888,
+  886,
   []
 );
 __d(
@@ -54297,7 +54374,7 @@ __d(
       return o;
     }
   },
-  889,
+  887,
   []
 );
 __d(
@@ -54305,8 +54382,8 @@ __d(
     "use strict";
     m.exports = r(d[0]);
   },
-  890,
-  [891]
+  888,
+  [889]
 );
 __d(
   function (e, f, a, d, r, l, i) {
@@ -54459,7 +54536,7 @@ __d(
       rebeccapurple: "#663399",
     };
   },
-  891,
+  889,
   []
 );
 __d(
@@ -54542,10 +54619,10 @@ __d(
       (m.exports = x),
       (x.default = x);
   },
-  892,
+  890,
   [
-    893, 895, 894, 897, 903, 904, 905, 906, 911, 910, 896, 913, 919, 916, 908,
-    909, 901, 917,
+    891, 893, 892, 895, 901, 902, 903, 904, 909, 908, 894, 911, 917, 914, 906,
+    907, 899, 915,
   ]
 );
 __d(
@@ -54565,8 +54642,8 @@ __d(
     }
     (m.exports = t), (t.default = t), s.registerAtRule(t);
   },
-  893,
-  [894]
+  891,
+  [892]
 );
 __d(
   function (g, r, _i, a, m, _e, d) {
@@ -54855,8 +54932,8 @@ __d(
             });
       });
   },
-  894,
-  [895, 903, 896, 902]
+  892,
+  [893, 901, 894, 900]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -54869,8 +54946,8 @@ __d(
     }
     (m.exports = s), (s.default = s);
   },
-  895,
-  [896]
+  893,
+  [894]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -55152,8 +55229,8 @@ __d(
     }
     (m.exports = h), (h.default = h);
   },
-  896,
-  [897, 900, 901, 902]
+  894,
+  [895, 898, 899, 900]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -55237,8 +55314,8 @@ __d(
     }
     (m.exports = n), (n.default = n);
   },
-  897,
-  [898, 899]
+  895,
+  [896, 897]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -55291,10 +55368,10 @@ __d(
       };
     (m.exports = h()), (m.exports.createColors = h);
   },
-  898,
+  896,
   []
 );
-__d(function (g, r, i, a, m, e, d) {}, 899, []);
+__d(function (g, r, i, a, m, e, d) {}, 897, []);
 __d(
   function (g, r, _i, a, m, e, d) {
     "use strict";
@@ -55570,7 +55647,7 @@ __d(
     }
     (m.exports = n), (n.default = n);
   },
-  900,
+  898,
   []
 );
 __d(
@@ -55582,15 +55659,15 @@ __d(
     }
     (m.exports = n), (n.default = n);
   },
-  901,
-  [900]
+  899,
+  [898]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     "use strict";
     (m.exports.isClean = Symbol("isClean")), (m.exports.my = Symbol("my"));
   },
-  902,
+  900,
   []
 );
 __d(
@@ -55612,8 +55689,8 @@ __d(
     }
     (m.exports = s), (s.default = s);
   },
-  903,
-  [896]
+  901,
+  [894]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -55639,8 +55716,8 @@ __d(
       (m.exports = o),
       (o.default = o);
   },
-  904,
-  [894]
+  902,
+  [892]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -55683,8 +55760,8 @@ __d(
     }
     (m.exports = _), (_.default = _);
   },
-  905,
-  [238, 893, 895, 903, 906, 907, 908, 909]
+  903,
+  [239, 891, 893, 901, 904, 905, 906, 907]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -55862,8 +55939,8 @@ __d(
       (w.default = w),
       h && h.registerInput && h.registerInput(w);
   },
-  906,
-  [690, 899, 899, 899, 897, 907, 899]
+  904,
+  [688, 897, 897, 897, 895, 905, 897]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -55972,8 +56049,8 @@ __d(
     }
     (m.exports = h), (h.default = h);
   },
-  907,
-  [899, 899, 899]
+  905,
+  [897, 897, 897]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -56020,8 +56097,8 @@ __d(
       (n.default = n),
       o.registerRoot(n);
   },
-  908,
-  [894]
+  906,
+  [892]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -56043,8 +56120,8 @@ __d(
     }
     (m.exports = o), (o.default = o), t.registerRule(o);
   },
-  909,
-  [894, 910]
+  907,
+  [892, 908]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -56080,7 +56157,7 @@ __d(
     };
     (m.exports = t), (t.default = t);
   },
-  910,
+  908,
   []
 );
 __d(
@@ -56453,8 +56530,8 @@ __d(
       o.registerLazyResult(O),
       e.registerLazyResult(O);
   },
-  911,
-  [894, 904, 912, 913, 916, 908, 901, 902, 918]
+  909,
+  [892, 902, 910, 911, 914, 906, 899, 900, 916]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -56728,8 +56805,8 @@ __d(
       }
     };
   },
-  912,
-  [899, 899, 899, 906]
+  910,
+  [897, 897, 897, 904]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -56749,8 +56826,8 @@ __d(
     }
     (m.exports = o), (o.default = o), t.registerParse(o);
   },
-  913,
-  [894, 906, 914]
+  911,
+  [892, 904, 912]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -57189,8 +57266,8 @@ __d(
       }
     };
   },
-  914,
-  [893, 895, 903, 908, 909, 915]
+  912,
+  [891, 893, 901, 906, 907, 913]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57366,7 +57443,7 @@ __d(
       };
     };
   },
-  915,
+  913,
   []
 );
 __d(
@@ -57402,8 +57479,8 @@ __d(
     }
     (m.exports = t), (t.default = t);
   },
-  916,
-  [917]
+  914,
+  [915]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57435,7 +57512,7 @@ __d(
     }
     (m.exports = t), (t.default = t);
   },
-  917,
+  915,
   []
 );
 __d(
@@ -57448,7 +57525,7 @@ __d(
         "undefined" != typeof console && console.warn && console.warn(o));
     };
   },
-  918,
+  916,
   []
 );
 __d(
@@ -57490,8 +57567,8 @@ __d(
       o.registerProcessor(n),
       s.registerProcessor(n);
   },
-  919,
-  [904, 911, 920, 908]
+  917,
+  [902, 909, 918, 906]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57581,8 +57658,8 @@ __d(
     }
     (m.exports = n), (n.default = n);
   },
-  920,
-  [912, 913, 916, 901, 918]
+  918,
+  [910, 911, 914, 899, 916]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57612,7 +57689,7 @@ __d(
       return !0;
     };
   },
-  922,
+  920,
   []
 );
 __d(
@@ -57620,8 +57697,8 @@ __d(
     "use strict";
     m.exports = r(d[0]);
   },
-  924,
-  [925]
+  922,
+  [923]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57676,7 +57753,7 @@ __d(
       strokeWidth: 1,
     };
   },
-  925,
+  923,
   []
 );
 __d(
@@ -57687,7 +57764,7 @@ __d(
       height: 512,
     };
   },
-  926,
+  924,
   []
 );
 __d(
@@ -57727,20 +57804,26 @@ __d(
         ],
       });
   },
-  927,
-  [1, 1199, 881, 625, 928, 929, 286]
+  925,
+  [1, 1207, 879, 623, 926, 927, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 }),
       (e.default = function (t) {
-        const n = Math.round(t / 1e3),
-          o = Math.floor(n / 60),
-          u = n % 60;
-        return 0 !== t ? `${o}:${u.toString().padStart(2, "0")}` : "-:--";
+        if (0 === t) return "-:--";
+        const o = Math.round(t / 1e3),
+          n = Math.floor(o / 3600),
+          u = Math.floor((o % 3600) / 60),
+          f = o % 60;
+        return n > 0
+          ? `${n}:${u.toString().padStart(2, "0")}:${f
+              .toString()
+              .padStart(2, "0")}`
+          : `${u}:${f.toString().padStart(2, "0")}`;
       });
   },
-  928,
+  926,
   []
 );
 __d(
@@ -57762,8 +57845,8 @@ __d(
     var n = t(r(d[1])),
       o = t(r(d[2]));
   },
-  929,
-  [1, 598, 601]
+  927,
+  [1, 596, 599]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57818,8 +57901,8 @@ __d(
         ],
       });
   },
-  930,
-  [1, 625, 1224, 1199, 931, 286]
+  928,
+  [1, 623, 1232, 1207, 929, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57849,8 +57932,8 @@ __d(
       });
     };
   },
-  931,
-  [1, 625, 1284, 1199, 286, 932]
+  929,
+  [1, 623, 1292, 1207, 288, 930]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -57860,7 +57943,7 @@ __d(
       height: 512,
     };
   },
-  932,
+  930,
   []
 );
 __d(
@@ -57870,85 +57953,145 @@ __d(
     t(r(d[1]));
     var s = t(r(d[2])),
       l = r(d[3]),
-      n = t(r(d[4])),
-      o = t(r(d[5])),
-      u = t(r(d[6])),
-      c = r(d[7]),
+      o = t(r(d[4])),
+      n = t(r(d[5])),
+      c = t(r(d[6])),
+      u = r(d[7]),
       x = r(d[8]),
       f = r(d[9]),
-      j = t(r(d[10])),
-      h = t(r(d[11])),
+      h = t(r(d[10])),
+      j = t(r(d[11])),
       v = t(r(d[12])),
       N = r(d[13]),
       y = r(d[14]),
-      E = t(r(d[15])),
+      D = t(r(d[15])),
       G = r(d[16]),
-      R = t(r(d[17])),
-      b = r(d[18]),
-      p = r(d[19]);
-    const { base: D } = (0, R.default)(),
-      { GREEN: M, DARKRED: S } = j.default;
-    e.default = ({ visible: t, dataEntry: R }) => {
-      const T = (0, l.useDispatch)(),
-        O = (0, h.default)(),
-        _ = (0, f.useNavigation)(),
-        { dataEntries: k } = (0, l.useSelector)(x.selectUserDataState);
-      if (!R) return null;
-      const B = (0, u.default)(k)[0].gridName,
+      E = t(r(d[17])),
+      R = r(d[18]),
+      p = t(r(d[19])),
+      M = r(d[20]);
+    const { base: k } = (0, E.default)(),
+      { GREEN: b, TURQ: B, DARKRED: K } = h.default;
+    e.default = ({ visible: t, dataEntry: E }) => {
+      const P = (0, l.useDispatch)(),
+        S = (0, j.default)(),
+        T = (0, f.useNavigation)(),
+        { dataEntries: w } = (0, l.useSelector)(x.selectUserDataState);
+      if (!E) return null;
+      const L = (0, c.default)(w)[0],
+        O = L.gridName,
+        _ = 0 !== L.timeDrilling || 0 === w.filter((t) => t.level <= 1).length,
         C = (t) => {
-          T((0, c.resetStartTime)()),
-            T((0, c.resetActions)()),
-            T((0, c.resetIndex)()),
-            T((0, c.setSuccessModal)(!1)),
-            T((0, c.setFeedback)(!1)),
-            t || T((0, c.setShowRangeModal)(!0));
+          P((0, u.resetStartTime)()),
+            P((0, u.resetActions)()),
+            P((0, u.resetIndex)()),
+            P((0, u.setSuccessModal)(!1)),
+            P((0, u.setFeedback)(!1)),
+            t || P((0, u.setShowRangeModal)(!0));
+        },
+        F = () => {
+          S(E.gridName), C();
         };
-      return (0, p.jsx)(s.default, {
+      return (0, M.jsx)(s.default, {
         visible: t,
         transparent: !0,
         animationType: "slide",
-        children: (0, p.jsx)(y.Overlay, {
-          children: (0, p.jsxs)(y.Container, {
-            color: j.default.GOLD,
+        children: (0, M.jsx)(y.Overlay, {
+          children: (0, M.jsxs)(y.Container, {
+            color: h.default.GOLD,
             children: [
-              (0, p.jsx)(y.RangeModalTitle, { dataEntry: R }),
-              (0, p.jsx)(n.default, { name: R.gridName }),
-              (0, p.jsx)(v.default, {
-                handsObject: N.GridData[R.gridName].hands,
+              (0, M.jsx)(y.RangeModalTitle, { dataEntry: E }),
+              (0, M.jsx)(o.default, { name: E.gridName }),
+              (0, M.jsx)(v.default, {
+                handsObject: N.GridData[E.gridName].hands,
               }),
-              (0, p.jsx)(E.default, { dataEntry: R }),
-              (0, p.jsx)(G.InstructionText, {
+              (0, M.jsx)(D.default, { dataEntry: E }),
+              (0, M.jsx)(G.InstructionText, {
                 children:
                   "Success! You have memorized this grid and updated it to..",
               }),
-              (0, p.jsx)(G.InstructionText, { children: `Level ${R.level}` }),
-              (0, p.jsx)(o.default, { stars: R.level, size: 25 * D }),
-              (0, p.jsx)(b.ModalButton, {
-                text: "Next Grid",
-                onPress: () => {
-                  T((0, c.setGridName)(B)), O(B), C();
-                },
-                scale: 1,
-                color: M,
-                locked: !1,
-                shortcutKey: " ",
-              }),
-              (0, p.jsx)(b.ModalButton, {
-                text: "Repeat Grid",
-                onPress: () => {
-                  O(R.gridName), C();
-                },
-                scale: 0.9,
-                color: S,
-                locked: !1,
-                shortcutKey: "r",
-              }),
-              (0, p.jsx)(b.CloseButton, {
+              (0, M.jsx)(G.InstructionText, { children: `Level ${E.level}` }),
+              (0, M.jsx)(n.default, { stars: E.level, size: 25 * k }),
+              _
+                ? (0, M.jsxs)(M.Fragment, {
+                    children: [
+                      (0, M.jsx)(R.ModalButton, {
+                        text: "Next Grid",
+                        onPress: () => {
+                          P((0, u.setGridName)(O)), S(O), C();
+                        },
+                        scale: 1,
+                        color: b,
+                        locked: !1,
+                        shortcutKey: " ",
+                      }),
+                      (0, M.jsx)(R.ModalButton, {
+                        text: "Repeat Grid",
+                        onPress: F,
+                        scale: 0.9,
+                        color: K,
+                        locked: !1,
+                        shortcutKey: "r",
+                      }),
+                    ],
+                  })
+                : (0, M.jsxs)(M.Fragment, {
+                    children: [
+                      (0, M.jsx)(R.ModalButton, {
+                        text: "Revise Low Level Grids",
+                        onPress: () => {
+                          const t = w.filter((t) => 1 === t.level);
+                          t.forEach((t) => {
+                            P(
+                              (0, x.updateDataEntry)({
+                                gridName: t.gridName,
+                                level: 0,
+                                dueDate: (0, p.default)(new Date()),
+                              })
+                            );
+                          });
+                          const s = (0, c.default)(t)[0].gridName;
+                          P((0, u.setGridName)(s)), S(s), C();
+                        },
+                        scale: 1,
+                        color: b,
+                        locked: !1,
+                        shortcutKey: " ",
+                      }),
+                      (0, M.jsx)(R.ModalButton, {
+                        text: "Unlock a new Grid",
+                        onPress: () => {
+                          P(
+                            (0, x.updateDataEntry)({
+                              gridName: O,
+                              dueDate: (0, p.default)(new Date()),
+                            })
+                          ),
+                            P((0, u.setGridName)(O)),
+                            S(O),
+                            C();
+                        },
+                        scale: 0.9,
+                        color: B,
+                        locked: !1,
+                        shortcutKey: "r",
+                      }),
+                      (0, M.jsx)(R.ModalButton, {
+                        text: "Repeat Grid",
+                        onPress: F,
+                        scale: 0.8,
+                        color: K,
+                        locked: !1,
+                        shortcutKey: "r",
+                      }),
+                    ],
+                  }),
+              (0, M.jsx)(R.CloseButton, {
                 onClose: () => {
-                  T((0, c.setGridName)(B)),
-                    O(B),
+                  P((0, u.setGridName)(O)),
+                    S(O),
                     C(!0),
-                    _.navigate("Ranges List");
+                    T.navigate("Ranges List");
                 },
               }),
             ],
@@ -57957,10 +58100,10 @@ __d(
       });
     };
   },
-  933,
+  931,
   [
-    1, 140, 1335, 1181, 800, 931, 599, 593, 595, 683, 623, 876, 878, 594, 930,
-    927, 881, 625, 880, 286,
+    1, 140, 1343, 1189, 798, 929, 597, 590, 593, 681, 621, 874, 876, 591, 928,
+    925, 879, 623, 878, 596, 288,
   ]
 );
 __d(
@@ -57994,8 +58137,8 @@ __d(
       content: { flex: 1 },
     });
   },
-  934,
-  [1, 140, 1109, 1199, 935, 623, 286]
+  932,
+  [1, 140, 1117, 1207, 933, 621, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58044,8 +58187,8 @@ __d(
     }
     e.LinearGradient = h;
   },
-  935,
-  [1, 238, 140, 1157, 1117, 1397, 286]
+  933,
+  [1, 239, 140, 1165, 1125, 1405, 288]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -58053,8 +58196,8 @@ __d(
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
     var s = t(r(d[1])),
       o = t(r(d[2])),
-      c = t(r(d[3])),
-      i = t(r(d[4])),
+      i = t(r(d[3])),
+      c = t(r(d[4])),
       b = r(d[5]),
       l = r(d[6]);
     const { width: n, base: h } = (0, o.default)();
@@ -58093,7 +58236,7 @@ __d(
           "right-top",
           "right-bottom",
         ];
-      return (0, l.jsxs)(c.default, {
+      return (0, l.jsxs)(i.default, {
         style: {
           width: f,
           height: 1.5 * f,
@@ -58102,13 +58245,14 @@ __d(
           borderColor: s.default.CONTRAST,
           position: "relative",
           marginVertical: 10 * h,
+          marginTop: 40 * h,
           justifyContent: "center",
           alignItems: "center",
         },
         children: [
           j.map((t, s) =>
             (0, l.jsx)(
-              i.default,
+              c.default,
               {
                 name: t,
                 stack: B.stacks,
@@ -58126,8 +58270,8 @@ __d(
       });
     };
   },
-  937,
-  [1, 623, 625, 1199, 938, 681, 286]
+  935,
+  [1, 621, 623, 1207, 936, 679, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58202,8 +58346,8 @@ __d(
       });
     };
   },
-  938,
-  [1, 625, 1199, 881, 623, 939, 940, 941, 286]
+  936,
+  [1, 623, 1207, 879, 621, 937, 938, 939, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58243,8 +58387,8 @@ __d(
       });
     };
   },
-  939,
-  [1, 1199, 881, 623, 286]
+  937,
+  [1, 1207, 879, 621, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58289,8 +58433,8 @@ __d(
       });
     };
   },
-  940,
-  [1, 1199, 881, 623, 286]
+  938,
+  [1, 1207, 879, 621, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58328,8 +58472,55 @@ __d(
         ],
       });
   },
-  941,
-  [1, 623, 625, 1199, 286]
+  939,
+  [1, 621, 623, 1207, 288]
+);
+__d(
+  function (g, r, i, a, m, e, d) {
+    var t = r(d[0]);
+    Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
+    var s = t(r(d[1])),
+      l = r(d[2]),
+      n = t(r(d[3])),
+      c = r(d[4]),
+      u = r(d[5]),
+      o = r(d[6]),
+      f = r(d[7]),
+      h = r(d[8]),
+      y = r(d[9]);
+    e.default = () => {
+      const { startedPlaying: t } = (0, c.useSelector)(u.selectTrainerState),
+        { time: S, lastPlayed: v } = (0, c.useSelector)(f.selectTimerState),
+        j = (0, c.useDispatch)();
+      (0, o.useEffect)(() => {
+        const t = new Date().toISOString().slice(0, 10);
+        v !== t && j((0, f.resetTimer)()), j((0, f.updateLastPlayed)());
+      }, []),
+        (0, o.useEffect)(() => {
+          const s = setInterval(() => {
+            t && (0, h.timePassedSince)(t) < 10500 && j((0, f.incTimer)());
+          }, 1e3);
+          return () => clearInterval(s);
+        }, [t]);
+      const P = (0, n.default)(S);
+      return (0, y.jsx)(s.default, {
+        style: { width: "100%" },
+        children: (0, y.jsx)(s.default, {
+          style: {
+            position: "absolute",
+            right: 0,
+            width: 60,
+            height: 40,
+            alignItems: "center",
+            justifyContent: "center",
+          },
+          children: (0, y.jsx)(l.WhiteTextBold, { s: 25, children: P }),
+        }),
+      });
+    };
+  },
+  940,
+  [1, 1207, 879, 926, 1189, 590, 140, 592, 657, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58414,10 +58605,10 @@ __d(
       });
     };
   },
-  942,
+  941,
   [
-    1, 799, 943, 944, 595, 140, 1236, 1199, 1181, 949, 934, 623, 593, 950, 625,
-    286,
+    1, 797, 942, 943, 593, 140, 1244, 1207, 1189, 948, 932, 621, 590, 949, 623,
+    288,
   ]
 );
 __d(
@@ -58459,8 +58650,8 @@ __d(
       });
     };
   },
-  943,
-  [1, 623, 935, 286]
+  942,
+  [1, 621, 933, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58470,8 +58661,8 @@ __d(
       n = t(r(d[2])),
       s = t(r(d[3])),
       o = t(r(d[4])),
-      c = t(r(d[5])),
-      u = t(r(d[6])),
+      u = t(r(d[5])),
+      c = t(r(d[6])),
       f = t(r(d[7])),
       h = t(r(d[8])),
       j = r(d[9]),
@@ -58480,7 +58671,8 @@ __d(
     const y = r(d[12]),
       { base: p } = (0, b.default)();
     e.default = ({ dataEntry: t, selectFunction: b, showDeleteModal: w }) => {
-      const R = b;
+      const R = b,
+        C = "" === t.dueDate;
       return (0, x.jsxs)(j.AppTouchable, {
         style: Object.assign(
           { marginVertical: 8 * p, padding: 5 * p, width: "100%" },
@@ -58514,7 +58706,7 @@ __d(
                 },
                 children: t.gridName,
               }),
-              t.locked
+              C
                 ? (0, x.jsx)(n.default, {
                     source: y,
                     resizeMode: "contain",
@@ -58523,7 +58715,7 @@ __d(
                 : (0, x.jsx)(f.default, { date: t.dueDate }),
             ],
           }),
-          !t.locked &&
+          !C &&
             (0, x.jsxs)(o.default, {
               style: {
                 width: "100%",
@@ -58533,16 +58725,16 @@ __d(
                 padding: 5 * p,
               },
               children: [
-                (0, x.jsx)(c.default, { stars: t.level }),
-                (0, x.jsx)(u.default, { record: t.timeDrilling }),
+                (0, x.jsx)(u.default, { stars: t.level }),
+                (0, x.jsx)(c.default, { record: t.timeDrilling }),
               ],
             }),
         ],
       });
     };
   },
-  944,
-  [1, 624, 1284, 1224, 1199, 931, 945, 947, 623, 679, 625, 286, 926]
+  943,
+  [1, 622, 1292, 1232, 1207, 929, 944, 946, 621, 677, 623, 288, 924]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58577,8 +58769,8 @@ __d(
         ],
       });
   },
-  945,
-  [1, 623, 928, 625, 1284, 1224, 1199, 286, 946]
+  944,
+  [1, 621, 926, 623, 1292, 1232, 1207, 288, 945]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58588,7 +58780,7 @@ __d(
       height: 512,
     };
   },
-  946,
+  945,
   []
 );
 __d(
@@ -58632,8 +58824,8 @@ __d(
       });
     };
   },
-  947,
-  [1, 601, 1284, 1224, 1199, 929, 598, 623, 625, 286, 948]
+  946,
+  [1, 599, 1292, 1232, 1207, 927, 596, 621, 623, 288, 947]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58643,7 +58835,7 @@ __d(
       height: 512,
     };
   },
-  948,
+  947,
   []
 );
 __d(
@@ -58720,8 +58912,8 @@ __d(
         }),
       });
   },
-  949,
-  [1, 624, 1157, 1224, 1199, 615, 623, 679, 625, 286]
+  948,
+  [1, 622, 1165, 1232, 1207, 613, 621, 677, 623, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58737,8 +58929,8 @@ __d(
       f = t(r(d[8])),
       b = t(r(d[9])),
       h = r(d[10]),
-      p = r(d[11]),
-      y = r(d[12]),
+      y = r(d[11]),
+      p = r(d[12]),
       x = r(d[13]),
       j = t(r(d[14])),
       v = r(d[15]);
@@ -58750,7 +58942,7 @@ __d(
         CONTRAST: R,
       } = b.default,
       { base: z } = (0, j.default)(),
-      I = s.default.create({
+      P = s.default.create({
         overlay: {
           flex: 1,
           backgroundColor: "transparent",
@@ -58803,15 +58995,15 @@ __d(
       const j = (t) => {
         const n = x.GridData[t].priority;
         b(
-          (0, y.updateDataEntry)({
+          (0, p.updateDataEntry)({
             gridName: t,
             dueDate: "",
             level: 0,
             drilled: 0,
             timeDrilling: 0,
+            handsPlayed: 0,
             lastStudied: "",
             priority: n + 100,
-            locked: !0,
             individualHandDrillingData: {},
           })
         ),
@@ -58822,12 +59014,12 @@ __d(
         transparent: !0,
         animationType: "slide",
         children: (0, v.jsx)(l.default, {
-          style: I.overlay,
+          style: P.overlay,
           children: (0, v.jsxs)(l.default, {
-            style: [I.content, { backgroundColor: R }],
+            style: [P.content, { backgroundColor: R }],
             children: [
               (0, v.jsxs)(l.default, {
-                style: I.header,
+                style: P.header,
                 children: [
                   (0, v.jsx)(o.default, {
                     style: {
@@ -58843,7 +59035,7 @@ __d(
               (0, v.jsxs)(l.default, {
                 style: { width: "100%", alignItems: "center" },
                 children: [
-                  (0, v.jsx)(p.FontAwesome, {
+                  (0, v.jsx)(y.FontAwesome, {
                     name: "trash",
                     size: 150 * z,
                     color: C,
@@ -58861,17 +59053,17 @@ __d(
               }),
               (0, v.jsx)(h.AppPressable, {
                 onPress: () => j(s.gridName),
-                style: I.button,
+                style: P.button,
                 children: (0, v.jsx)(o.default, {
-                  style: I.buttonText,
+                  style: P.buttonText,
                   children: "Reset",
                 }),
               }),
               (0, v.jsx)(h.AppPressable, {
                 onPress: f,
-                style: I.button3,
+                style: P.button3,
                 children: (0, v.jsx)(o.default, {
-                  style: I.buttonText3,
+                  style: P.buttonText3,
                   children: "Close",
                 }),
               }),
@@ -58881,10 +59073,10 @@ __d(
       });
     };
   },
-  950,
+  949,
   [
-    1, 140, 1335, 1199, 1224, 1109, 1181, 931, 624, 623, 679, 1340, 595, 594,
-    625, 286,
+    1, 140, 1343, 1207, 1232, 1117, 1189, 929, 622, 621, 677, 1348, 593, 591,
+    623, 288,
   ]
 );
 __d(
@@ -58920,8 +59112,8 @@ __d(
       o = r(d[2]),
       u = r(d[3]);
   },
-  951,
-  [952, 972, 953, 1025]
+  950,
+  [951, 971, 952, 1024]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -58983,8 +59175,8 @@ __d(
       });
     }
   },
-  952,
-  [1, 238, 683, 953, 286]
+  951,
+  [1, 239, 681, 952, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -59062,8 +59254,8 @@ __d(
       y = ["navigationState", "options"],
       b = (t) => (0, p.jsx)(c.MaterialTopTabBar, Object.assign({}, t));
   },
-  953,
-  [1, 238, 683, 954, 971, 972, 286]
+  952,
+  [1, 239, 681, 953, 970, 971, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -59105,8 +59297,8 @@ __d(
       u = r(d[3]),
       c = r(d[4]);
   },
-  954,
-  [955, 956, 957, 959, 962]
+  953,
+  [954, 955, 956, 958, 961]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -59158,8 +59350,8 @@ __d(
     });
     u.displayName = "SceneComponent";
   },
-  955,
-  [1, 238, 140, 286]
+  954,
+  [1, 239, 140, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -59569,8 +59761,8 @@ __d(
       },
     });
   },
-  956,
-  [1, 238, 140, 1233, 1329, 1157, 1109, 1199, 695, 957, 959, 958, 286]
+  955,
+  [1, 239, 140, 1241, 1337, 1165, 1117, 1207, 693, 956, 958, 957, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -59709,8 +59901,8 @@ __d(
       },
     });
   },
-  957,
-  [1, 140, 1233, 1310, 1157, 1109, 958, 286]
+  956,
+  [1, 140, 1241, 1318, 1165, 1117, 957, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -59751,8 +59943,8 @@ __d(
       })(_r(d[1])),
       r = e(_r(d[2]));
   },
-  958,
-  [1, 140, 1233]
+  957,
+  [1, 140, 1241]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -59986,8 +60178,8 @@ __d(
       pressable: Object.assign({ backgroundColor: "transparent" }, null),
     });
   },
-  959,
-  [1, 238, 140, 1233, 1157, 1109, 1199, 695, 960, 961, 286]
+  958,
+  [1, 239, 140, 1241, 1165, 1117, 1207, 693, 959, 960, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -60080,8 +60272,8 @@ __d(
       "onPress",
     ];
   },
-  960,
-  [1, 238, 140, 1157, 1225, 286]
+  959,
+  [1, 239, 140, 1165, 1233, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -60111,8 +60303,8 @@ __d(
       },
     });
   },
-  961,
-  [1, 140, 1233, 1109, 286]
+  960,
+  [1, 140, 1241, 1117, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -60246,8 +60438,8 @@ __d(
     const u = () => null;
     const p = o.default.create({ pager: { flex: 1, overflow: "hidden" } });
   },
-  962,
-  [1, 140, 1329, 1157, 1109, 1199, 1399, 970, 956, 286]
+  961,
+  [1, 140, 1337, 1165, 1117, 1207, 1407, 969, 955, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -60322,8 +60514,8 @@ __d(
       i = _r(d[4]);
     const o = n.default.create({ route: { flex: 1, overflow: "hidden" } });
   },
-  970,
-  [1, 140, 1109, 1199, 286]
+  969,
+  [1, 140, 1117, 1207, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -60359,7 +60551,7 @@ __d(
     })(_r(d[0]));
     _e.TabAnimationContext = e.createContext(void 0);
   },
-  971,
+  970,
   [140]
 );
 __d(
@@ -60491,8 +60683,8 @@ __d(
       },
     });
   },
-  972,
-  [1, 238, 973, 683, 981, 1109, 954, 286]
+  971,
+  [1, 239, 972, 681, 980, 1117, 953, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -60707,11 +60899,11 @@ __d(
     });
     e.Assets = [u.default, o.default, b.default, f.default, c.default];
   },
-  973,
+  972,
   [
-    1, 974, 975, 976, 977, 978, 979, 980, 991, 992, 993, 994, 1005, 1015, 1010,
-    1008, 1016, 1012, 1014, 1017, 1018, 1019, 1020, 989, 1021, 1022, 1023, 990,
-    1004, 1024,
+    1, 973, 974, 975, 976, 977, 978, 979, 990, 991, 992, 993, 1004, 1014, 1009,
+    1007, 1015, 1011, 1013, 1016, 1017, 1018, 1019, 988, 1020, 1021, 1022, 989,
+    1003, 1023,
   ]
 );
 __d(
@@ -60722,7 +60914,7 @@ __d(
       height: 96,
     };
   },
-  974,
+  973,
   []
 );
 __d(
@@ -60733,7 +60925,7 @@ __d(
       height: 85,
     };
   },
-  975,
+  974,
   []
 );
 __d(
@@ -60744,7 +60936,7 @@ __d(
       height: 64,
     };
   },
-  976,
+  975,
   []
 );
 __d(
@@ -60755,7 +60947,7 @@ __d(
       height: 96,
     };
   },
-  977,
+  976,
   []
 );
 __d(
@@ -60766,7 +60958,7 @@ __d(
       height: 96,
     };
   },
-  978,
+  977,
   []
 );
 __d(
@@ -60818,8 +61010,8 @@ __d(
       r = _r(d[5]);
     const u = ["style"];
   },
-  979,
-  [1, 238, 683, 140, 1233, 286]
+  978,
+  [1, 239, 681, 140, 1241, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -60932,8 +61124,8 @@ __d(
       },
     });
   },
-  980,
-  [1, 238, 683, 981, 140, 1157, 1109, 989, 990, 286]
+  979,
+  [1, 239, 681, 980, 140, 1165, 1117, 988, 989, 288]
 );
 __d(
   function (g, r, _i, _a, _m, e, d) {
@@ -61249,8 +61441,8 @@ __d(
     }
     _m.exports = l;
   },
-  981,
-  [982, 986]
+  980,
+  [981, 985]
 );
 __d(
   function (_g, _r, _i, _a, m, e, d) {
@@ -61419,8 +61611,8 @@ __d(
         return n[r.slice(0, 3)];
       });
   },
-  982,
-  [983, 984]
+  981,
+  [982, 983]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -61576,7 +61768,7 @@ __d(
       yellowgreen: [154, 205, 50],
     };
   },
-  983,
+  982,
   []
 );
 __d(
@@ -61598,8 +61790,8 @@ __d(
       };
     };
   },
-  984,
-  [985]
+  983,
+  [984]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -61615,7 +61807,7 @@ __d(
       );
     };
   },
-  985,
+  984,
   []
 );
 __d(
@@ -61654,8 +61846,8 @@ __d(
     }),
       (m.exports = t);
   },
-  986,
-  [987, 988]
+  985,
+  [986, 987]
 );
 __d(
   function (_g, _r, _i, _a, _m, e, d) {
@@ -62234,8 +62426,8 @@ __d(
         return [((n[0] + n[1] + n[2]) / 3 / 255) * 100];
       });
   },
-  987,
-  [983]
+  986,
+  [982]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -62288,8 +62480,8 @@ __d(
       return o;
     };
   },
-  988,
-  [987]
+  987,
+  [986]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -62455,8 +62647,8 @@ __d(
               ],
             });
   },
-  989,
-  [1, 238, 683, 140, 1233, 1310, 1157, 1225, 286]
+  988,
+  [1, 239, 681, 140, 1241, 1318, 1165, 1233, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -62478,8 +62670,8 @@ __d(
       n = r(d[4]);
     const u = ["style"];
   },
-  990,
-  [1, 238, 683, 1224, 286]
+  989,
+  [1, 239, 681, 1232, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -62488,7 +62680,7 @@ __d(
       (e.getDefaultSidebarWidth = void 0);
     e.getDefaultSidebarWidth = ({ width: t }) => (t - 56 <= 360 ? t - 56 : 360);
   },
-  991,
+  990,
   []
 );
 __d(
@@ -62504,8 +62696,8 @@ __d(
       });
     t(r(d[1])), t(r(d[2]));
   },
-  992,
-  [1, 1286, 1157]
+  991,
+  [1, 1294, 1165]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -62519,7 +62711,7 @@ __d(
           : l;
       });
   },
-  993,
+  992,
   []
 );
 __d(
@@ -62906,10 +63098,10 @@ __d(
       expand: { flexGrow: 1, flexBasis: 0 },
     });
   },
-  994,
+  993,
   [
-    1, 238, 683, 981, 140, 1233, 1157, 1109, 1199, 1401, 978, 1004, 992, 1005,
-    1010, 1008, 1009, 1011, 1012, 1014, 286,
+    1, 239, 681, 980, 140, 1241, 1165, 1117, 1207, 1409, 977, 1003, 991, 1004,
+    1009, 1007, 1008, 1010, 1011, 1013, 288,
   ]
 );
 __d(
@@ -63048,8 +63240,8 @@ __d(
       );
     }
   },
-  1004,
-  [1, 140, 1157, 1109, 1401, 695, 572, 286, 1401]
+  1003,
+  [1, 140, 1165, 1117, 1409, 693, 569, 288, 1409]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63214,8 +63406,8 @@ __d(
         flip: { transform: "scaleX(-1)" },
       });
   },
-  1005,
-  [1, 683, 140, 1233, 1284, 1157, 1109, 1199, 974, 975, 1407, 1008, 1009, 286]
+  1004,
+  [1, 681, 140, 1241, 1292, 1165, 1117, 1207, 973, 974, 1415, 1007, 1008, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63294,8 +63486,8 @@ __d(
         disabled: { opacity: 0.5 },
       });
   },
-  1008,
-  [1, 140, 1157, 1109, 989, 286]
+  1007,
+  [1, 140, 1165, 1117, 988, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -63335,8 +63527,8 @@ __d(
         flip: { transform: "scaleX(-1)" },
       });
   },
-  1009,
-  [1, 238, 683, 1284, 1157, 1109, 286]
+  1008,
+  [1, 239, 681, 1292, 1165, 1117, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63404,8 +63596,8 @@ __d(
       ),
     });
   },
-  1010,
-  [1, 238, 683, 140, 1233, 1157, 1109, 286]
+  1009,
+  [1, 239, 681, 140, 1241, 1165, 1117, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63638,10 +63830,10 @@ __d(
     });
     _e.HeaderSearchBar = o.forwardRef(v);
   },
-  1011,
+  1010,
   [
-    1, 238, 683, 981, 140, 1233, 1284, 1157, 1109, 1383, 1199, 976, 977, 978,
-    989, 990, 1008, 1009, 286,
+    1, 239, 681, 980, 140, 1241, 1292, 1165, 1117, 1391, 1207, 975, 976, 977,
+    988, 989, 1007, 1008, 288,
   ]
 );
 __d(
@@ -63652,8 +63844,8 @@ __d(
     var t = r(d[0]);
     e.HeaderShownContext = (0, t.getNamedContext)("HeaderShownContext", !1);
   },
-  1012,
-  [1013]
+  1011,
+  [1012]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63699,7 +63891,7 @@ __d(
     const t = "__react_navigation__elements_contexts";
     globalThis[t] = globalThis[t] ?? new Map();
   },
-  1013,
+  1012,
   [140]
 );
 __d(
@@ -63735,8 +63927,8 @@ __d(
     const c = ["tintColor", "style"];
     const f = s.default.create({ title: { fontSize: 18 } });
   },
-  1014,
-  [1, 238, 683, 1233, 1157, 1109, 286]
+  1013,
+  [1, 239, 681, 1241, 1165, 1117, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -63746,8 +63938,8 @@ __d(
     var t = r(d[0]);
     e.HeaderBackContext = (0, t.getNamedContext)("HeaderBackContext", void 0);
   },
-  1015,
-  [1013]
+  1014,
+  [1012]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -63760,8 +63952,8 @@ __d(
       void 0
     );
   },
-  1016,
-  [1013]
+  1015,
+  [1012]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63804,8 +63996,8 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  1017,
-  [140, 1016]
+  1016,
+  [140, 1015]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -63815,7 +64007,7 @@ __d(
         return void 0 !== t.label ? t.label : void 0 !== t.title ? t.title : l;
       });
   },
-  1018,
+  1017,
   []
 );
 __d(
@@ -63842,8 +64034,8 @@ __d(
       label: { textAlign: "center", backgroundColor: "transparent" },
     });
   },
-  1019,
-  [1, 238, 1109, 990, 286]
+  1018,
+  [1, 239, 1117, 989, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -63861,8 +64053,8 @@ __d(
       c = r(d[3]);
     const s = o.default.create({ icon: { backgroundColor: "transparent" } });
   },
-  1020,
-  [1, 1109, 990, 286]
+  1019,
+  [1, 1117, 989, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63924,8 +64116,8 @@ __d(
       detached: { flex: 1, top: 3e4 },
     });
   },
-  1021,
-  [1, 238, 140, 1157, 1109, 1199, 286]
+  1020,
+  [1, 239, 140, 1165, 1117, 1207, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -63990,8 +64182,8 @@ __d(
     p.initialMetrics = u;
     const h = n.default.create({ container: { flex: 1 } });
   },
-  1022,
-  [1, 140, 1232, 1157, 1109, 1199, 1401, 1004, 286]
+  1021,
+  [1, 140, 1240, 1165, 1117, 1207, 1409, 1003, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -64097,15 +64289,15 @@ __d(
       absolute: { position: "absolute", top: 0, start: 0, end: 0 },
     });
   },
-  1023,
-  [1, 683, 140, 1109, 1199, 1401, 979, 992, 1016, 1012, 1004, 286]
+  1022,
+  [1, 681, 140, 1117, 1207, 1409, 978, 991, 1015, 1011, 1003, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     "use strict";
     Object.defineProperty(e, "__esModule", { value: !0 });
   },
-  1024,
+  1023,
   []
 );
 __d(
@@ -64149,41 +64341,42 @@ __d(
       })(_r(d[0])),
       t = _r(d[1]);
   },
-  1025,
-  [140, 971]
+  1024,
+  [140, 970]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     var t = r(d[0]);
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
     var c = t(r(d[1])),
-      u = r(d[2]),
-      n = r(d[3]),
+      n = r(d[2]),
+      u = r(d[3]),
       s = r(d[4]),
       f = r(d[5]),
-      l = t(r(d[6]));
+      o = t(r(d[6]));
     e.default = () => {
-      const t = (0, n.useDispatch)(),
-        { dataEntries: o } = (0, n.useSelector)(f.selectUserDataState),
-        v = (0, u.useRef)(c.default.currentState),
-        h = () => {
-          const c = (0, l.default)(o);
-          c.length > 0 && t((0, s.setGridName)(c[0].gridName));
+      const t = (0, u.useDispatch)(),
+        { dataEntries: l } = (0, u.useSelector)(f.selectUserDataState),
+        v = (0, n.useRef)(c.default.currentState),
+        E = () => {
+          const c = (0, o.default)(l);
+          c.length > 0 && t((0, s.setGridName)(c[0].gridName)),
+            t((0, f.reSortDataEntries)());
         };
-      (0, u.useEffect)(() => {
-        h();
+      (0, n.useEffect)(() => {
+        E();
       }, []),
-        (0, u.useEffect)(() => {
+        (0, n.useEffect)(() => {
           const t = c.default.addEventListener("change", (t) => {
-            v.current.match(/inactive|background/) && "active" === t && h(),
+            v.current.match(/inactive|background/) && "active" === t && E(),
               (v.current = t);
           });
           return () => t.remove();
-        }, [o]);
+        }, [l]);
     };
   },
-  1026,
-  [1, 1363, 140, 1181, 593, 595, 599]
+  1025,
+  [1, 1371, 140, 1189, 590, 593, 597]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -64196,20 +64389,22 @@ __d(
       n = t(r(d[5])),
       f = r(d[6]),
       x = r(d[7]),
-      c = r(d[8]),
-      j = r(d[9]),
+      j = r(d[8]),
+      c = r(d[9]),
       v = t(r(d[10])),
       p = r(d[11]),
-      C = r(d[12]);
+      C = t(r(d[12])),
+      P = r(d[13]);
     e.default = () => {
       const { dataEntries: t } = (0, p.useSelector)(f.selectUserDataState),
-        P = (0, p.useDispatch)(),
-        [b, h] = (0, j.useState)(!1),
-        [S, D] = (0, j.useState)(!1),
-        [_, y] = (0, j.useState)(!1);
-      return (0, C.jsxs)(l.default, {
+        S = (0, p.useDispatch)(),
+        [b, h] = (0, c.useState)(!1),
+        [D, y] = (0, c.useState)(!1),
+        [_, U] = (0, c.useState)(!1),
+        [A, E] = (0, c.useState)(!1);
+      return (0, P.jsxs)(l.default, {
         children: [
-          (0, C.jsxs)(v.default, {
+          (0, P.jsxs)(v.default, {
             style: {
               flex: 1,
               alignItems: "center",
@@ -64217,33 +64412,38 @@ __d(
               paddingVertical: 40,
             },
             children: [
-              (0, C.jsx)(n.default, {
+              (0, P.jsx)(n.default, { onPress: () => h(!0), title: "About" }),
+              (0, P.jsx)(n.default, { onPress: () => y(!0), title: "Contact" }),
+              (0, P.jsx)(n.default, {
+                onPress: () => U(!0),
+                title: "Methodology",
+              }),
+              (0, P.jsx)(n.default, {
+                onPress: () => E(!0),
+                title: "Your Study Data",
+              }),
+              (0, P.jsx)(n.default, {
                 onPress: () => {
-                  (0, c.importUserDataFromCsv)(P);
+                  (0, j.importUserDataFromCsv)(S);
                 },
                 title: "Import user data",
               }),
-              (0, C.jsx)(n.default, {
+              (0, P.jsx)(n.default, {
                 onPress: () => (0, x.exportUserDataAsCsv)(t),
                 title: "Export user data",
               }),
-              (0, C.jsx)(n.default, { onPress: () => h(!0), title: "About" }),
-              (0, C.jsx)(n.default, { onPress: () => D(!0), title: "Contact" }),
-              (0, C.jsx)(n.default, {
-                onPress: () => y(!0),
-                title: "Methodology",
-              }),
             ],
           }),
-          (0, C.jsx)(s.default, { visible: b, onClose: () => h(!1) }),
-          (0, C.jsx)(o.default, { visible: S, onClose: () => D(!1) }),
-          (0, C.jsx)(u.default, { visible: _, onClose: () => y(!1) }),
+          (0, P.jsx)(s.default, { visible: b, onClose: () => h(!1) }),
+          (0, P.jsx)(o.default, { visible: D, onClose: () => y(!1) }),
+          (0, P.jsx)(u.default, { visible: _, onClose: () => U(!1) }),
+          (0, P.jsx)(C.default, { visible: A, onClose: () => E(!1) }),
         ],
       });
     };
   },
-  1027,
-  [1, 1028, 934, 1030, 1032, 1033, 595, 1034, 1037, 140, 1199, 1181, 286]
+  1026,
+  [1, 1027, 932, 1029, 1031, 1032, 593, 1033, 1036, 140, 1207, 1189, 1045, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -64301,8 +64501,8 @@ __d(
         }),
       });
   },
-  1028,
-  [1, 624, 623, 1284, 1335, 1199, 625, 930, 880, 881, 286, 1029]
+  1027,
+  [1, 622, 621, 1292, 1343, 1207, 623, 928, 878, 879, 288, 1028]
 );
 __d(
   function (s, t, d, e, i, a, f) {
@@ -64312,7 +64512,7 @@ __d(
       height: 1024,
     };
   },
-  1029,
+  1028,
   []
 );
 __d(
@@ -64377,8 +64577,8 @@ __d(
         }),
       });
   },
-  1030,
-  [1, 624, 623, 1284, 1335, 1199, 625, 930, 880, 881, 286, 1031]
+  1029,
+  [1, 622, 621, 1292, 1343, 1207, 623, 928, 878, 879, 288, 1030]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -64388,7 +64588,7 @@ __d(
       height: 1325,
     };
   },
-  1031,
+  1030,
   []
 );
 __d(
@@ -64513,8 +64713,8 @@ __d(
         }),
       });
   },
-  1032,
-  [1, 624, 623, 1284, 1335, 1157, 1244, 1199, 625, 930, 880, 881, 286, 1029]
+  1031,
+  [1, 622, 621, 1292, 1343, 1165, 1252, 1207, 623, 928, 878, 879, 288, 1028]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -64542,8 +64742,8 @@ __d(
         }),
       });
   },
-  1033,
-  [1, 623, 1224, 679, 625, 286]
+  1032,
+  [1, 621, 1232, 677, 623, 288]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -64585,6 +64785,7 @@ __d(
         "level",
         "drilled",
         "timeDrilling",
+        "handsPlayed",
         "lastStudied",
         "priority",
         "individualHandDrillingData",
@@ -64598,6 +64799,7 @@ __d(
             e.level,
             e.drilled,
             e.timeDrilling,
+            e.handsPlayed,
             e.lastStudied,
             e.priority,
             ((t = JSON.stringify(e.individualHandDrillingData)),
@@ -64626,8 +64828,8 @@ __d(
       }
     };
   },
-  1034,
-  [1, 1157, 615, 1035]
+  1033,
+  [1, 1165, 613, 1034]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -64648,8 +64850,8 @@ __d(
     var t = r(d[1]),
       s = n(r(d[2]));
   },
-  1035,
-  [1, 56, 1408]
+  1034,
+  [1, 56, 1416]
 );
 __d(
   function (_g, _r, _i, a, m, _e, d) {
@@ -64765,23 +64967,23 @@ __d(
             level: parseInt(e.level) || 0,
             drilled: parseInt(e.drilled) || 0,
             timeDrilling: parseInt(e.timeDrilling) || 0,
+            handsPlayed: parseInt(e.handsPlayed) || 0,
             lastStudied: (0, i.normalizeDate)(e.lastStudied),
             priority: parseInt(e.priority) || 0,
-            locked: "" === (0, i.normalizeDate)(e.dueDate),
             individualHandDrillingData: t,
           };
         }),
         f = Object.keys(o.GridData),
         p = new Set(f),
         g = [...p].filter((e) => !l.has(e)),
-        w = [...l].filter((e) => !p.has(e));
+        h = [...l].filter((e) => !p.has(e));
       return g.length > 0
         ? ((0, s.showAlert)("Error", `Missing grids in file: ${g.join(", ")}`),
           null)
-        : w.length > 0
+        : h.length > 0
         ? ((0, s.showAlert)(
             "Error",
-            `Unexpected grid names in file: ${w.join(", ")}`
+            `Unexpected grid names in file: ${h.join(", ")}`
           ),
           null)
         : c;
@@ -64803,8 +65005,8 @@ __d(
       }
     };
   },
-  1037,
-  [1, 1038, 615, 1041, 1157, 595, 1042, 593, 599, 594, 1045]
+  1036,
+  [1, 1037, 613, 1040, 1165, 593, 1041, 590, 597, 591, 1044]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -64840,14 +65042,14 @@ __d(
           }));
     });
   },
-  1038,
-  [1, 1409, 1040]
+  1037,
+  [1, 1417, 1039]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 });
   },
-  1040,
+  1039,
   []
 );
 __d(
@@ -65973,7 +66175,7 @@ __d(
         ? (_m.exports = t())
         : (e.Papa = t());
   },
-  1041,
+  1040,
   []
 );
 __d(
@@ -66001,8 +66203,8 @@ __d(
       throw new Error(`Invalid date format: "${Y}"`);
     };
   },
-  1042,
-  [1, 1043, 1044]
+  1041,
+  [1, 1042, 1043]
 );
 __d(
   function (_g, _r, _i, _a, _m, _e, _d) {
@@ -66501,7 +66703,7 @@ __d(
             "undefined" != typeof globalThis ? globalThis : t || self).dayjs =
             e());
   },
-  1043,
+  1042,
   []
 );
 __d(
@@ -66796,7 +66998,7 @@ __d(
               ? globalThis
               : e || self).dayjs_plugin_customParseFormat = t());
   },
-  1044,
+  1043,
   []
 );
 __d(
@@ -66813,8 +67015,304 @@ __d(
         "This will overwrite all your current progress. Are you sure?"
       );
   },
+  1044,
+  [1, 1369, 1165]
+);
+__d(
+  function (g, r, i, a, m, e, d) {
+    var t = r(d[0]);
+    Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
+    var l = t(r(d[1])),
+      s = t(r(d[2])),
+      o = (t(r(d[3])), t(r(d[4]))),
+      n = t(r(d[5])),
+      u = t(r(d[6])),
+      c = r(d[7]),
+      h = r(d[8]),
+      f = r(d[9]),
+      x = r(d[10]),
+      j = r(d[11]),
+      y = t(r(d[12])),
+      v = t(r(d[13])),
+      p = t(r(d[14])),
+      w = r(d[15]);
+    const { width: S } = (0, u.default)();
+    e.default = ({ visible: t, onClose: u }) => {
+      const { dataEntries: T } = (0, j.useSelector)(x.selectUserDataState),
+        b = T.map((t) => t.level),
+        A = (0, y.default)(b).length > 2;
+      return (0, w.jsx)(s.default, {
+        visible: t,
+        transparent: !0,
+        animationType: "slide",
+        children: (0, w.jsx)(c.Overlay, {
+          children: (0, w.jsxs)(c.Container, {
+            color: l.default.PRIMARY,
+            children: [
+              (0, w.jsx)(f.ModalTitle, { children: "Your Study Data" }),
+              (0, w.jsx)(o.default, {
+                style: { width: "100%" },
+                showsVerticalScrollIndicator: !1,
+                children: (0, w.jsxs)(n.default, {
+                  style: { width: "100%", padding: 15 },
+                  children: [
+                    A
+                      ? (0, w.jsx)(v.default, {
+                          levelsArray: b,
+                          histHeight: 0.7 * S,
+                        })
+                      : (0, w.jsx)(n.default, {
+                          style: { paddingBottom: 15 },
+                          children: (0, w.jsx)(f.WhiteTextBold, {
+                            s: 20,
+                            children:
+                              "After you have done a bit of study you can track your progress here",
+                          }),
+                        }),
+                    (0, w.jsx)(p.default, {}),
+                  ],
+                }),
+              }),
+              (0, w.jsx)(h.ModalButton, {
+                text: "Close",
+                onPress: u,
+                shadow: l.default.CONTRAST,
+              }),
+            ],
+          }),
+        }),
+      });
+    };
+  },
   1045,
-  [1, 1361, 1157]
+  [
+    1, 621, 1343, 1165, 1252, 1207, 623, 928, 878, 879, 593, 1189, 1046, 1047,
+    1049, 288,
+  ]
+);
+__d(
+  function (g, r, i, a, m, e, d) {
+    Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
+    e.default = (t) => {
+      if (0 === t.length) return [];
+      const n = Math.max(...t),
+        f = new Array(n + 1).fill(0);
+      for (const n of t) f[n]++;
+      return f;
+    };
+  },
+  1046,
+  []
+);
+__d(
+  function (g, r, i, a, m, e, d) {
+    var t = r(d[0]);
+    Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
+    var l = r(d[1]),
+      n = t(r(d[2])),
+      s = t(r(d[3])),
+      o = t(r(d[4])),
+      u = t(r(d[5])),
+      f = t(r(d[6])),
+      c = t(r(d[7])),
+      h = r(d[8]),
+      x = r(d[9]);
+    const v = s.default.create({
+      container: {
+        width: "100%",
+        justifyContent: "flex-start",
+        alignItems: "center",
+      },
+      levelHistogram: {
+        width: "100%",
+        flexDirection: "row",
+        alignItems: "flex-end",
+        padding: 10,
+        borderRadius: 10,
+      },
+    });
+    e.default = ({ levelsArray: t, histHeight: s }) => {
+      const [j, y] = (0, l.useState)(1),
+        b = (0, f.default)(t);
+      let p = Math.max(...b);
+      const C = b.map((t) => (t * s) / p),
+        { CONTRAST: O, SECONDARY: S } = c.default;
+      return (0, x.jsxs)(n.default, {
+        style: v.container,
+        children: [
+          (0, x.jsx)(n.default, {
+            style: [
+              v.levelHistogram,
+              Object.assign({ backgroundColor: S }, (0, u.default)(O)),
+            ],
+            children: C.map((t, l) =>
+              (0, x.jsx)(
+                o.default,
+                {
+                  level: l + 1,
+                  height: C[l],
+                  touched: l + 1 === j,
+                  onPress: () => {
+                    y(l + 1);
+                  },
+                },
+                l
+              )
+            ),
+          }),
+          (0, x.jsx)(h.ModalText, {
+            style: { fontSize: 50, fontWeight: "bold", padding: 10 },
+            children: b[j - 1],
+          }),
+        ],
+      });
+    };
+  },
+  1047,
+  [1, 140, 1207, 1117, 1048, 622, 1046, 621, 879, 288]
+);
+__d(
+  function (g, r, i, a, m, e, d) {
+    var t = r(d[0]);
+    Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
+    var l = t(r(d[1])),
+      n = t(r(d[2])),
+      o = t(r(d[3])),
+      s = t(r(d[4])),
+      u = t(r(d[5])),
+      c = r(d[6]),
+      f = r(d[7]);
+    const h = n.default.create({
+      lineStyle: { width: 8, borderRadius: 6 },
+      touched: { width: 12 },
+    });
+    e.default = ({ level: t, height: n, touched: y = !1, onPress: j }) => {
+      const x = s.default.CONTRAST;
+      return (0, f.jsxs)(o.default, {
+        style: { flex: 1, justifyContent: "flex-end", alignItems: "center" },
+        onPress: j,
+        children: [
+          (0, f.jsx)(l.default, {
+            style: [
+              Object.assign({ backgroundColor: x }, (0, u.default)(x), {
+                height: n,
+              }),
+              h.lineStyle,
+              y ? h.touched : null,
+            ],
+          }),
+          (0, f.jsx)(c.ModalText, {
+            style: y ? { fontWeight: "bold" } : null,
+            children: t - 1,
+          }),
+        ],
+      });
+    };
+  },
+  1048,
+  [1, 1207, 1117, 1325, 621, 622, 879, 288]
+);
+__d(
+  function (g, r, i, _a, m, e, d) {
+    var t = r(d[0]);
+    Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
+    var a = t(r(d[1])),
+      n = t(r(d[2])),
+      l = r(d[3]),
+      s = t(r(d[4])),
+      o = r(d[5]),
+      u = t(r(d[6])),
+      c = t(r(d[7])),
+      f = t(r(d[8])),
+      x = r(d[9]);
+    const j = n.default.create({
+      container: {
+        padding: 10,
+        alignItems: "center",
+        borderRadius: 10,
+        borderWidth: 1,
+        width: "100%",
+      },
+      rowContainer: {
+        width: "100%",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        paddingVertical: 5,
+      },
+    });
+    e.default = ({ size: t = 22 }) => {
+      const { dataEntries: n } = (0, l.useSelector)(o.selectUserDataState),
+        { CONTRAST: p, SECONDARY: b } = u.default,
+        h = n.map((t) => t.timeDrilling).reduce((t, a) => t + a, 0),
+        w = n.map((t) => ("" === t.dueDate ? 0 : 1)).reduce((t, a) => t + a, 0),
+        C = n.map((t) => t.drilled).reduce((t, a) => t + a, 0),
+        y = n.map((t) => t.handsPlayed).reduce((t, a) => t + a, 0);
+      return (0, x.jsxs)(a.default, {
+        style: [
+          j.container,
+          Object.assign({ backgroundColor: b }, (0, s.default)(p)),
+        ],
+        children: [
+          (0, x.jsxs)(a.default, {
+            style: j.rowContainer,
+            children: [
+              (0, x.jsx)(c.default, {
+                name: "clock-outline",
+                text: (0, f.default)(h),
+                size: t,
+              }),
+              (0, x.jsx)(c.default, { name: "basket-fill", text: w, size: t }),
+            ],
+          }),
+          (0, x.jsxs)(a.default, {
+            style: j.rowContainer,
+            children: [
+              (0, x.jsx)(c.default, { name: "grid-large", text: C, size: t }),
+              (0, x.jsx)(c.default, { name: "foot-print", text: y, size: t }),
+            ],
+          }),
+        ],
+      });
+    };
+  },
+  1049,
+  [1, 1207, 1117, 1189, 622, 593, 621, 1050, 926, 288]
+);
+__d(
+  function (g, r, i, a, m, e, d) {
+    var t = r(d[0]);
+    Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
+    var n = r(d[1]),
+      l = t(r(d[2])),
+      o = t(r(d[3])),
+      c = t(r(d[4])),
+      s = r(d[5]),
+      u = t(r(d[6])),
+      f = r(d[7]);
+    const { base: x } = (0, u.default)(),
+      j = l.default.create({
+        container: {
+          flexDirection: "row",
+          alignItems: "center",
+          paddingHorizontal: 8 * x,
+        },
+      });
+    e.default = ({ name: t = "clock-outline", text: l = "", size: u = 18 }) => {
+      const v = c.default.CONTRAST;
+      return (0, f.jsxs)(o.default, {
+        style: j.container,
+        children: [
+          (0, f.jsx)(n.MaterialCommunityIcons, { name: t, size: u, color: v }),
+          (0, f.jsx)(s.ModalText, {
+            style: { padding: 5 * x, fontWeight: "bold" },
+            children: l,
+          }),
+        ],
+      });
+    };
+  },
+  1050,
+  [1, 1348, 1117, 1207, 621, 879, 623, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -66856,15 +67354,15 @@ __d(
       });
     };
   },
-  1047,
-  [1, 624, 623, 625, 935, 1157, 1199, 286]
+  1052,
+  [1, 622, 621, 623, 933, 1165, 1207, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     r(d[0]), r(d[1]);
   },
-  1083,
-  [4, 557]
+  1091,
+  [4, 558]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -66874,7 +67372,7 @@ __d(
       writable: !0,
     });
   },
-  1084,
+  1092,
   [37]
 );
 __d(
@@ -66891,7 +67389,7 @@ __d(
         return `${t.protocol}//${t.host}${t.pathname}`;
       });
   },
-  1085,
+  1093,
   []
 );
 __d(
@@ -66902,7 +67400,7 @@ __d(
       }),
       (e.disableErrorHandling = function () {});
   },
-  1086,
+  1094,
   []
 );
 __d(
@@ -67012,8 +67510,8 @@ __d(
     }
     _e.default = s;
   },
-  1087,
-  [1, 1088, 1093, 1094, 1095]
+  1095,
+  [1, 1096, 1101, 1102, 1103]
 );
 __d(
   function (g, _r, i, a, m, _e, d) {
@@ -67052,8 +67550,8 @@ __d(
       return r;
     }
   },
-  1088,
-  [1, 1089]
+  1096,
+  [1, 1097]
 );
 __d(
   function (g, _r, i, a, m, _e, d) {
@@ -67074,8 +67572,8 @@ __d(
       });
     var r = e(_r(d[1]));
   },
-  1089,
-  [1, 1090]
+  1097,
+  [1, 1098]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -67088,8 +67586,8 @@ __d(
     var u = t(r(d[1])),
       n = t(r(d[2]));
   },
-  1090,
-  [1, 1091, 1092]
+  1098,
+  [1, 1099, 1100]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -67113,7 +67611,7 @@ __d(
     }
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = o);
   },
-  1091,
+  1099,
   []
 );
 __d(
@@ -67132,8 +67630,8 @@ __d(
       });
     var r = e(_r(d[1]));
   },
-  1092,
-  [1, 1091]
+  1100,
+  [1, 1099]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -67163,7 +67661,7 @@ __d(
       }
     };
   },
-  1093,
+  1101,
   []
 );
 __d(
@@ -67173,7 +67671,7 @@ __d(
         return n.unmount(), !0;
       });
   },
-  1094,
+  1102,
   []
 );
 __d(
@@ -67249,8 +67747,8 @@ __d(
       l = e(_r(d[5])),
       u = e(_r(d[6]));
   },
-  1095,
-  [1, 1096, 1097, 1093, 1098, 1109, 140]
+  1103,
+  [1, 1104, 1105, 1101, 1106, 1117, 140]
 );
 __d(
   function (g, _r, i, a, m, _e, d) {
@@ -67272,7 +67770,7 @@ __d(
     }
     Object.defineProperty(_e, "__esModule", { value: !0 }), (_e.default = n);
   },
-  1096,
+  1104,
   []
 );
 __d(
@@ -67282,7 +67780,7 @@ __d(
       return n;
     };
   },
-  1097,
+  1105,
   []
 );
 __d(
@@ -67299,8 +67797,8 @@ __d(
     var t = r(d[0]),
       n = r(d[1]);
   },
-  1098,
-  [1099, 1105]
+  1106,
+  [1107, 1113]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -67318,8 +67816,8 @@ __d(
     })(),
       (m.exports = r(d[0]));
   },
-  1099,
-  [1100]
+  1107,
+  [1108]
 );
 __d(
   function (e, n, t, r, l, a, o) {
@@ -77977,16 +78475,16 @@ __d(
       }),
       (a.version = "19.0.0");
   },
-  1100,
-  [1101, 140, 1103]
+  1108,
+  [1109, 140, 1111]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     "use strict";
     m.exports = r(d[0]);
   },
-  1101,
-  [1102]
+  1109,
+  [1110]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -78280,7 +78778,7 @@ __d(
         };
       });
   },
-  1102,
+  1110,
   []
 );
 __d(
@@ -78299,8 +78797,8 @@ __d(
     })(),
       (m.exports = r(d[0]));
   },
-  1103,
-  [1104]
+  1111,
+  [1112]
 );
 __d(
   function (g, r, _i, _a, m, e, d) {
@@ -78487,7 +78985,7 @@ __d(
       }),
       (e.version = "19.0.0");
   },
-  1104,
+  1112,
   [140]
 );
 __d(
@@ -78547,8 +79045,8 @@ __d(
         "input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-webkit-search-results-button,input::-webkit-search-results-decoration{display:none;}",
       ];
   },
-  1105,
-  [1, 1106, 1107, 1108]
+  1113,
+  [1, 1114, 1115, 1116]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -78560,7 +79058,7 @@ __d(
     );
     e.default = n;
   },
-  1106,
+  1114,
   []
 );
 __d(
@@ -78588,8 +79086,8 @@ __d(
       });
     var n = t(r(d[1]));
   },
-  1107,
-  [1, 1106]
+  1115,
+  [1, 1114]
 );
 __d(
   function (g, r, _i, _a, m, _e, d) {
@@ -78675,7 +79173,7 @@ __d(
       }
     }
   },
-  1108,
+  1116,
   []
 );
 __d(
@@ -78781,8 +79279,8 @@ __d(
     var x = S;
     e.default = x;
   },
-  1109,
-  [1, 1088, 1110, 1111, 1105, 1151, 1153, 1155, 1156, 1106]
+  1117,
+  [1, 1096, 1118, 1119, 1113, 1159, 1161, 1163, 1164, 1114]
 );
 __d(
   function (g, _r, i, a, m, _e, d) {
@@ -78798,7 +79296,7 @@ __d(
         return r;
       });
   },
-  1110,
+  1118,
   []
 );
 __d(
@@ -79135,8 +79633,8 @@ __d(
       );
     }
   },
-  1111,
-  [1, 1088, 1110, 1112, 1119, 1120, 1113, 1121]
+  1119,
+  [1, 1096, 1118, 1120, 1127, 1128, 1121, 1129]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -79258,8 +79756,8 @@ __d(
       return s;
     };
   },
-  1112,
-  [1, 1113, 1106]
+  1120,
+  [1, 1121, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -79287,8 +79785,8 @@ __d(
         textShadowColor: !0,
       };
   },
-  1113,
-  [1, 1114, 1115]
+  1121,
+  [1, 1122, 1123]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -79349,7 +79847,7 @@ __d(
     });
     e.default = o;
   },
-  1114,
+  1122,
   []
 );
 __d(
@@ -79377,8 +79875,8 @@ __d(
       }
     };
   },
-  1115,
-  [1, 1116, 1117]
+  1123,
+  [1, 1124, 1125]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -79389,7 +79887,7 @@ __d(
       "inherit" === o ||
       0 === o.indexOf("var(");
   },
-  1116,
+  1124,
   []
 );
 __d(
@@ -79403,8 +79901,8 @@ __d(
       return null != t ? (t = ((t << 24) | (t >>> 8)) >>> 0) : void 0;
     };
   },
-  1117,
-  [1, 1118]
+  1125,
+  [1, 1126]
 );
 __d(
   function (_g, _r, i, a, m, e, d) {
@@ -79834,7 +80332,7 @@ __d(
         : null;
     };
   },
-  1118,
+  1126,
   []
 );
 __d(
@@ -79878,7 +80376,7 @@ __d(
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
     e.default = (c) => t(c, 1).toString(36);
   },
-  1119,
+  1127,
   []
 );
 __d(
@@ -79896,7 +80394,7 @@ __d(
       return (u[f] = n.test(c) ? "-" + c : c);
     };
   },
-  1120,
+  1128,
   []
 );
 __d(
@@ -79908,8 +80406,8 @@ __d(
       l = (0, u.default)(f.default);
     e.default = l;
   },
-  1121,
-  [1, 1122, 1128]
+  1129,
+  [1, 1130, 1136]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -79944,8 +80442,8 @@ __d(
       return t && t.__esModule ? t : { default: t };
     }
   },
-  1122,
-  [1123, 1125, 1126, 1127]
+  1130,
+  [1131, 1133, 1134, 1135]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -79964,8 +80462,8 @@ __d(
       u = r(d[0]),
       f = (t = u) && t.__esModule ? t : { default: t };
   },
-  1123,
-  [1124]
+  1131,
+  [1132]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -79975,7 +80473,7 @@ __d(
         return t.charAt(0).toUpperCase() + t.slice(1);
       });
   },
-  1124,
+  1132,
   []
 );
 __d(
@@ -79989,7 +80487,7 @@ __d(
         }
       });
   },
-  1125,
+  1133,
   []
 );
 __d(
@@ -80005,7 +80503,7 @@ __d(
         else n(t, f);
       });
   },
-  1126,
+  1134,
   []
 );
 __d(
@@ -80016,7 +80514,7 @@ __d(
         return t instanceof Object && !Array.isArray(t);
       });
   },
-  1127,
+  1135,
   []
 );
 __d(
@@ -80096,8 +80594,8 @@ __d(
       },
     };
   },
-  1128,
-  [1, 1129, 1144, 1146, 1147, 1148, 1149]
+  1136,
+  [1, 1137, 1152, 1154, 1155, 1156, 1157]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80117,8 +80615,8 @@ __d(
       f = /cross-fade\(/g,
       n = ["-webkit-", ""];
   },
-  1129,
-  [1130]
+  1137,
+  [1138]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80209,8 +80707,8 @@ __d(
       j = t(r(d[11])),
       s = t(r(d[12]));
   },
-  1130,
-  [1, 1131, 1132, 1133, 1136, 1134, 1137, 1138, 1139, 1140, 1142, 1141, 1143]
+  1138,
+  [1, 1139, 1140, 1141, 1144, 1142, 1145, 1146, 1147, 1148, 1150, 1149, 1151]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -80304,7 +80802,7 @@ __d(
         return i;
       });
   },
-  1131,
+  1139,
   []
 );
 __d(
@@ -80322,7 +80820,7 @@ __d(
       return n[1].toUpperCase();
     }
   },
-  1132,
+  1140,
   []
 );
 __d(
@@ -80334,8 +80832,8 @@ __d(
       });
     var u = t(r(d[1]));
   },
-  1133,
-  [1, 1134]
+  1141,
+  [1, 1142]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80346,8 +80844,8 @@ __d(
       });
     var u = t(r(d[1]));
   },
-  1134,
-  [1, 1135]
+  1142,
+  [1, 1143]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80364,7 +80862,7 @@ __d(
       return (u[f] = n.test(c) ? "-" + c : c);
     };
   },
-  1135,
+  1143,
   []
 );
 __d(
@@ -80382,8 +80880,8 @@ __d(
       });
     var n = t(r(d[1]));
   },
-  1136,
-  [1, 1133]
+  1144,
+  [1, 1141]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80393,7 +80891,7 @@ __d(
       });
     var t = /^(Webkit|Moz|O|ms)/;
   },
-  1137,
+  1145,
   []
 );
 __d(
@@ -80404,7 +80902,7 @@ __d(
       });
     var t = /-webkit-|-moz-|-ms-/;
   },
-  1138,
+  1146,
   []
 );
 __d(
@@ -80468,8 +80966,8 @@ __d(
     }
     for (var x in i) i[(0, t.default)(x)] = !0;
   },
-  1139,
-  [1, 1134]
+  1147,
+  [1, 1142]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80481,8 +80979,8 @@ __d(
     var u = t(r(d[1])),
       f = t(r(d[2]));
   },
-  1140,
-  [1, 1132, 1141]
+  1148,
+  [1, 1140, 1149]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80493,7 +80991,7 @@ __d(
       });
     var t = /^(ms|Webkit|Moz|O)/;
   },
-  1141,
+  1149,
   []
 );
 __d(
@@ -80505,8 +81003,8 @@ __d(
       });
     var t = n(r(d[1]));
   },
-  1142,
-  [1, 1134]
+  1150,
+  [1, 1142]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80517,7 +81015,7 @@ __d(
       });
     var t = /(-ms-|-webkit-|-moz-|-o-)/g;
   },
-  1143,
+  1151,
   []
 );
 __d(
@@ -80539,8 +81037,8 @@ __d(
       n = (t = u) && t.__esModule ? t : { default: t };
     var f = ["-webkit-", ""];
   },
-  1144,
-  [1145]
+  1152,
+  [1153]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80551,7 +81049,7 @@ __d(
       });
     var t = /-webkit-|-moz-|-ms-/;
   },
-  1145,
+  1153,
   []
 );
 __d(
@@ -80589,7 +81087,7 @@ __d(
       borderInlineEndWidth: ["WebkitBorderEndWidth", "MozBorderEndWidth"],
     };
   },
-  1146,
+  1154,
   []
 );
 __d(
@@ -80601,7 +81099,7 @@ __d(
           return ["-webkit-sticky", "sticky"];
       });
   },
-  1147,
+  1155,
   []
 );
 __d(
@@ -80632,7 +81130,7 @@ __d(
         "contain-floats": !0,
       };
   },
-  1148,
+  1156,
   []
 );
 __d(
@@ -80697,8 +81195,8 @@ __d(
       return f.join(",");
     }
   },
-  1149,
-  [1150, 1145, 1124]
+  1157,
+  [1158, 1153, 1132]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80711,15 +81209,15 @@ __d(
       u = r(d[0]),
       f = (t = u) && t.__esModule ? t : { default: t };
   },
-  1150,
-  [1135]
+  1158,
+  [1143]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     m.exports = r(d[0]);
   },
-  1151,
-  [1152]
+  1159,
+  [1160]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -80751,7 +81249,7 @@ __d(
       return l;
     }
   },
-  1152,
+  1160,
   []
 );
 __d(
@@ -80942,15 +81440,15 @@ __d(
       });
     e.default = v;
   },
-  1153,
-  [1, 1115, 1113, 1154]
+  1161,
+  [1, 1123, 1121, 1162]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 }),
       (e.warnOnce = function (n, c) {});
   },
-  1154,
+  1162,
   []
 );
 __d(
@@ -81041,7 +81539,7 @@ __d(
     var s = n();
     (e.styleq = s), (s.factory = n);
   },
-  1155,
+  1163,
   []
 );
 __d(
@@ -81124,8 +81622,8 @@ __d(
       console.error(n);
     }
   },
-  1156,
-  [1, 884]
+  1164,
+  [1, 882]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81139,7 +81637,7 @@ __d(
     };
     e.default = t;
   },
-  1157,
+  1165,
   []
 );
 __d(
@@ -81152,10 +81650,10 @@ __d(
         return !1;
       });
   },
-  1158,
+  1166,
   []
 );
-__d(function (g, r, i, a, m, e, d) {}, 1159, []);
+__d(function (g, r, i, a, m, e, d) {}, 1167, []);
 __d(
   function (g, r, i, a, m, e, d) {
     var o = r(d[0]);
@@ -81197,8 +81695,8 @@ __d(
     }),
       b();
   },
-  1160,
-  [1, 1161, 529, 1165]
+  1168,
+  [1, 1169, 530, 1173]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81252,7 +81750,7 @@ __d(
       nativeRefType = "unknown";
     };
   },
-  1161,
+  1169,
   []
 );
 __d(
@@ -81274,8 +81772,8 @@ __d(
     };
     var _default = (e.default = uuid);
   },
-  1162,
-  [1, 1163, 1164, 532]
+  1170,
+  [1, 1171, 1172, 533]
 );
 __d(
   function (g, r, _i, _a, m, _e, _d) {
@@ -81367,7 +81865,7 @@ __d(
       ];
     };
   },
-  1163,
+  1171,
   []
 );
 __d(
@@ -81415,10 +81913,10 @@ __d(
       return n;
     }
   },
-  1164,
-  [1, 531]
+  1172,
+  [1, 532]
 );
-__d(function (g, r, i, a, m, e, d) {}, 1165, []);
+__d(function (g, r, i, a, m, e, d) {}, 1173, []);
 __d(
   function (g, r, i, a, m, e, d) {
     var t = r(d[0]);
@@ -81426,8 +81924,8 @@ __d(
     var u = { UIManager: t(r(d[1])).default };
     e.default = u;
   },
-  1166,
-  [1, 1167]
+  1174,
+  [1, 1175]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81531,8 +82029,8 @@ __d(
       };
     e.default = u;
   },
-  1167,
-  [1, 1168, 1169]
+  1175,
+  [1, 1176, 1177]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81546,7 +82044,7 @@ __d(
         return n.getBoundingClientRect();
     };
   },
-  1168,
+  1176,
   []
 );
 __d(
@@ -81565,8 +82063,8 @@ __d(
         }
     };
   },
-  1169,
-  [1, 1170]
+  1177,
+  [1, 1178]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81584,8 +82082,8 @@ __d(
         : n + "px";
     };
   },
-  1170,
-  [1, 1171]
+  1178,
+  [1, 1179]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81646,7 +82144,7 @@ __d(
     });
     e.default = o;
   },
-  1171,
+  1179,
   []
 );
 __d(
@@ -81664,7 +82162,7 @@ __d(
       (e.canUseViewport = n && !!window.screen),
       (e.isAsyncDebugging = !1);
   },
-  1172,
+  1180,
   []
 );
 __d(
@@ -81678,8 +82176,8 @@ __d(
       });
     var n = r(d[0]);
   },
-  1173,
-  [543]
+  1181,
+  [544]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81698,7 +82196,7 @@ __d(
       }),
       (e.requireOptionalNativeModule = o);
   },
-  1174,
+  1182,
   []
 );
 __d(
@@ -81708,8 +82206,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1175,
-  [1, 1176]
+  1183,
+  [1, 1184]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81764,8 +82262,8 @@ __d(
       }
     };
   },
-  1176,
-  [1, 1157, 1177, 1093]
+  1184,
+  [1, 1165, 1185, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81774,8 +82272,8 @@ __d(
     var u = t(r(d[1]));
     e.default = new u.default();
   },
-  1177,
-  [1, 1178]
+  1185,
+  [1, 1186]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -81823,7 +82321,7 @@ __d(
       }
     };
   },
-  1178,
+  1186,
   []
 );
 __d(
@@ -81831,7 +82329,7 @@ __d(
     Object.defineProperty(e, "__esModule", { value: !0 }), (e.default = void 0);
     e.default = {};
   },
-  1179,
+  1187,
   []
 );
 __d(
@@ -81846,7 +82344,7 @@ __d(
       (e.setStatusBarStyle = function () {}),
       (e.setStatusBarTranslucent = function () {});
   },
-  1180,
+  1188,
   []
 );
 __d(
@@ -82502,8 +83000,8 @@ __d(
     }
     (_e.useSelector = ge()), (_e.batch = W);
   },
-  1181,
-  [1, 238, 140, 572]
+  1189,
+  [1, 239, 140, 569]
 );
 __d(
   function (_g, _r, _i, _a, _m, _e2, _d) {
@@ -84025,8 +84523,8 @@ __d(
       return `Minified Redux Toolkit error #${e}; visit https://redux-toolkit.js.org/Errors?code=${e} for the full message or use the non-minified dev environment for full errors. `;
     }
   },
-  1182,
-  [1, 238, 576, 577, 578, 579]
+  1190,
+  [1, 239, 573, 574, 575, 576]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84112,8 +84610,8 @@ __d(
           }));
     });
   },
-  1183,
-  [1, 602, 1184, 1186, 1187, 1188, 606, 605, 607, 603]
+  1191,
+  [1, 600, 1192, 1194, 1195, 1196, 604, 603, 605, 601]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84130,8 +84628,8 @@ __d(
       n = t(r(d[2])),
       o = t(r(d[3]));
   },
-  1184,
-  [1, 576, 602, 1185]
+  1192,
+  [1, 573, 600, 1193]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -84214,7 +84712,7 @@ __d(
         return i;
       });
   },
-  1185,
+  1193,
   []
 );
 __d(
@@ -84352,8 +84850,8 @@ __d(
         }
       };
   },
-  1186,
-  [576, 603]
+  1194,
+  [573, 601]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -84390,8 +84888,8 @@ __d(
       });
     var t = r(d[0]);
   },
-  1187,
-  [603]
+  1195,
+  [601]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84414,7 +84912,7 @@ __d(
         };
       });
   },
-  1188,
+  1196,
   []
 );
 __d(
@@ -84433,8 +84931,8 @@ __d(
       n = r(d[2]);
     e.default = u.default;
   },
-  1189,
-  [1, 1190, 1194]
+  1197,
+  [1, 1198, 1202]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -84514,8 +85012,8 @@ __d(
     };
     e.default = c;
   },
-  1190,
-  [1, 1191]
+  1198,
+  [1, 1199]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84524,8 +85022,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1191,
-  [1, 1192]
+  1199,
+  [1, 1200]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84618,8 +85116,8 @@ __d(
       return c._;
     };
   },
-  1192,
-  [1193]
+  1200,
+  [1201]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84630,7 +85128,7 @@ __d(
       return null === o || o === Object.prototype;
     };
   },
-  1193,
+  1201,
   []
 );
 __d(
@@ -84648,8 +85146,8 @@ __d(
       });
     var u = t(r(d[1]));
   },
-  1194,
-  [1, 1190]
+  1202,
+  [1, 1198]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84658,8 +85156,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1195,
-  [1, 618]
+  1203,
+  [1, 616]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84671,8 +85169,8 @@ __d(
     );
     e.default = u;
   },
-  1196,
-  [1197]
+  1204,
+  [1205]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84701,8 +85199,8 @@ __d(
     var t,
       n = (t = r(d[0])) && t.__esModule ? t : { default: t };
   },
-  1197,
-  [1198]
+  1205,
+  [1206]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -84748,7 +85246,7 @@ __d(
       return !0;
     }
   },
-  1198,
+  1206,
   []
 );
 __d(
@@ -84917,8 +85415,8 @@ __d(
     });
     _e.default = y;
   },
-  1199,
-  [1, 1110, 140, 1200, 1208, 1209, 1210, 1212, 1214, 1216, 1109, 1223, 1206]
+  1207,
+  [1, 1118, 140, 1208, 1216, 1217, 1218, 1220, 1222, 1224, 1117, 1231, 1214]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84945,8 +85443,8 @@ __d(
         : _;
     };
   },
-  1200,
-  [1, 1201, 1205, 140, 1206]
+  1208,
+  [1, 1209, 1213, 140, 1214]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84962,8 +85460,8 @@ __d(
       };
     e.default = f;
   },
-  1201,
-  [1, 1202, 1203, 1204]
+  1209,
+  [1, 1210, 1211, 1212]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -84973,7 +85471,7 @@ __d(
       (Array.isArray(t.accessibilityStates) &&
         t.accessibilityStates.indexOf("disabled") > -1);
   },
-  1202,
+  1210,
   []
 );
 __d(
@@ -85018,8 +85516,8 @@ __d(
       }
     };
   },
-  1203,
-  [1, 1204]
+  1211,
+  [1, 1212]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -85047,7 +85545,7 @@ __d(
       }
     };
   },
-  1204,
+  1212,
   []
 );
 __d(
@@ -85431,8 +85929,8 @@ __d(
       );
     };
   },
-  1205,
-  [1, 1088, 1110, 1201, 1109, 1154]
+  1213,
+  [1, 1096, 1118, 1209, 1117, 1162]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -85486,8 +85984,8 @@ __d(
       return (0, t.isLocaleRTL)(e) ? "rtl" : "ltr";
     }
   },
-  1206,
-  [140, 1207]
+  1214,
+  [140, 1215]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -85549,7 +86047,7 @@ __d(
       ]),
       c = new Map();
   },
-  1207,
+  1215,
   []
 );
 __d(
@@ -85713,7 +86211,7 @@ __d(
       }),
       (e.styleProps = { style: !0 });
   },
-  1208,
+  1216,
   []
 );
 __d(
@@ -85725,7 +86223,7 @@ __d(
         return o;
       });
   },
-  1209,
+  1217,
   []
 );
 __d(
@@ -85791,8 +86289,8 @@ __d(
       );
     }
   },
-  1210,
-  [1, 1211, 1167, 1106]
+  1218,
+  [1, 1219, 1175, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -85802,8 +86300,8 @@ __d(
       u = f(r(d[2])).default ? t.useLayoutEffect : t.useEffect;
     e.default = u;
   },
-  1211,
-  [1, 140, 1106]
+  1219,
+  [1, 140, 1114]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -85843,8 +86341,8 @@ __d(
       })(_r(d[1])),
       r = e(_r(d[2]));
   },
-  1212,
-  [1, 140, 1213]
+  1220,
+  [1, 140, 1221]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -85893,7 +86391,7 @@ __d(
       })(e, t);
     })(_r(d[0]));
   },
-  1213,
+  1221,
   [140]
 );
 __d(
@@ -85913,8 +86411,8 @@ __d(
     var t = u(r(d[1])),
       n = u(r(d[2]));
   },
-  1214,
-  [1, 1167, 1215]
+  1222,
+  [1, 1175, 1223]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -85956,7 +86454,7 @@ __d(
         ? Symbol()
         : Object.freeze({});
   },
-  1215,
+  1223,
   [140]
 );
 __d(
@@ -86038,8 +86536,8 @@ __d(
       return null == r.current && (r.current = n()), r.current;
     }
   },
-  1216,
-  [140, 1217]
+  1224,
+  [140, 1225]
 );
 __d(
   function (g, r, _i2, a, m, e, d) {
@@ -86320,8 +86818,8 @@ __d(
       (R = !1), (S = 0);
     }
   },
-  1217,
-  [1, 1218, 1219, 1220, 1222, 1106]
+  1225,
+  [1, 1226, 1227, 1228, 1230, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -86439,8 +86937,8 @@ __d(
       return t > 20 ? t % 20 : t;
     }
   },
-  1218,
-  [1, 1168]
+  1226,
+  [1, 1176]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -86494,7 +86992,7 @@ __d(
       return E === U || E === t;
     }
   },
-  1219,
+  1227,
   []
 );
 __d(
@@ -86572,8 +87070,8 @@ __d(
       return null != n ? n[o] : null;
     }
   },
-  1220,
-  [1, 1221]
+  1228,
+  [1, 1229]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -86589,7 +87087,7 @@ __d(
         return n.length >= 1 && "\n" !== n && c;
       });
   },
-  1221,
+  1229,
   []
 );
 __d(
@@ -86720,8 +87218,8 @@ __d(
       }
     };
   },
-  1222,
-  [1219]
+  1230,
+  [1227]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -86729,7 +87227,7 @@ __d(
     var t = (0, r(d[0]).createContext)(!1);
     e.default = t;
   },
-  1223,
+  1231,
   [140]
 );
 __d(
@@ -86950,10 +87448,10 @@ __d(
       });
     _e.default = w;
   },
-  1224,
+  1232,
   [
-    1, 1088, 1110, 140, 1200, 1208, 1209, 1210, 1212, 1214, 1216, 1109, 1223,
-    1206,
+    1, 1096, 1118, 140, 1208, 1216, 1217, 1218, 1220, 1222, 1224, 1117, 1231,
+    1214,
   ]
 );
 __d(
@@ -87135,8 +87633,8 @@ __d(
     p.displayName = "Pressable";
     _e.default = p;
   },
-  1225,
-  [1, 1096, 1110, 140, 1212, 1226, 1230, 1109, 1199]
+  1233,
+  [1, 1104, 1118, 140, 1220, 1234, 1238, 1117, 1207]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -87231,8 +87729,8 @@ __d(
       return null != l ? l : (0, e.getModality)();
     }
   },
-  1226,
-  [1, 1227, 1229, 1211]
+  1234,
+  [1, 1235, 1237, 1219]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -87365,8 +87863,8 @@ __d(
       (0, u.addEventListener)(document, k, x, S),
       (0, u.addEventListener)(document, _, x, S));
   },
-  1227,
-  [1, 1228, 1106]
+  1235,
+  [1, 1236, 1114]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -87415,8 +87913,8 @@ __d(
       );
     }
   },
-  1228,
-  [1, 1106]
+  1236,
+  [1, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -87447,8 +87945,8 @@ __d(
       n = t(r(d[2])),
       u = t(r(d[3]));
   },
-  1229,
-  [1, 1228, 1211, 1215]
+  1237,
+  [1, 1236, 1219, 1223]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -87476,8 +87974,8 @@ __d(
     var t = u(r(d[1])),
       n = r(d[2]);
   },
-  1230,
-  [1, 1231, 140]
+  1238,
+  [1, 1239, 140]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -87799,7 +88297,7 @@ __d(
       }
     };
   },
-  1231,
+  1239,
   []
 );
 __d(
@@ -87879,8 +88377,8 @@ __d(
           ? window.visualViewport.addEventListener("resize", h, !1)
           : window.addEventListener("resize", h, !1));
   },
-  1232,
-  [1, 1093, 1106]
+  1240,
+  [1, 1101, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -87889,8 +88387,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1233,
-  [1, 1234]
+  1241,
+  [1, 1242]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -87919,8 +88417,8 @@ __d(
       L
     );
   },
-  1234,
-  [1, 1088, 1157, 1235, 1283, 1287, 1288, 1292, 1293, 1294, 1295]
+  1242,
+  [1, 1096, 1165, 1243, 1291, 1295, 1296, 1300, 1301, 1302, 1303]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -87965,8 +88463,8 @@ __d(
     );
     _e.default = (0, f.default)(o);
   },
-  1235,
-  [1, 1096, 140, 1236, 1265]
+  1243,
+  [1, 1104, 140, 1244, 1273]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -87975,8 +88473,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1236,
-  [1, 1237]
+  1244,
+  [1, 1245]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -88267,8 +88765,8 @@ __d(
     var b = n.default.create({ row: { flexDirection: "row" } });
     _e.default = _;
   },
-  1237,
-  [1, 1096, 1110, 1088, 1199, 1109, 1238, 1157, 1093, 140, 1239, 1263, 1264]
+  1245,
+  [1, 1104, 1118, 1096, 1207, 1117, 1246, 1165, 1101, 140, 1247, 1271, 1272]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -88292,7 +88790,7 @@ __d(
       return !1;
     };
   },
-  1238,
+  1246,
   []
 );
 __d(
@@ -89614,10 +90112,10 @@ __d(
     });
     _e.default = z;
   },
-  1239,
+  1247,
   [
-    1, 1240, 1096, 1088, 1243, 1244, 1199, 1109, 1250, 1254, 1255, 1256, 1257,
-    1258, 1259, 1260, 1261, 1262, 1263, 1093, 128, 140,
+    1, 1248, 1104, 1096, 1251, 1252, 1207, 1117, 1258, 1262, 1263, 1264, 1265,
+    1266, 1267, 1268, 1269, 1270, 1271, 1101, 128, 140,
   ]
 );
 __d(
@@ -89646,8 +90144,8 @@ __d(
       });
     var t = e(_r(d[1]));
   },
-  1240,
-  [1, 1241]
+  1248,
+  [1, 1249]
 );
 __d(
   function (g, _r, i, _a, m, e, d) {
@@ -89670,8 +90168,8 @@ __d(
       });
     var r = t(_r(d[1]));
   },
-  1241,
-  [1, 1242]
+  1249,
+  [1, 1250]
 );
 __d(
   function (g, _r, i, _a, m, _e, d) {
@@ -89682,7 +90180,7 @@ __d(
         return t;
       });
   },
-  1242,
+  1250,
   []
 );
 __d(
@@ -89719,8 +90217,8 @@ __d(
       return s.default.createElement(l.default, f);
     };
   },
-  1243,
-  [1, 1110, 1199, 140]
+  1251,
+  [1, 1118, 1207, 140]
 );
 __d(
   function (g, r, _i, a, m, _e, d) {
@@ -90079,10 +90577,10 @@ __d(
     E.displayName = "ScrollView";
     _e.default = E;
   },
-  1244,
+  1252,
   [
-    1, 1088, 1096, 1110, 1232, 1245, 1093, 1213, 1157, 1247, 1109, 1246, 1167,
-    1199, 140, 1248,
+    1, 1096, 1104, 1118, 1240, 1253, 1101, 1221, 1165, 1255, 1117, 1254, 1175,
+    1207, 140, 1256,
   ]
 );
 __d(
@@ -90094,8 +90592,8 @@ __d(
       t.default.blurTextInput(t.default.currentlyFocusedField());
     };
   },
-  1245,
-  [1, 1246]
+  1253,
+  [1, 1254]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90124,8 +90622,8 @@ __d(
       };
     e.default = l;
   },
-  1246,
-  [1, 1167]
+  1254,
+  [1, 1175]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -90271,8 +90769,8 @@ __d(
       });
     _e.default = s;
   },
-  1247,
-  [1, 1096, 1110, 140, 1109, 1199, 1212]
+  1255,
+  [1, 1104, 1118, 140, 1117, 1207, 1220]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90280,8 +90778,8 @@ __d(
     var t = r(d[0]);
     m.exports = t;
   },
-  1248,
-  [1249]
+  1256,
+  [1257]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90304,7 +90802,7 @@ __d(
       }),
       (m.exports = n);
   },
-  1249,
+  1257,
   []
 );
 __d(
@@ -90336,8 +90834,8 @@ __d(
       }
     };
   },
-  1250,
-  [1, 1251]
+  1258,
+  [1, 1259]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90415,8 +90913,8 @@ __d(
     }
     e.default = u;
   },
-  1251,
-  [1, 1093, 1252, 1178, 1253]
+  1259,
+  [1, 1101, 1260, 1186, 1261]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -90507,8 +91005,8 @@ __d(
       }
     };
   },
-  1252,
-  [1, 1088, 1093]
+  1260,
+  [1, 1096, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90534,8 +91032,8 @@ __d(
         }),
       (e.default = n);
   },
-  1253,
-  [1, 1106]
+  1261,
+  [1, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90545,7 +91043,7 @@ __d(
       return u < t ? t : u > n ? n : u;
     };
   },
-  1254,
+  1262,
   []
 );
 __d(
@@ -90556,7 +91054,7 @@ __d(
       return console.log(...arguments);
     };
   },
-  1255,
+  1263,
   []
 );
 __d(
@@ -90641,8 +91139,8 @@ __d(
       }
     };
   },
-  1256,
-  [1, 1088, 1093]
+  1264,
+  [1, 1096, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90724,8 +91222,8 @@ __d(
       }
     };
   },
-  1257,
-  [1, 1240, 1093]
+  1265,
+  [1, 1248, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -90868,8 +91366,8 @@ __d(
       }
     };
   },
-  1258,
-  [1, 1088]
+  1266,
+  [1, 1096]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -90956,8 +91454,8 @@ __d(
     }
     _e.default = n;
   },
-  1259,
-  [1, 1093, 140]
+  1267,
+  [1, 1101, 140]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -91095,8 +91593,8 @@ __d(
       }
     };
   },
-  1260,
-  [1, 1088, 1240, 1093]
+  1268,
+  [1, 1096, 1248, 1101]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -91271,8 +91769,8 @@ __d(
       columnReverse: { flexDirection: "column-reverse" },
     });
   },
-  1261,
-  [1, 1096, 1088, 1199, 1109, 1262, 1093, 140]
+  1269,
+  [1, 1104, 1096, 1207, 1117, 1270, 1101, 140]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -91349,8 +91847,8 @@ __d(
       i = r;
     var l = (_e.VirtualizedListContext = i.createContext(null));
   },
-  1262,
-  [1, 1088, 140]
+  1270,
+  [1, 1096, 140]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -91454,7 +91952,7 @@ __d(
       }),
       (e.newRangeCount = n);
   },
-  1263,
+  1271,
   []
 );
 __d(
@@ -91491,7 +91989,7 @@ __d(
       return !0;
     }
   },
-  1264,
+  1272,
   []
 );
 __d(
@@ -91552,8 +92050,8 @@ __d(
         })(_r(d[7])));
     var l = ["style"];
   },
-  1265,
-  [1, 1096, 1110, 1266, 1282, 1109, 1199, 140]
+  1273,
+  [1, 1104, 1118, 1274, 1290, 1117, 1207, 140]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -91645,8 +92143,8 @@ __d(
         : t;
     }
   },
-  1266,
-  [1, 1088, 1267, 1268, 1281, 1273, 140, 1211]
+  1274,
+  [1, 1096, 1275, 1276, 1289, 1281, 140, 1219]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -91769,8 +92267,8 @@ __d(
     }
     e.default = v;
   },
-  1267,
-  [1, 1088, 1268, 1272, 1279, 1273, 1093]
+  1275,
+  [1, 1096, 1276, 1280, 1287, 1281, 1101]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -91900,8 +92398,8 @@ __d(
       }
     };
   },
-  1268,
-  [1, 1269, 1273, 1093]
+  1276,
+  [1, 1277, 1281, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92032,8 +92530,8 @@ __d(
     }
     e.default = u;
   },
-  1269,
-  [1, 1270, 1271, 1251, 1273]
+  1277,
+  [1, 1278, 1279, 1259, 1281]
 );
 __d(
   function (_g, _r, _i, _a, m, e, d) {
@@ -92204,8 +92702,8 @@ __d(
     c.__createInterpolation = p;
     e.default = c;
   },
-  1270,
-  [1, 1088, 1271, 1273, 1093, 1118]
+  1278,
+  [1, 1096, 1279, 1281, 1101, 1126]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92269,8 +92767,8 @@ __d(
     }
     e.default = l;
   },
-  1271,
-  [1, 1240, 1272, 1273]
+  1279,
+  [1, 1248, 1280, 1281]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92392,8 +92890,8 @@ __d(
       }
     };
   },
-  1272,
-  [1, 1273, 1093]
+  1280,
+  [1, 1281, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92694,8 +93192,8 @@ __d(
       },
     };
   },
-  1273,
-  [1, 1088, 1274, 1276, 1176, 1277, 1278, 1093, 1177]
+  1281,
+  [1, 1096, 1282, 1284, 1184, 1285, 1286, 1101, 1185]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -92730,8 +93228,8 @@ __d(
     })(_r(d[0]));
     _e.default = e.get("NativeAnimatedModule");
   },
-  1274,
-  [1275]
+  1282,
+  [1283]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92756,8 +93254,8 @@ __d(
       return null;
     }
   },
-  1275,
-  [1, 1093]
+  1283,
+  [1, 1101]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -92792,8 +93290,8 @@ __d(
     })(_r(d[0]));
     _e.default = e.get("NativeAnimatedTurboModule");
   },
-  1276,
-  [1275]
+  1284,
+  [1283]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92802,8 +93300,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1277,
-  [1, 1157]
+  1285,
+  [1, 1165]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92817,7 +93315,7 @@ __d(
       animatedShouldUseSingleOp: () => !1,
     };
   },
-  1278,
+  1286,
   []
 );
 __d(
@@ -92910,8 +93408,8 @@ __d(
     }
     e.default = y;
   },
-  1279,
-  [1, 1272, 1280, 1271, 1273, 1109]
+  1287,
+  [1, 1280, 1288, 1279, 1281, 1117]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -92999,8 +93497,8 @@ __d(
     }
     e.default = _;
   },
-  1280,
-  [1, 1272, 1271, 1273]
+  1288,
+  [1, 1280, 1279, 1281]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -93017,7 +93515,7 @@ __d(
       });
     var u = r(d[0]);
   },
-  1281,
+  1289,
   [140]
 );
 __d(
@@ -93038,7 +93536,7 @@ __d(
       });
     var n = r(d[0]);
   },
-  1282,
+  1290,
   [140]
 );
 __d(
@@ -93076,8 +93574,8 @@ __d(
       n = e(_r(d[3]));
     _e.default = (0, n.default)(t.default);
   },
-  1283,
-  [1, 140, 1284, 1265]
+  1291,
+  [1, 140, 1292, 1273]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -93416,8 +93914,8 @@ __d(
       });
     _e.default = L;
   },
-  1284,
-  [1, 1088, 1096, 1110, 140, 1200, 55, 1153, 1285, 1286, 1109, 1223, 1199, 1154]
+  1292,
+  [1, 1096, 1104, 1118, 140, 1208, 55, 1161, 1293, 1294, 1117, 1231, 1207, 1162]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -93523,7 +94021,7 @@ __d(
       };
     _e.default = s;
   },
-  1285,
+  1293,
   []
 );
 __d(
@@ -93548,8 +94046,8 @@ __d(
     }
     e.default = n;
   },
-  1286,
-  [1, 1232]
+  1294,
+  [1, 1240]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -93594,8 +94092,8 @@ __d(
     );
     _e.default = (0, f.default)(o);
   },
-  1287,
-  [1, 1096, 140, 1244, 1265]
+  1295,
+  [1, 1104, 140, 1252, 1273]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -93640,8 +94138,8 @@ __d(
     );
     _e.default = (0, f.default)(o);
   },
-  1288,
-  [1, 1096, 140, 1289, 1265]
+  1296,
+  [1, 1104, 140, 1297, 1273]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -93650,8 +94148,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1289,
-  [1, 1290]
+  1297,
+  [1, 1298]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -93737,8 +94235,8 @@ __d(
     }
     _e.default = o;
   },
-  1290,
-  [1, 1096, 1110, 1157, 140, 1291]
+  1298,
+  [1, 1104, 1118, 1165, 140, 1299]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -94106,8 +94604,8 @@ __d(
     }
     _e.default = h;
   },
-  1291,
-  [1, 1096, 1240, 1110, 1088, 1199, 1239, 1263, 1093, 140]
+  1299,
+  [1, 1104, 1248, 1118, 1096, 1207, 1247, 1271, 1101, 140]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -94144,8 +94642,8 @@ __d(
       n = e(_r(d[3]));
     _e.default = (0, n.default)(t.default);
   },
-  1292,
-  [1, 140, 1224, 1265]
+  1300,
+  [1, 140, 1232, 1273]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -94182,8 +94680,8 @@ __d(
       n = e(_r(d[3]));
     _e.default = (0, n.default)(t.default);
   },
-  1293,
-  [1, 140, 1199, 1265]
+  1301,
+  [1, 140, 1207, 1273]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -94302,8 +94800,8 @@ __d(
       Event: u.AnimatedEvent,
     };
   },
-  1294,
-  [1, 1088, 1268, 1295, 1270, 1272, 1269, 1303, 1265, 1308]
+  1302,
+  [1, 1096, 1276, 1303, 1278, 1280, 1277, 1311, 1273, 1316]
 );
 __d(
   function (_g, _r, _i, _a, m, e, d) {
@@ -94640,10 +95138,10 @@ __d(
       Event: i.AnimatedEvent,
     };
   },
-  1295,
+  1303,
   [
-    1, 1088, 1268, 1296, 1297, 1298, 1270, 1299, 1300, 1272, 1267, 1301, 1302,
-    1269, 1303, 1304, 1306, 1309, 1265, 1308,
+    1, 1096, 1276, 1304, 1305, 1306, 1278, 1307, 1308, 1280, 1275, 1309, 1310,
+    1277, 1311, 1312, 1314, 1317, 1273, 1316,
   ]
 );
 __d(
@@ -94686,8 +95184,8 @@ __d(
     }
     e.default = h;
   },
-  1296,
-  [1, 1270, 1269, 1271]
+  1304,
+  [1, 1278, 1277, 1279]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -94739,8 +95237,8 @@ __d(
     }
     e.default = s;
   },
-  1297,
-  [1, 1270, 1271]
+  1305,
+  [1, 1278, 1279]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -94795,8 +95293,8 @@ __d(
     }
     e.default = n;
   },
-  1298,
-  [1, 1270, 1272, 1269, 1271]
+  1306,
+  [1, 1278, 1280, 1277, 1279]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -94837,8 +95335,8 @@ __d(
     }
     e.default = a;
   },
-  1299,
-  [1, 1270, 1271]
+  1307,
+  [1, 1278, 1279]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -94880,8 +95378,8 @@ __d(
     }
     e.default = h;
   },
-  1300,
-  [1, 1270, 1269, 1271]
+  1308,
+  [1, 1278, 1277, 1279]
 );
 __d(
   function (g, r, i, _a, m, e, d) {
@@ -94923,8 +95421,8 @@ __d(
     }
     e.default = h;
   },
-  1301,
-  [1, 1270, 1269, 1271]
+  1309,
+  [1, 1278, 1277, 1279]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -94992,8 +95490,8 @@ __d(
     }
     e.default = h;
   },
-  1302,
-  [1, 1088, 1269, 1272, 1273]
+  1310,
+  [1, 1096, 1277, 1280, 1281]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -95076,8 +95574,8 @@ __d(
     }
     e.default = h;
   },
-  1303,
-  [1, 1269, 1271, 1093]
+  1311,
+  [1, 1277, 1279, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -95146,8 +95644,8 @@ __d(
     }
     e.default = o;
   },
-  1304,
-  [1, 1305, 1273]
+  1312,
+  [1, 1313, 1281]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -95190,8 +95688,8 @@ __d(
       }
     };
   },
-  1305,
-  [1, 1273]
+  1313,
+  [1, 1281]
 );
 __d(
   function (g, r, i, a, _m, e, d) {
@@ -95410,8 +95908,8 @@ __d(
     }
     e.default = l;
   },
-  1306,
-  [1, 1305, 1307, 1093, 1273, 1308]
+  1314,
+  [1, 1313, 1315, 1101, 1281, 1316]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -95469,7 +95967,7 @@ __d(
       },
     };
   },
-  1307,
+  1315,
   []
 );
 __d(
@@ -95671,8 +96169,8 @@ __d(
     }
     e.default = u;
   },
-  1308,
-  [1, 1269, 1271, 1118, 1273]
+  1316,
+  [1, 1277, 1279, 1126, 1281]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -95776,8 +96274,8 @@ __d(
     }
     e.default = h;
   },
-  1309,
-  [1, 1269, 1303, 1270, 1310, 1305, 1273, 1308]
+  1317,
+  [1, 1277, 1311, 1278, 1318, 1313, 1281, 1316]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -95786,8 +96284,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1310,
-  [1, 1311]
+  1318,
+  [1, 1319]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -95864,8 +96362,8 @@ __d(
     }
     e.default = s;
   },
-  1311,
-  [1, 1312]
+  1319,
+  [1, 1320]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -95941,7 +96439,7 @@ __d(
       return i;
     }
   },
-  1312,
+  1320,
   []
 );
 __d(
@@ -95960,8 +96458,8 @@ __d(
       };
     e.default = l;
   },
-  1313,
-  [1, 1245]
+  1321,
+  [1, 1253]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -95970,8 +96468,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1314,
-  [1, 1315]
+  1322,
+  [1, 1323]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -96124,8 +96622,8 @@ __d(
     }
     e.default = h;
   },
-  1315,
-  [1, 1251, 1316]
+  1323,
+  [1, 1259, 1324]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -96190,7 +96688,7 @@ __d(
     };
     e.default = n;
   },
-  1316,
+  1324,
   []
 );
 __d(
@@ -96338,8 +96836,8 @@ __d(
     p.displayName = "TouchableOpacity";
     _e.default = p;
   },
-  1317,
-  [1, 1096, 1110, 140, 1212, 1230, 1109, 1199]
+  1325,
+  [1, 1104, 1118, 140, 1220, 1238, 1117, 1207]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -96570,8 +97068,8 @@ __d(
       },
     };
   },
-  1318,
-  [1, 238, 56, 1319, 667]
+  1326,
+  [1, 239, 56, 1327, 665]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -96580,8 +97078,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1319,
-  [1, 1177]
+  1327,
+  [1, 1185]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -96636,8 +97134,8 @@ __d(
     }
     e.default = h;
   },
-  1320,
-  [1, 56, 1286]
+  1328,
+  [1, 56, 1294]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -96653,7 +97151,7 @@ __d(
     e.IS_ENV_WITH_LOCAL_ASSETS = !1;
     e.manifestBaseUrl = null;
   },
-  1321,
+  1329,
   []
 );
 __d(
@@ -96663,7 +97161,7 @@ __d(
         return n;
       });
   },
-  1322,
+  1330,
   []
 );
 __d(
@@ -96673,7 +97171,7 @@ __d(
         return null;
       });
   },
-  1323,
+  1331,
   []
 );
 __d(
@@ -96700,8 +97198,8 @@ __d(
     const { pickScale: l } = o.default;
     e.pickScale = l;
   },
-  1324,
-  [1, 55, 1320]
+  1332,
+  [1, 55, 1328]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -96712,7 +97210,7 @@ __d(
       );
     };
   },
-  1325,
+  1333,
   []
 );
 __d(
@@ -96740,8 +97238,8 @@ __d(
       ),
     };
   },
-  1326,
-  [1, 1318, 1327]
+  1334,
+  [1, 1326, 1335]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -96798,7 +97296,7 @@ __d(
       );
     };
   },
-  1327,
+  1335,
   []
 );
 __d(
@@ -96937,8 +97435,8 @@ __d(
     }
     _e.default = p;
   },
-  1328,
-  [1, 140, 1200, 1318, 1327, 675, 286]
+  1336,
+  [1, 140, 1208, 1326, 1335, 673, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -96950,7 +97448,7 @@ __d(
     };
     e.default = t;
   },
-  1329,
+  1337,
   []
 );
 __d(
@@ -96959,7 +97457,7 @@ __d(
     Object.defineProperty(e, "__esModule", { value: !0 }),
       (e.useBackButton = function (t) {});
   },
-  1330,
+  1338,
   []
 );
 __d(
@@ -97011,7 +97509,7 @@ __d(
       })(e, t);
     })(_r(d[0]));
   },
-  1331,
+  1339,
   [140]
 );
 __d(
@@ -97237,8 +97735,8 @@ __d(
       };
     _e.series = u;
   },
-  1332,
-  [1, 685, 1333, 140, 1334, 792]
+  1340,
+  [1, 683, 1341, 140, 1342, 790]
 );
 __d(
   function (g, r, _i, _a, m, e, d) {
@@ -97272,7 +97770,7 @@ __d(
       return n != n && o != o;
     };
   },
-  1333,
+  1341,
   []
 );
 __d(
@@ -97373,8 +97871,8 @@ __d(
       });
     var t = r(d[0]);
   },
-  1334,
-  [690]
+  1342,
+  [688]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -97490,8 +97988,8 @@ __d(
     });
     _e.default = _;
   },
-  1335,
-  [1, 1096, 1110, 140, 1336, 1337, 1338, 1339]
+  1343,
+  [1, 1104, 1118, 140, 1344, 1345, 1346, 1347]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -97547,8 +98045,8 @@ __d(
       );
     };
   },
-  1336,
-  [1, 140, 1103, 1106]
+  1344,
+  [1, 140, 1111, 1114]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -97678,8 +98176,8 @@ __d(
       );
     };
   },
-  1337,
-  [1, 140, 1109, 1200]
+  1345,
+  [1, 140, 1117, 1208]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -97759,8 +98257,8 @@ __d(
       });
     _e.default = i;
   },
-  1338,
-  [1, 1096, 1110, 140, 1199, 1109, 1106]
+  1346,
+  [1, 1104, 1118, 140, 1207, 1117, 1114]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -97882,8 +98380,8 @@ __d(
     };
     var v = u.default.create({ focusBracket: { outlineStyle: "none" } });
   },
-  1339,
-  [1, 140, 1199, 1200, 1109, 1167, 1106]
+  1347,
+  [1, 140, 1207, 1208, 1117, 1175, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -98023,10 +98521,10 @@ __d(
       v = t(r(d[18])),
       A = t(r(d[19]));
   },
-  1340,
+  1348,
   [
-    1, 803, 822, 825, 828, 831, 834, 837, 845, 852, 855, 858, 861, 864, 867,
-    870, 839, 804, 873, 875,
+    1, 801, 820, 823, 826, 829, 832, 835, 843, 850, 853, 856, 859, 862, 865,
+    868, 837, 802, 871, 873,
   ]
 );
 __d(
@@ -98176,8 +98674,8 @@ __d(
       return !(s || n || o || i || l);
     }
   },
-  1341,
-  [1, 56, 1342, 808]
+  1349,
+  [1, 56, 1350, 806]
 );
 __d(
   function (_g, _r, i, _a, _m, _e, _d) {
@@ -98398,7 +98896,7 @@ __d(
             (window.FontFaceObserver.prototype.load = a.prototype.load));
     })();
   },
-  1342,
+  1350,
   []
 );
 __d(
@@ -98449,8 +98947,8 @@ __d(
       );
     }
   },
-  1343,
-  [1, 51, 56, 1341, 808]
+  1351,
+  [1, 51, 56, 1349, 806]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -98463,7 +98961,7 @@ __d(
     }
     e.default = (0, o.registerWebModule)(n, "ExpoFontUtils");
   },
-  1344,
+  1352,
   [56]
 );
 __d(
@@ -98608,8 +99106,8 @@ __d(
     b.displayName = "TouchableHighlight";
     _e.default = b;
   },
-  1345,
-  [1, 1096, 1110, 140, 1212, 1230, 1109, 1199]
+  1353,
+  [1, 1104, 1118, 140, 1220, 1238, 1117, 1207]
 );
 __d(
   function (_g, _r, _i, _a, _m, _e2, _d) {
@@ -99590,8 +100088,8 @@ __d(
       return Oe.StyleSheet.create({ style: s }).style;
     };
   },
-  1346,
-  [1, 883, 1347, 1348, 140, 922, 1349, 1357, 1359]
+  1354,
+  [1, 881, 1355, 1356, 140, 920, 1357, 1365, 1367]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -99650,8 +100148,8 @@ __d(
       (e.Root = u.default.Root),
       (e.Node = u.default.Node);
   },
-  1347,
-  [1, 892]
+  1355,
+  [1, 890]
 );
 __d(
   function (_g, _r, _i, _a, _m, _e, _d) {
@@ -100265,7 +100763,7 @@ __d(
       __disposeResources: D,
     };
   },
-  1348,
+  1356,
   []
 );
 __d(
@@ -100356,8 +100854,8 @@ __d(
           }));
     });
   },
-  1349,
-  [1350, 1351, 1352, 1354, 1353, 1355, 1356]
+  1357,
+  [1358, 1359, 1360, 1362, 1361, 1363, 1364]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -100404,7 +100902,7 @@ __d(
       (e.LAYER = "@layer"),
       (e.SCOPE = "@scope");
   },
-  1350,
+  1358,
   []
 );
 __d(
@@ -100460,7 +100958,7 @@ __d(
       return 0 | n.charCodeAt(t);
     }
   },
-  1351,
+  1359,
   []
 );
 __d(
@@ -100671,8 +101169,8 @@ __d(
       );
     }
   },
-  1352,
-  [1350, 1351, 1353]
+  1360,
+  [1358, 1359, 1361]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -100861,8 +101359,8 @@ __d(
       return w(n, s);
     }
   },
-  1353,
-  [1351]
+  1361,
+  [1359]
 );
 __d(
   function (g, r, i, _a, m, _e, _d) {
@@ -101162,8 +101660,8 @@ __d(
     var e = r(_d[0]),
       a = r(_d[1]);
   },
-  1354,
-  [1350, 1351]
+  1362,
+  [1358, 1359]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -101194,8 +101692,8 @@ __d(
       return u;
     }
   },
-  1355,
-  [1350, 1351]
+  1363,
+  [1358, 1359]
 );
 __d(
   function (g, r, _i, a, m, e, d) {
@@ -101326,8 +101824,8 @@ __d(
       p = r(d[3]),
       s = r(d[4]);
   },
-  1356,
-  [1350, 1351, 1353, 1355, 1354]
+  1364,
+  [1358, 1359, 1361, 1363, 1362]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -101341,15 +101839,15 @@ __d(
       r(d[0]);
     var t = r(d[1]);
   },
-  1357,
-  [924, 1358]
+  1365,
+  [922, 1366]
 );
 __d(
   function (g, r, i, a, m, e, d) {
     e._default = r(d[0]).default;
   },
-  1358,
-  [924]
+  1366,
+  [922]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -101783,14 +102281,14 @@ __d(
       ge = t(r(d[60])),
       me = t(r(d[61]));
   },
-  1359,
+  1367,
   [
-    1, 1200, 1325, 1117, 1098, 1094, 1166, 1360, 1361, 1233, 1362, 1087, 1363,
-    1364, 1365, 1232, 1310, 1329, 1313, 1251, 1366, 1368, 1175, 1314, 1286,
-    1157, 1369, 1109, 1167, 1370, 1371, 1372, 1373, 1236, 1284, 1374, 1375,
-    1335, 1376, 1225, 1378, 1243, 1379, 1244, 1289, 1380, 1381, 1224, 1383,
-    1384, 1345, 1388, 1317, 1390, 1199, 1391, 1392, 1393, 1319, 1394, 1395,
-    1396,
+    1, 1208, 1333, 1125, 1106, 1102, 1174, 1368, 1369, 1241, 1370, 1095, 1371,
+    1372, 1373, 1240, 1318, 1337, 1321, 1259, 1374, 1376, 1183, 1322, 1294,
+    1165, 1377, 1117, 1175, 1378, 1379, 1380, 1381, 1244, 1292, 1382, 1383,
+    1343, 1384, 1233, 1386, 1251, 1387, 1252, 1297, 1388, 1389, 1232, 1391,
+    1392, 1353, 1396, 1325, 1398, 1207, 1399, 1400, 1401, 1327, 1402, 1403,
+    1404,
   ]
 );
 __d(
@@ -101848,8 +102346,8 @@ __d(
       };
     e.default = c;
   },
-  1360,
-  [1, 1106]
+  1368,
+  [1, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -101858,7 +102356,7 @@ __d(
       static alert() {}
     };
   },
-  1361,
+  1369,
   []
 );
 __d(
@@ -101893,8 +102391,8 @@ __d(
       };
     e.default = o;
   },
-  1362,
-  [1, 1106]
+  1370,
+  [1, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -101951,8 +102449,8 @@ __d(
     }
     (e.default = y), (y.isAvailable = c.default && !!document[b]);
   },
-  1363,
-  [1, 1093, 1178, 1106]
+  1371,
+  [1, 1101, 1186, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -101965,7 +102463,7 @@ __d(
     };
     e.default = n;
   },
-  1364,
+  1372,
   []
 );
 __d(
@@ -102010,7 +102508,7 @@ __d(
       }
     };
   },
-  1365,
+  1373,
   []
 );
 __d(
@@ -102020,8 +102518,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1366,
-  [1, 1367]
+  1374,
+  [1, 1375]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -102083,8 +102581,8 @@ __d(
       };
     e.default = l;
   },
-  1367,
-  [1, 1157, 1167]
+  1375,
+  [1, 1165, 1175]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -102169,8 +102667,8 @@ __d(
       }
     })();
   },
-  1368,
-  [1, 1093, 1106]
+  1376,
+  [1, 1101, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -102216,8 +102714,8 @@ __d(
       }
     };
   },
-  1369,
-  [1, 1093]
+  1377,
+  [1, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -102235,7 +102733,7 @@ __d(
       };
     e.default = n;
   },
-  1370,
+  1378,
   []
 );
 __d(
@@ -102344,8 +102842,8 @@ __d(
       });
     _e.default = f;
   },
-  1371,
-  [1, 1096, 1110, 140, 1109, 1199]
+  1379,
+  [1, 1104, 1118, 140, 1117, 1207]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -102419,8 +102917,8 @@ __d(
     });
     _e.default = l;
   },
-  1372,
-  [1, 140, 1109, 1317, 1224]
+  1380,
+  [1, 140, 1117, 1325, 1232]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -102554,8 +103052,8 @@ __d(
     });
     _e.default = C;
   },
-  1373,
-  [1, 1088, 1096, 1110, 140, 1200, 1109, 1199]
+  1381,
+  [1, 1096, 1104, 1118, 140, 1208, 1117, 1207]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -102627,8 +103125,8 @@ __d(
     s.displayName = "ImageBackground";
     _e.default = s;
   },
-  1374,
-  [1, 1096, 1110, 140, 1284, 1109, 1199]
+  1382,
+  [1, 1104, 1118, 140, 1292, 1117, 1207]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -102696,8 +103194,8 @@ __d(
     }
     _e.default = f;
   },
-  1375,
-  [1, 1096, 1110, 140, 1199]
+  1383,
+  [1, 1104, 1118, 140, 1207]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -102784,8 +103282,8 @@ __d(
     });
     _e.default = s;
   },
-  1376,
-  [1, 1088, 1110, 140, 1200, 1212, 1214, 1377, 1109]
+  1384,
+  [1, 1096, 1118, 140, 1208, 1220, 1222, 1385, 1117]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -102806,8 +103304,8 @@ __d(
       });
     var l = t(r(d[1]));
   },
-  1377,
-  [1, 1200]
+  1385,
+  [1, 1208]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -102902,8 +103400,8 @@ __d(
     });
     _e.default = u;
   },
-  1378,
-  [1, 1096, 1110, 140, 1109, 1199]
+  1386,
+  [1, 1104, 1118, 140, 1117, 1207]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -102969,8 +103467,8 @@ __d(
     });
     _e.default = p;
   },
-  1379,
-  [1, 1096, 1110, 140, 1109, 1199, 1106]
+  1387,
+  [1, 1104, 1118, 140, 1117, 1207, 1114]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -102986,7 +103484,7 @@ __d(
       (n.setTranslucent = t);
     e.default = n;
   },
-  1380,
+  1388,
   []
 );
 __d(
@@ -103176,8 +103674,8 @@ __d(
     });
     _e.default = v;
   },
-  1381,
-  [1, 1088, 1096, 1110, 140, 1200, 1382, 1109, 1199]
+  1389,
+  [1, 1096, 1104, 1118, 140, 1208, 1390, 1117, 1207]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -103190,7 +103688,7 @@ __d(
         : ((n = o), !isNaN(parseFloat(n)) && isFinite(n) ? o * l : void 0);
     };
   },
-  1382,
+  1390,
   []
 );
 __d(
@@ -103543,8 +104041,8 @@ __d(
     });
     _e.default = k;
   },
-  1383,
-  [1, 140, 1200, 1208, 1209, 1210, 1211, 1212, 1214, 1216, 1206, 1109, 1246]
+  1391,
+  [1, 140, 1208, 1216, 1217, 1218, 1219, 1220, 1222, 1224, 1214, 1117, 1254]
 );
 __d(
   function (g, r, i, a, m, _e, d) {
@@ -104008,8 +104506,8 @@ __d(
     };
     _e.default = w;
   },
-  1384,
-  [1, 1110, 1088, 1201, 1385, 1118, 1387, 140, 1167, 1199, 1154]
+  1392,
+  [1, 1118, 1096, 1209, 1393, 1126, 1395, 140, 1175, 1207, 1162]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104029,8 +104527,8 @@ __d(
       o.default.addPoolingTo(n, l);
     e.default = n;
   },
-  1385,
-  [1, 1386]
+  1393,
+  [1, 1394]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104066,8 +104564,8 @@ __d(
       };
     e.default = u;
   },
-  1386,
-  [1, 1093]
+  1394,
+  [1, 1101]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104084,8 +104582,8 @@ __d(
       o.default.addPoolingTo(u, l);
     e.default = u;
   },
-  1387,
-  [1, 1386]
+  1395,
+  [1, 1394]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104094,8 +104592,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1388,
-  [1, 1389]
+  1396,
+  [1, 1397]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104116,8 +104614,8 @@ __d(
       );
     };
   },
-  1389,
-  [1, 1096, 1110, 1199, 140]
+  1397,
+  [1, 1104, 1118, 1207, 140]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -104217,8 +104715,8 @@ __d(
     f.displayName = "TouchableWithoutFeedback";
     _e.default = f;
   },
-  1390,
-  [1, 140, 1209, 1212, 1230, 1154]
+  1398,
+  [1, 140, 1217, 1220, 1238, 1162]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104227,8 +104725,8 @@ __d(
     var u = t(r(d[1]));
     e.default = u.default;
   },
-  1391,
-  [1, 1239]
+  1399,
+  [1, 1247]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104242,8 +104740,8 @@ __d(
     f.ignoreWarnings = () => {};
     e.default = f;
   },
-  1392,
-  [1, 140, 1389]
+  1400,
+  [1, 140, 1397]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104256,7 +104754,7 @@ __d(
     };
     e.default = l;
   },
-  1393,
+  1401,
   []
 );
 __d(
@@ -104306,8 +104804,8 @@ __d(
       })(_r(d[1])),
       r = e(_r(d[2]));
   },
-  1394,
-  [1, 140, 1362]
+  1402,
+  [1, 140, 1370]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104315,8 +104813,8 @@ __d(
     var t = r(d[0]);
     e.default = t.useLocaleContext;
   },
-  1395,
-  [1206]
+  1403,
+  [1214]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104346,8 +104844,8 @@ __d(
     var n = t(r(d[1])),
       u = r(d[2]);
   },
-  1396,
-  [1, 1232, 140]
+  1404,
+  [1, 1240, 140]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -104439,8 +104937,8 @@ __d(
       });
     }
   },
-  1397,
-  [1, 238, 140, 1199, 1398, 286]
+  1405,
+  [1, 239, 140, 1207, 1406, 288]
 );
 __d(
   function (_g, _r, i, _a, m, e, d) {
@@ -104464,8 +104962,8 @@ __d(
       "inherit" === r ||
       0 === r.indexOf("var(");
   },
-  1398,
-  [1, 1117]
+  1406,
+  [1, 1125]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104479,8 +104977,8 @@ __d(
       });
     var t = r(d[0]);
   },
-  1399,
-  [1400]
+  1407,
+  [1408]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -104722,8 +105220,8 @@ __d(
       sheet: { flex: 1, flexDirection: "row", alignItems: "stretch" },
     });
   },
-  1400,
-  [1, 238, 140, 1233, 1313, 1314, 1109, 1199, 695, 958, 286]
+  1408,
+  [1, 239, 140, 1241, 1321, 1322, 1117, 1207, 693, 957, 288]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -104777,8 +105275,8 @@ __d(
           }));
     });
   },
-  1401,
-  [1402, 1404, 1405, 1406]
+  1409,
+  [1410, 1412, 1413, 1414]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -104933,8 +105431,8 @@ __d(
     }
     (_e.SafeAreaConsumer = u.Consumer), (_e.SafeAreaContext = u);
   },
-  1402,
-  [1, 238, 140, 1232, 1109, 1403]
+  1410,
+  [1, 239, 140, 1240, 1117, 1411]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -105067,8 +105565,8 @@ __d(
       );
     }
   },
-  1403,
-  [1, 140, 1199]
+  1411,
+  [1, 140, 1207]
 );
 __d(
   function (g, _r, _i, a, m, _e, d) {
@@ -105204,8 +105702,8 @@ __d(
       return r.createElement(i.default, l({ style: w }, v, { ref: s }));
     });
   },
-  1404,
-  [1, 238, 140, 1109, 1199, 1402]
+  1412,
+  [1, 239, 140, 1117, 1207, 1410]
 );
 __d(
   function (g, r, i, a, m, e, d) {
@@ -105213,14 +105711,14 @@ __d(
       (e.initialWindowSafeAreaInsets = e.initialWindowMetrics = void 0);
     (e.initialWindowMetrics = null), (e.initialWindowSafeAreaInsets = null);
   },
-  1405,
+  1413,
   []
 );
 __d(
   function (g, r, i, a, m, e, d) {
     Object.defineProperty(e, "__esModule", { value: !0 });
   },
-  1406,
+  1414,
   []
 );
 __d(
@@ -105231,7 +105729,7 @@ __d(
         return n;
       });
   },
-  1407,
+  1415,
   []
 );
 __d(
@@ -105248,7 +105746,7 @@ __d(
       },
     };
   },
-  1408,
+  1416,
   [56]
 );
 __d(
@@ -105330,7 +105828,7 @@ __d(
       });
     }
   },
-  1409,
+  1417,
   [56]
 );
 __d(
@@ -105506,7 +106004,7 @@ __d(
     })(t.PureComponent));
     p(c, "defaultProps", { children: null, loading: null });
   },
-  1410,
+  1418,
   [140]
 );
 __r(4);
