@@ -107,7 +107,7 @@ function GriddierRangeBuilder() {
       await Object.keys(wizData).forEach((wizHand) => {
         if (!handsArray.includes(wizHand)) return;
 
-        const handActions = {
+        let handActions = {
           allin: Number(hands[wizHand].allin) as 0 | 1 | 2 | 3 | 4,
           raise: Number(hands[wizHand].raise) as 0 | 1 | 2 | 3 | 4,
           call: Number(hands[wizHand].call) as 0 | 1 | 2 | 3 | 4,
@@ -119,6 +119,15 @@ function GriddierRangeBuilder() {
             | 3
             | 4,
         };
+        let total = handActions.allin + handActions.raise + handActions.call;
+
+        if (total > 4) {
+          handActions.call -= Math.min(total - 4, handActions.call);
+          total = handActions.allin + handActions.raise + handActions.call;
+          if (total > 4)
+            handActions.raise -= Math.min(total - 4, handActions.raise);
+          if (total > 4) return alert("Some hand actions are too high");
+        }
 
         dispatch(setHandAction({ hand: wizHand as any, handActions }));
       });
