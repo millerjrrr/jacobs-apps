@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { AppInfo } from "../data/appInfo";
 import AppIcon from "../components/AppIcon";
 import StoreLinks from "../components/StoresLinks";
-import WebsiteLink from "../components/WebsiteLink";
 
 const AppDetailPage = ({ app }: { app: AppInfo }) => {
   return (
@@ -10,25 +9,27 @@ const AppDetailPage = ({ app }: { app: AppInfo }) => {
       <div style={{ width: "50%" }}>
         <AppIcon app={app} />
       </div>
-      {app.site ? (
-        <WebsiteLink url={app.site} />
-      ) : (
-        <StoreLinks app={app} hidePlayStore={app.name === "Griddier"} />
-      )}
+      <StoreLinks app={app} hidePlayStore={app.name === "Griddier"} />
       <div style={{ flexDirection: "row", display: "flex", gap: 15 }}>
-        {!app.site && (
-          <Link to={`/${app.id}/privacy`} className="app-link">
-            Privacy Policy
-          </Link>
+        <Link to={`/${app.id}/privacy`} className="app-link">
+          Privacy Policy
+        </Link>
+        {app.link && (
+          <a
+            href={app.link.url}
+            className="app-link"
+            target={app.link.nw ? "blank" : undefined}
+          >
+            {app.link.name}
+          </a>
         )}
-        {app.extraLink && (
-          <Link to={app.extraLink.url} className="app-link">
-            {app.extraLink.name}
-          </Link>
-        )}
-        {app.extraLink2 && (
-          <a href={app.extraLink2.url} className="app-link" target="blank">
-            {app.extraLink2.name}
+        {app.link2 && (
+          <a
+            href={app.link2.url}
+            className="app-link"
+            target={app.link2.nw ? "blank" : undefined}
+          >
+            {app.link2.name}
           </a>
         )}
       </div>

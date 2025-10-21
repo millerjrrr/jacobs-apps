@@ -1,6 +1,7 @@
-type ExtraLink = {
+type Link = {
   name: string;
   url: string;
+  nw?: boolean;
 };
 
 export type AppInfo = {
@@ -11,9 +12,8 @@ export type AppInfo = {
   technologies: string;
   ios?: string;
   android?: string;
-  site?: string;
-  extraLink?: ExtraLink;
-  extraLink2?: ExtraLink;
+  link?: Link;
+  link2?: Link;
 };
 
 export const appInfo: AppInfo[] = [
@@ -42,7 +42,14 @@ export const appInfo: AppInfo[] = [
       "In addition to the app, I developed a dedicated WordPress website that supports Link-King with information, updates, and outreach, showcasing my full-stack skills across mobile and web platforms.\n\n" +
       "All of the app’s code is publicly available on GitHub, demonstrating open, production-ready software development with scalable architecture, user authentication, multimedia support, and a seamless user experience.",
 
-    site: "https://link-king.com",
+    ios: "https://apps.apple.com/us/app/link-king/id6496679226",
+    android: "https://play.google.com/store/apps/details?id=com.linkoking.app",
+    link: { name: "Legacy Site", url: "/jacobs-apps/link-king-com", nw: true },
+    link2: {
+      name: "Link-King Web App",
+      url: "/jacobs-apps/link-king-web-app",
+      nw: true,
+    },
   },
   {
     id: "griddier",
@@ -53,10 +60,11 @@ export const appInfo: AppInfo[] = [
     technologies:
       "Griddier was built using React Native and the Expo framework, meaning it's a truly cross-platform mobile app — one codebase that runs smoothly on both Android and iOS devices. At its core, it uses React, the same technology behind many of the world’s most popular apps like Facebook and Instagram.\n\nFor lightning-fast performance and a snappy user experience, Griddier uses Redux Toolkit to manage state and redux-persist to save user progress directly on the device — no internet connection required. That means users can drill poker hands anywhere, anytime.\n\nThe app leverages dayjs for handling time and date logic (like daily streaks), and papaparse for working with CSV files so players can import custom ranges. It also integrates native tools like expo-document-picker and expo-file-system for seamless file handling and react-native-toast-message for clean, non-intrusive user feedback.\n\nAll of this is packaged in a lightweight, stylish interface with smooth transitions thanks to expo-linear-gradient and @expo/vector-icons.\n\nGriddier is modern, efficient, and intentionally offline-first — focused on helping players get better with just a few minutes a day, anywhere in the world.",
     ios: " https://testflight.apple.com/join/f7PkK8Et",
-    extraLink: { name: "Range Builder", url: "/griddier-range-builder" },
-    extraLink2: {
+    link: { name: "Range Builder", url: "/griddier-range-builder" },
+    link2: {
       name: "Griddier Web App",
       url: "/jacobs-apps/griddier-web-app",
+      nw: true,
     },
   },
 ];
