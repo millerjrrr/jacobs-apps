@@ -3,6 +3,7 @@ import { combineReducers } from "redux";
 import storage from "redux-persist/lib/storage";
 import { persistReducer, persistStore } from "redux-persist";
 import rangeReducer from "./rangeSlice";
+import gridDataReducer from "./gridDataSlice";
 
 const persistConfig = {
   key: "root",
@@ -11,6 +12,7 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
   range: rangeReducer,
+  gridData: gridDataReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

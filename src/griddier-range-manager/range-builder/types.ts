@@ -360,7 +360,6 @@ export const sortHands = (subset: Hand[]): Hand[] =>
 
 export type PokerHand = (typeof handsArray)[number];
 export type ValidFraction = 0 | 1 | 2 | 3 | 4;
-export type HandsObject = Record<PokerHand, HandActions>;
 
 export type HandActions = {
   allin: ValidFraction;
@@ -368,4 +367,120 @@ export type HandActions = {
   call: ValidFraction;
   prior: ValidFraction;
   fold?: ValidFraction;
+};
+
+export type HandsObject = Record<PokerHand, HandActions>;
+
+export type GridDataEntry = {
+  hands: HandsObject;
+  featured: PokerHand[];
+};
+
+export interface ActionCombo {
+  allin: ValidFraction;
+  raise: ValidFraction;
+  call: ValidFraction;
+}
+export type ActionName = "AllIn" | "Raise" | "Call" | "Fold";
+
+export interface DueLevelPair {
+  due: StrictDateString;
+  level: number;
+}
+
+export type IndividualHandDrillingData = Record<PokerHand, DueLevelPair>;
+
+export const positions = ["LJ", "HJ", "CO", "BU", "SB", "BB"] as const;
+export type PositionName = (typeof positions)[number];
+export const vsActions = ["R", "3B", "4B", "R+3B"];
+export type VsActionFilter = (typeof vsActions)[number];
+
+export type Filter = {
+  activated: boolean;
+  pos: PositionName | "";
+  action: VsActionFilter | "";
+};
+
+export type NavigationParamList = {
+  Trainer: undefined;
+  "Ranges List": undefined;
+  Extras: undefined;
+};
+
+type Year = `${number}${number}${number}${number}`;
+type Month =
+  | "01"
+  | "02"
+  | "03"
+  | "04"
+  | "05"
+  | "06"
+  | "07"
+  | "08"
+  | "09"
+  | "10"
+  | "11"
+  | "12";
+type Day =
+  | "01"
+  | "02"
+  | "03"
+  | "04"
+  | "05"
+  | "06"
+  | "07"
+  | "08"
+  | "09"
+  | "10"
+  | "11"
+  | "12"
+  | "13"
+  | "14"
+  | "15"
+  | "16"
+  | "17"
+  | "18"
+  | "19"
+  | "20"
+  | "21"
+  | "22"
+  | "23"
+  | "24"
+  | "25"
+  | "26"
+  | "27"
+  | "28"
+  | "29"
+  | "30"
+  | "31";
+
+export type StrictDateString = `${Year}-${Month}-${Day}`;
+
+export type Pos =
+  | "top"
+  | "bottom"
+  | "left-top"
+  | "left-bottom"
+  | "right-top"
+  | "right-bottom";
+
+export const stackSizes = [50, 100, 150, 200] as const;
+export type StackSize = (typeof stackSizes)[number];
+
+export type SpotInfo = {
+  hero: PositionName;
+  vsAction: VsActionFilter;
+  stacks: StackSize;
+  raiseSize: number;
+  LJ?: { bet: number; cards: boolean };
+  HJ?: { bet: number; cards: boolean };
+  CO?: { bet: number; cards: boolean };
+  BU?: { bet: number; cards: boolean };
+  SB?: { bet: number; cards: boolean };
+  BB?: { bet: number; cards: boolean };
+};
+
+export type RangesStackParamsList = {
+  "My Ranges": undefined;
+  "Ranges Shop": undefined;
 };

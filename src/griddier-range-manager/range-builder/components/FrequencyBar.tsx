@@ -31,7 +31,7 @@ const SubBar: React.FC<{ freq: number; combos: number; color: string }> = ({
           justifyContent: "center",
         }}
       >
-        <span style={{ fontSize: 12 }}>{Math.round(freq * 100)}%</span>
+        <span style={{ fontSize: 12 }}>{Math.round(freq * 1000) / 10}%</span>
       </div>
       <span style={{ fontSize: 10, color: colors.CONTRAST }}>
         {combos} combos
@@ -61,6 +61,7 @@ const FrequencyBar: React.FC = () => {
         display: "flex",
         justifyContent: "center",
         width: 600,
+        paddingBottom: 20,
       }}
     >
       <SubBar freq={allinPercentage} combos={allinCombos} color={ALLIN} />

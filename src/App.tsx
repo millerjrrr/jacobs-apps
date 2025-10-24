@@ -4,11 +4,14 @@ import LandingPage from "./pages/LandingPage";
 import { appInfo } from "./data/appInfo";
 import AppDetailPage from "./pages/AppDetailPage";
 import PrivacyPolicyPage from "./pages/AppPrivacyPolicyPage";
-import GriddierRangeBuilder from "griddier-range-builder";
 import { Provider } from "react-redux";
-import { persistor, store } from "griddier-range-builder/store";
 import { PersistGate } from "redux-persist/integration/react";
 import React from "react";
+import GriddierRangeManager from "griddier-range-manager/RangeManager";
+import {
+  persistor,
+  store,
+} from "./griddier-range-manager/range-builder/store/index";
 
 function App() {
   return (
@@ -21,7 +24,7 @@ function App() {
                 <Route path="/" element={<LandingPage />} />
                 <Route
                   path="/griddier-range-builder"
-                  element={<GriddierRangeBuilder />}
+                  element={<GriddierRangeManager />}
                 />
                 {appInfo.map((app) => (
                   <Route

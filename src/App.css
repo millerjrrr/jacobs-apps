@@ -184,3 +184,34 @@
   transform: translateY(-3px);
   color: black;
 }
+
+.range-card {
+  background-color: #640092;
+  border-color: #ae00ff;
+  cursor: pointer;
+}
+.range-card:hover {
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  background-color: #6c1794;
+  transform: translateY(-1px);
+}
+
+.range-card-text {
+  color: #efccff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.app-button {
+  background-color: #640092;
+  border-color: #ae00ff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  color: #efccff;
+}
+.app-button:hover {
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  background-color: #6c1794;
+  transform: translateY(-1px);
+}
