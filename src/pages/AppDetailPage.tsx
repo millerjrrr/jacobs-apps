@@ -14,6 +14,11 @@ const AppDetailPage = ({ app }: { app: AppInfo }) => {
         <Link to={`/${app.id}/privacy`} className="app-link">
           Privacy Policy
         </Link>
+        {app.route && (
+          <Link to={`${app.route.url}`} className="app-link">
+            {app.route.name}
+          </Link>
+        )}
         {app.link && (
           <a
             href={app.link.url}

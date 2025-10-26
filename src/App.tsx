@@ -23,7 +23,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<LandingPage />} />
                 <Route
-                  path="/griddier-range-builder"
+                  path="/griddier-range-manager"
                   element={<GriddierRangeManager />}
                 />
                 {appInfo.map((app) => (
