@@ -16,6 +16,7 @@ import AppButton from "./components/Buttons/AppButton";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "./store";
 import FeaturedEditor from "./components/FeaturedEditor";
+import PasteRaiseAsPrior from "./components/Buttons/PasteRaiseAsPrior";
 
 function GriddierRangeBuilder() {
   const dispatch = useDispatch();
@@ -67,6 +68,7 @@ function GriddierRangeBuilder() {
         <CopyRangeButton />
         <PasteCSVRangeButton />
         <ResetRangeButton />
+        <PasteRaiseAsPrior />
       </ButtonsRowContainer>
       <PartialRangeButtonsRow />
       <ButtonsRowContainer>
