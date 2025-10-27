@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jacobs-apps/static/css/main.ef714014.css",
-    "main.js": "/jacobs-apps/static/js/main.01c6ed8e.js",
+    "main.js": "/jacobs-apps/static/js/main.37be9a3b.js",
     "index.html": "/jacobs-apps/index.html",
     "main.ef714014.css.map": "/jacobs-apps/static/css/main.ef714014.css.map",
-    "main.01c6ed8e.js.map": "/jacobs-apps/static/js/main.01c6ed8e.js.map"
+    "main.37be9a3b.js.map": "/jacobs-apps/static/js/main.37be9a3b.js.map"
   },
   "entrypoints": [
     "static/css/main.ef714014.css",
-    "static/js/main.01c6ed8e.js"
+    "static/js/main.37be9a3b.js"
   ]
 }
