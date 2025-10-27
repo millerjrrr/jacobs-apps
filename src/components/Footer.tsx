@@ -16,8 +16,8 @@ const Footer = () => {
       }}
     >
       <div style={{ display: "flex", gap: "1.5rem" }}>
-        <a href="mailto:jacob@link-king.com" className="app-link">
-          jacob@link-king.com
+        <a href="mailto:millerjr@tcd.ie" className="app-link">
+          millerjr@tcd.ie
         </a>
         <a
           href="https://www.linkedin.com/in/jacobmiller93/"
