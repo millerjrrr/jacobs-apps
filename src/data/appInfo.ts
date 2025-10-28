@@ -29,6 +29,11 @@ export const appInfo: AppInfo[] = [
     ios: "https://apps.apple.com/us/app/banana-cards/id6749454845 ",
     android:
       "https://play.google.com/store/apps/details?id=com.bananacards.app",
+    link: {
+      name: "Banana Cards Web App",
+      url: "/jacobs-apps/banana-web-app",
+      nw: true,
+    },
   },
   {
     id: "link-king",
