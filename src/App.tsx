@@ -12,6 +12,7 @@ import {
   persistor,
   store,
 } from "./griddier-range-manager/range-builder/store/index";
+import HomeButton from "components/HomeButton";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
                 ))}
               </Routes>
             </div>
+            <HomeButton />
           </Router>
         </PersistGate>
       </Provider>
