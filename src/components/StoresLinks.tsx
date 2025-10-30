@@ -13,16 +13,7 @@ const StoreLinks = ({
   hidePlayStore?: boolean;
 }) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        gap: "1rem",
-        justifyContent: "center",
-        alignItems: "center",
-        flexWrap: "wrap",
-        marginTop: "1.5rem",
-      }}
-    >
+    <div className="store_link_container">
       {!hideAppStore && (
         <a
           href={app.ios}
@@ -33,12 +24,7 @@ const StoreLinks = ({
           <img
             src={AppStoreSVG}
             alt="Download on the App Store"
-            style={{
-              height: "4rem",
-              objectFit: "contain",
-              borderRadius: "0.6rem",
-            }}
-            className="pop-on-hover"
+            className="pop-on-hover app_store_link"
           />
         </a>
       )}
@@ -52,12 +38,7 @@ const StoreLinks = ({
           <img
             src={PlayStoreSVG}
             alt="Get it on Google Play"
-            style={{
-              height: "4rem",
-              objectFit: "contain",
-              borderRadius: "0.5rem",
-            }}
-            className="pop-on-hover"
+            className="pop-on-hover app_store_link"
           />
         </a>
       )}

@@ -6,7 +6,7 @@ import StoreLinks from "../components/StoresLinks";
 const AppDetailPage = ({ app }: { app: AppInfo }) => {
   return (
     <div className="app-detail-container">
-      <div style={{ width: "50%" }}>
+      <div className="app_icon_container">
         <AppIcon app={app} />
       </div>
       <StoreLinks app={app} hidePlayStore={app.name === "Griddier"} />
