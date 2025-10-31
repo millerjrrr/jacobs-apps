@@ -9,7 +9,7 @@ const AppDetailPage = ({ app }: { app: AppInfo }) => {
       <div className="app_icon_container">
         <AppIcon app={app} />
       </div>
-      <StoreLinks app={app} hidePlayStore={app.name === "Griddier"} />
+      <StoreLinks app={app} />
       <div style={{ flexDirection: "row", display: "flex", gap: 15 }}>
         <Link to={`/${app.id}/privacy`} className="app-link">
           Privacy Policy
@@ -23,7 +23,8 @@ const AppDetailPage = ({ app }: { app: AppInfo }) => {
           <a
             href={app.link.url}
             className="app-link"
-            target={app.link.nw ? "blank" : undefined}
+            target={app.link.nw ? "_blank" : undefined}
+            rel="noreferrer"
           >
             {app.link.name}
           </a>

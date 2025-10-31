@@ -66,6 +66,7 @@ export const appInfo: AppInfo[] = [
     technologies:
       "Griddier was built using React Native and the Expo framework, meaning it's a truly cross-platform mobile app — one codebase that runs smoothly on both Android and iOS devices. At its core, it uses React, the same technology behind many of the world’s most popular apps like Facebook and Instagram.\n\nFor lightning-fast performance and a snappy user experience, Griddier uses Redux Toolkit to manage state and redux-persist to save user progress directly on the device — no internet connection required. That means users can drill poker hands anywhere, anytime.\n\nThe app leverages dayjs for handling time and date logic (like daily streaks), and papaparse for working with CSV files so players can import custom ranges. It also integrates native tools like expo-document-picker and expo-file-system for seamless file handling and react-native-toast-message for clean, non-intrusive user feedback.\n\nAll of this is packaged in a lightweight, stylish interface with smooth transitions thanks to expo-linear-gradient and @expo/vector-icons.\n\nGriddier is modern, efficient, and intentionally offline-first — focused on helping players get better with just a few minutes a day, anywhere in the world.",
     ios: " https://testflight.apple.com/join/f7PkK8Et",
+    android: "https://play.google.com/apps/testing/com.griddier.app",
     route: { name: "Range Builder", url: "/griddier-range-manager" },
     link: {
       name: "Griddier Web App",
