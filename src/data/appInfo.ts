@@ -31,7 +31,7 @@ export const appInfo: AppInfo[] = [
       "https://play.google.com/store/apps/details?id=com.bananacards.app",
     link: {
       name: "Banana Cards Web App",
-      url: "/jacobs-apps/banana-web-app",
+      url: "/banana-web-app",
       nw: true,
     },
   },
@@ -50,10 +50,10 @@ export const appInfo: AppInfo[] = [
 
     ios: "https://apps.apple.com/us/app/link-king/id6496679226",
     android: "https://play.google.com/store/apps/details?id=com.linkoking.app",
-    link: { name: "Legacy Site", url: "/jacobs-apps/link-king-com", nw: true },
+    link: { name: "Legacy Site", url: "/link-king-com", nw: true },
     link2: {
       name: "Link-King Web App",
-      url: "/jacobs-apps/link-king-web-app",
+      url: "/link-king-web-app",
       nw: true,
     },
   },
@@ -70,7 +70,7 @@ export const appInfo: AppInfo[] = [
     route: { name: "Range Builder", url: "/griddier-range-manager" },
     link: {
       name: "Griddier Web App",
-      url: "/jacobs-apps/griddier-web-app",
+      url: "/griddier-web-app",
       nw: true,
     },
   },
