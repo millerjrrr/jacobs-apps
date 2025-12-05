@@ -25,7 +25,7 @@ const AppIcon = ({ app }: { app: AppInfo }) => {
         }}
         className="pop-on-hover"
       />
-      <a href={`/${app.id}`} style={{ textDecoration: "none" }}>
+      <a href={`/#/${app.id}`} style={{ textDecoration: "none" }}>
         <h3 className="app-title">{app.name}</h3>
       </a>
     </div>

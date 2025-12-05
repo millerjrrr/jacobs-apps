@@ -71,8 +71,8 @@ export const appInfo: AppInfo[] = [
     websiteLink: "https://griddier.com",
     route: { name: "Range Builder", url: "/griddier-range-manager" },
     link: {
-      name: "Griddier Web App",
-      url: "/griddier-web-app",
+      name: "Griddier.com",
+      url: "https://griddier.com",
       nw: true,
     },
   },
