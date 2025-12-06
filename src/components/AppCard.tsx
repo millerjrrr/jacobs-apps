@@ -22,6 +22,7 @@ const AppCard = ({ app }: { app: AppInfo }) => {
               width: 200,
               aspectRatio: "1 / 1",
               overflow: "visible",
+              zIndex:1000
             }}
           >
             <div
