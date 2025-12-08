@@ -1,16 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: rgb(0, 0, 0);
-  background: linear-gradient(135deg, #707070, #ffffff);
-  min-height: 100vh;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ffffff;
+  --color-secondary: #d1d1d1;
+  --color-contrast: #000000;
+
+  @keyframes pulseScale {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@utility animate-pulseScale {
+  animation: pulseScale 2s ease-in-out infinite;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen max-w-full bg-gradient-to-b text-center;
+    background-image: linear-gradient(
+      to bottom,
+      var(--color-primary),
+      var(--color-secondary)
+    );
+  }
+
+  .content-container {
+    @apply mx-auto flex w-full flex-1 flex-col items-center;
+  }
+  .inner-container {
+    @apply flex w-full max-w-full flex-1 flex-col items-center p-2 font-bold;
+    @apply lg:max-w-6xl lg:p-4;
+  }
+  h1 {
+    @apply text-xl text-[var(--color-contrast)];
+  }
+  p {
+    @apply text-center text-lg text-[var(--color-contrast)];
+  }
+  h3 {
+    @apply text-3xl font-bold md:text-xl lg:text-4xl;
+  }
+}
+
+@layer components {
+  .profile-image {
+    @apply m-3 aspect-square w-[200px] rounded-full object-cover;
+  }
+
+  .app-icon {
+    @apply m-[15px] flex aspect-square flex-1 rounded-[22%] bg-white object-cover;
+    box-shadow: 0 0 10px 0 var(--color-contrast);
+  }
+
+  .app-icon:hover {
+    @apply translate-y-[-5px] shadow-[0_0px_10px_rgba(0,0,0,0.5)];
+    box-shadow: 0 0 20px 0 var(--color-contrast);
+  }
+}
+
+@layer utilities {
+  .fade-circle {
+    mask-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 55%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    -webkit-mask-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 55%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
 }
