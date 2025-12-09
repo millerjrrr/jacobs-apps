@@ -22,7 +22,7 @@
 
 @layer base {
   body {
-    @apply min-h-screen max-w-full bg-gradient-to-b text-center;
+    @apply min-h-[100dvh] max-w-full bg-gradient-to-b text-center;
     background-image: linear-gradient(
       to bottom,
       var(--color-primary),
@@ -31,7 +31,7 @@
   }
 
   .content-container {
-    @apply mx-auto flex min-h-screen w-full flex-1 flex-col items-center justify-center;
+    @apply mx-auto flex min-h-[100dvh] w-full flex-1 flex-col items-center justify-center;
   }
   .inner-container {
     @apply flex w-full max-w-full flex-col items-center p-2 font-bold;
@@ -50,7 +50,7 @@
 
 @layer components {
   .profile-image {
-    @apply m-[5px] aspect-square w-[300px] max-w-[25vw] rounded-full object-cover;
+    @apply m-[5px] my-[15px] aspect-square w-[300px] max-w-[25vw] rounded-full object-cover md:my-[25px];
   }
 
   .app-icon {
