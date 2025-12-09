@@ -7,7 +7,7 @@ const Home = () => {
       <div className="inner-container">
         <h1 className="landing-title">Hi, I'm Jacob</h1>
         <img
-          src={"images/jacob-profile.jpg"}
+          src={"/images/jacob-profile.jpg"}
           alt="Your Name"
           className="profile-image fade-circle"
         />

@@ -7,7 +7,7 @@ const AppCard = ({ app }: { app: AppId }) => {
     <a href={website} target="_blank">
       <div className="flex flex-col items-center p-5 lg:p-10">
         <img
-          src={`images/app-icons/${app}.png`}
+          src={`/images/app-icons/${app}.png`}
           alt={`App Icon:${name}`}
           className="app-icon animate-pulseScale"
         />
