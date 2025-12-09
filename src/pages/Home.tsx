@@ -8,7 +8,7 @@ const Home = () => {
         <h1 className="landing-title">Hi, I'm Jacob</h1>
         <img
           src={"/images/jacob-profile.jpg"}
-          alt="Your Name"
+          alt="Jacob's profile picture"
           className="profile-image fade-circle"
         />
         <p>and these are my apps. Click an app to learn more.</p>
