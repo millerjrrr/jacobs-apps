@@ -5,7 +5,7 @@ const AppCard = ({ app }: { app: AppId }) => {
 
   return (
     <a href={website} target="_blank">
-      <div className="flex flex-col items-center p-5 lg:p-10">
+      <div className="flex flex-col items-center p-3 md:p-5 lg:p-8">
         <img
           src={`/images/app-icons/${app}.png`}
           alt={`App Icon:${name}`}

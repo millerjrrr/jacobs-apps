@@ -31,31 +31,30 @@
   }
 
   .content-container {
-    @apply mx-auto flex w-full flex-1 flex-col items-center;
+    @apply mx-auto flex min-h-screen w-full flex-1 flex-col items-center justify-center;
   }
   .inner-container {
-    @apply flex w-full max-w-full flex-1 flex-col items-center p-2 font-bold;
+    @apply flex w-full max-w-full flex-col items-center p-2 font-bold;
     @apply lg:max-w-6xl lg:p-4;
   }
   h1 {
-    @apply text-xl text-[var(--color-contrast)];
+    @apply text-xl text-[var(--color-contrast)] md:text-4xl;
   }
   p {
-    @apply text-center text-lg text-[var(--color-contrast)];
+    @apply text-center text-lg text-[var(--color-contrast)] md:text-2xl;
   }
   h3 {
-    @apply text-3xl font-bold md:text-xl lg:text-4xl;
+    @apply text-sm font-bold md:text-xl lg:text-4xl;
   }
 }
 
 @layer components {
   .profile-image {
-    @apply m-3 aspect-square w-[200px] rounded-full object-cover;
+    @apply m-[5px] aspect-square w-[300px] max-w-[25vw] rounded-full object-cover;
   }
 
   .app-icon {
-    @apply m-[15px] flex flex-1 rounded-[22%] object-cover;
-    box-shadow: 0 0 10px 0 var(--color-contrast);
+    @apply m-[5px] aspect-square w-[300px] max-w-[20vw] rounded-[22%] object-cover;
   }
 
   .app-icon:hover {
