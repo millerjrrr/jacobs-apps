@@ -54,7 +54,7 @@
   }
 
   .app-icon {
-    @apply m-[15px] flex aspect-square flex-1 rounded-[22%] bg-white object-cover;
+    @apply m-[15px] flex flex-1 rounded-[22%] object-cover;
     box-shadow: 0 0 10px 0 var(--color-contrast);
   }
 
