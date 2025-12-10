@@ -10,8 +10,8 @@ const Home = () => {
         <ContactCard />
         <p>and these are my apps. Click an app to learn more.</p>
         <div className="flex flex-1 flex-row">
-          {Object.keys(appInfo).map((app) => (
-            <AppCard key={app} app={app as AppId} />
+          {Object.keys(appInfo).map((app, _index) => (
+            <AppCard key={app} app={app as AppId} index={_index} />
           ))}
         </div>
       </div>

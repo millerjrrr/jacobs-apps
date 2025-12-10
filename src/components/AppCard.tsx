@@ -1,6 +1,6 @@
 import { appInfo, type AppId } from "../data/appInfo";
 
-const AppCard = ({ app }: { app: AppId }) => {
+const AppCard = ({ app, index }: { app: AppId; index: number }) => {
   const { name, website } = appInfo[app];
 
   return (
@@ -9,7 +9,7 @@ const AppCard = ({ app }: { app: AppId }) => {
         <img
           src={`/images/app-icons/${app}.png`}
           alt={`App Icon:${name}`}
-          className="app-icon animate-pulseScale"
+          className={`app-icon animate-pulseScale${index % 2 === 0 ? "Alt" : ""}`}
         />
         <h3 className="text-contrast">{name}</h3>
       </div>

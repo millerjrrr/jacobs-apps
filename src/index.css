@@ -15,10 +15,24 @@
       transform: scale(1.02);
     }
   }
+
+  @keyframes pulseScaleAlt {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.98);
+    }
+  }
 }
 
 @utility animate-pulseScale {
   animation: pulseScale 2s ease-in-out infinite;
+}
+
+@utility animate-pulseScaleAlt {
+  animation: pulseScaleAlt 2s ease-in-out infinite;
 }
 
 @layer base {
