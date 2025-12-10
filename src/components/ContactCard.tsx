@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { FaGithub, FaLinkedin, FaList } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
+import { motion } from "framer-motion";
 
 const ContactCard = () => {
   const [showDetails, setShowDetails] = useState(false);
@@ -24,14 +25,29 @@ const ContactCard = () => {
   }, []);
 
   return (
-    <div className="contact-card" ref={cardRef}>
+    <motion.div
+      className="contact-card"
+      ref={cardRef}
+      layout
+      transition={{
+        duration: 0.6,
+        ease: "easeInOut",
+      }}
+    >
       <img
         src={"/images/jacob-profile.jpg"}
         alt="Jacob's profile picture"
         className="profile-image fade-circle"
       />
       {showDetails && (
-        <div className="flex flex-col p-2 md:p-4 lg:p-5">
+        <motion.div
+          className="flex flex-col p-2 md:p-4 lg:p-5"
+          layout
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.4 }}
+        >
           <div className="personal-detail">
             <MdEmail className="mr-2 text-lg" />
             <p className="whitespace-nowrap">millerjr@tcd.ie</p>
@@ -51,8 +67,8 @@ const ContactCard = () => {
               GitHub
             </a>
           </div>
-        </div>
-      )}
+        </motion.div>
+      )}{" "}
       <div
         className="details-link animate-pulseScale"
         onClick={() => setShowDetails(!showDetails)}
@@ -63,7 +79,7 @@ const ContactCard = () => {
           <IoMdClose size={iconSize} />
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
