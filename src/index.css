@@ -4,6 +4,7 @@
   --color-primary: #ffffff;
   --color-secondary: #d1d1d1;
   --color-contrast: #000000;
+  --color-contrast-b: #0d3b6e;
 
   @keyframes pulseScale {
     0%,
@@ -22,7 +23,7 @@
 
 @layer base {
   body {
-    @apply min-h-[100dvh] max-w-full bg-gradient-to-b text-center;
+    @apply min-h-[100dvh] max-w-full bg-gradient-to-b text-center text-[var(--color-contrast)];
     background-image: linear-gradient(
       to bottom,
       var(--color-primary),
@@ -38,10 +39,14 @@
     @apply lg:max-w-6xl lg:p-4;
   }
   h1 {
-    @apply text-xl text-[var(--color-contrast)] md:text-4xl;
+    @apply text-xl md:text-4xl;
   }
   p {
-    @apply text-center text-lg text-[var(--color-contrast)] md:text-2xl;
+    @apply text-center text-sm md:text-2xl;
+  }
+
+  a {
+    @apply text-center text-sm md:text-2xl;
   }
   h3 {
     @apply text-sm font-bold md:text-xl lg:text-4xl;
@@ -49,17 +54,48 @@
 }
 
 @layer components {
+  .contact-card {
+    @apply bg-secondary relative m-[5px] my-[15px] my-[25px] flex flex-row items-center rounded-full;
+    box-shadow: 0 0 5px 0 var(--color-contrast);
+  }
+
   .profile-image {
-    @apply m-[5px] my-[15px] aspect-square w-[300px] max-w-[25vw] rounded-full object-cover md:my-[25px];
+    @apply aspect-square w-[300px] max-w-[25vw] rounded-full object-cover;
+  }
+
+  .details-link {
+    @apply bg-primary absolute top-0 right-0 rounded-[22%] p-1;
+    box-shadow: 0 0 5px 0 var(--color-contrast);
+  }
+
+  .details-link:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 0 var(--color-contrast);
+  }
+
+  .personal-detail {
+    @apply flex flex-row items-center md:p-2;
+    color: var(--contrast-c);
   }
 
   .app-icon {
     @apply m-[5px] aspect-square w-[300px] max-w-[20vw] rounded-[22%] object-cover;
+    box-shadow: 0 0 5px 0 var(--color-contrast);
   }
 
   .app-icon:hover {
-    @apply translate-y-[-5px] shadow-[0_0px_10px_rgba(0,0,0,0.5)];
+    @apply translate-y-[-5px];
     box-shadow: 0 0 20px 0 var(--color-contrast);
+  }
+
+  .app-link {
+    @apply cursor-pointer transition-colors;
+    color: var(--color-contrast);
+  }
+
+  .app-link:hover {
+    @apply -translate-y-[3px] text-[16.2px];
+    color: var(--color-contrast-b);
   }
 }
 

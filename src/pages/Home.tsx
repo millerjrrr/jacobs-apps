@@ -1,4 +1,5 @@
 import AppCard from "../components/AppCard";
+import ContactCard from "../components/ContactCard";
 import { appInfo, type AppId } from "../data/appInfo";
 
 const Home = () => {
@@ -6,11 +7,7 @@ const Home = () => {
     <div className="content-container">
       <div className="inner-container">
         <h1>Hi, I'm Jacob</h1>
-        <img
-          src={"/images/jacob-profile.jpg"}
-          alt="Jacob's profile picture"
-          className="profile-image fade-circle"
-        />
+        <ContactCard />
         <p>and these are my apps. Click an app to learn more.</p>
         <div className="flex flex-1 flex-row">
           {Object.keys(appInfo).map((app) => (
