@@ -55,6 +55,10 @@
   h1 {
     @apply text-xl md:text-4xl;
   }
+
+  h2 {
+    @apply text-2xl;
+  }
   p {
     @apply text-center text-sm md:text-2xl;
   }
@@ -149,5 +153,12 @@
   /* When card is open, fade content in */
   .contact-card.open .details-wrapper {
     opacity: 1;
+  }
+}
+
+@layer components {
+  .website-preview {
+    @apply bg-primary pointer-events-none fixed z-5 flex h-[400px] w-[400px] flex-col items-center justify-center overflow-hidden rounded-3xl p-4 shadow-lg transition-opacity duration-200;
+    box-shadow: 0 0 20px 0 var(--color-contrast);
   }
 }
