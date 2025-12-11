@@ -68,30 +68,6 @@
 }
 
 @layer components {
-  .contact-card {
-    @apply bg-secondary relative m-[5px] my-[15px] my-[25px] flex flex-row items-center rounded-full;
-    box-shadow: 0 0 5px 0 var(--color-contrast);
-  }
-
-  .profile-image {
-    @apply aspect-square w-[300px] max-w-[25vw] rounded-full object-cover;
-  }
-
-  .details-link {
-    @apply bg-primary absolute top-0 right-0 rounded-[22%] p-1;
-    box-shadow: 0 0 5px 0 var(--color-contrast);
-  }
-
-  .details-link:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 20px 0 var(--color-contrast);
-  }
-
-  .personal-detail {
-    @apply flex flex-row items-center md:p-2;
-    color: var(--contrast-c);
-  }
-
   .app-icon {
     @apply m-[5px] aspect-square w-[300px] max-w-[20vw] rounded-[22%] object-cover;
     box-shadow: 0 0 5px 0 var(--color-contrast);
@@ -125,5 +101,53 @@
       rgba(0, 0, 0, 1) 55%,
       rgba(0, 0, 0, 0) 100%
     );
+  }
+}
+
+@layer components {
+  .contact-card {
+    @apply bg-secondary relative m-[5px] my-[15px] my-[25px] flex h-[200px] w-[200px] flex-row items-center rounded-full md:h-[300px] md:w-[300px];
+    box-shadow: 0 0 5px 0 var(--color-contrast);
+    transition:
+      width 0.4s ease,
+      padding 0.4s ease;
+  }
+
+  .contact-card.open {
+    @apply w-[400px] max-w-[95%] md:w-[600px];
+  }
+
+  /* Fade wrapper */
+  .details-wrapper {
+    @apply ml-[212px] -translate-x-[212px] opacity-0 transition-opacity transition-transform duration-400 ease-out md:ml-[325px];
+    white-space: nowrap;
+  }
+
+  .details-wrapper.open {
+    @apply translate-x-0 opacity-100;
+  }
+
+  .profile-image {
+    @apply absolute top-0 left-0 z-1 aspect-square w-[200px] rounded-full object-cover md:w-[300px];
+  }
+
+  .details-link {
+    @apply bg-primary absolute top-0 right-0 z-2 cursor-pointer rounded-[22%] p-1;
+    box-shadow: 0 0 5px 0 var(--color-contrast);
+  }
+
+  .details-link:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 0 var(--color-contrast);
+  }
+
+  .personal-detail {
+    @apply flex flex-row items-center md:p-2;
+    color: var(--contrast-c);
+  }
+
+  /* When card is open, fade content in */
+  .contact-card.open .details-wrapper {
+    opacity: 1;
   }
 }
