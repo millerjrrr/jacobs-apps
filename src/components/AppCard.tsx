@@ -8,7 +8,7 @@ const AppCard = ({ app, index }: { app: AppId; index: number }) => {
       <div className="flex flex-col items-center p-3 md:p-5 lg:p-8">
         <img
           src={`/images/app-icons/${app}.png`}
-          alt={`App Icon:${name}`}
+          alt={`${name}`}
           className={`app-icon animate-pulseScale${index % 2 === 0 ? "Alt" : ""}`}
         />
         <h3 className="text-contrast">{name}</h3>
