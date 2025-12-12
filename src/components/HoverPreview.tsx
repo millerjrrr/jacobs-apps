@@ -20,7 +20,7 @@ export default function HoverPreview({
 
   return (
     <div
-      className={`website-preview ${visible ? "lg:opacity-100" : "opacity-0"}`}
+      className={`website-preview hidden lg:block ${visible ? "lg:opacity-100" : "opacity-0"}`}
       style={{ top: pos.y, left: pos.x }}
     >
       <h2>{appInfo[app].name}</h2>
